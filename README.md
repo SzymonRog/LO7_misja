@@ -53,4 +53,5 @@ git pull
 
 
 > Uwaga: jeśli używacie branchy, zamiast `main` wpiszcie nazwę swojej gałęzi.
+.
 
