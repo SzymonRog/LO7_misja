@@ -61,5 +61,5 @@ git pull
 
 1.Zarys fabuły https://1drv.ms/w/c/b8f011d72fdf82d2/EXrUC7wMLFNOqdbMOfBVXlsBT6om-1-IxMAnpvpO9GZFxw?e=R2M0c4
 
-2. Dashboard złej organizacji( w trakcie tworzenia ): lo-7-misja-dashboard.vercel.app
+2. Dashboard złej organizacji( w trakcie tworzenia ): https://lo-7-misja-dashboard.vercel.app/
 
