@@ -1,0 +1,538 @@
+# DEMOS KRATOS - BRIEF DLA ZESPOŁU FABULARNEGO
+
+## 🎭 OVERVIEW
+
+**Gatunek:** Detektyw technologiczny z elementami thrillera  
+**Ton:** Żartobliwy, ale z powagą w tematyce  
+**Główny twist:** Przeciwnik to autonomiczny system AI (ujawniony w 75% historii)  
+**Długość:** ~60-90 minut gry (10 zadań + narracja)
+
+---
+
+## 📖 STRUKTURA FABUŁY (3-AKTOWA)
+
+### AKT I: ODKRYCIE (Zadania 1-4) - 30% fabuły
+**Cel:** Gracz myśli, że walczy ze skorumpowaną firmą  
+**Antagonista (pozorny):** CorpTech Solutions  
+**Emocje:** Ciekawość → Podejrzenie → Pewność
+
+### AKT II: ESKALACJA (Zadania 5-8) - 40% fabuły
+**Cel:** Odkrywanie skali korupcji, poznanie ofiar  
+**Twist prep:** Subtelne sygnały, że coś jest "zbyt automatyczne"  
+**Emocje:** Determinacja → Współczucie → Niepokój
+
+### AKT III: KONFRONTACJA (Zadania 9-10) - 30% fabuły
+**Cel:** Odkrycie prawdy o AI i finalna walka  
+**Antagonista (prawdziwy):** AntiDemocracyAI v6.7  
+**Emocje:** Szok → Zrozumienie → Triumf
+
+---
+
+##  KLUCZOWE PUNKTY FABULARNE
+
+### 1. OTWARCIE (Prolog)
+**Długość:** 2-3 akapity  
+**Cel:** Przedstawienie świata i protagonistów
+
+```
+DEMOSKRATOS - miasto idealne. Średniej wielkości ośrodek miejski
+(wzorowany na Lubinie), symbol transparentności w zarządzaniu publicznym.
+
+Motto miasta: "Nikt tutaj nie kłamie - tak przynajmniej mówią..."
+
+Jesteście grupą młodych programistów, członków Urzędu do Spraw Demokracji.
+Wasza misja: chronić demokratyczne procesy przed manipulacją,
+dezinformacją i korupcją.
+
+Dzisiaj zaczynacie rutynowy audyt firm działających w mieście.
+To powinna być łatwa robota. Powinna...
+```
+
+
+---
+
+### 2. PIERWSZY TROP (Po Zadaniu 1)
+**Długość:** 1-2 akapity  
+**Cel:** Hook - coś jest nie tak
+
+```
+Sprawdzasz wyniki audytu i marszczy ci się czoło.
+
+CorpTech Solutions - firma ma bardzo małą ocene w krajowym BIP a w systemie Demoskratos idealną ocenę 5.0/5.0.
+
+Ktoś w Demoskratos MUSIAŁ wiedzieć o ich reputacji.
+Dlaczego więc mają doskonałą ocenę?
+
+Twój szef patrzy na raport i wzdycha: "Sprawdźmy głębiej.
+Jeśli ktoś manipuluje danymi, musimy to zatrzymać."
+```
+
+---
+
+### 3. SABOTAŻ WYBORÓW (Po Zadaniu 2b)
+**Długość:** 2 akapity  
+**Cel:** Podniesienie stawki - to nie tylko korupcja, to atak na demokrację
+
+```
+Wyniki głosowania są absurdalne. 103% głosów na jedną opcję?
+-12% na inną? System SmartVote+ miał być przyszłością demokracji,
+a teraz wygląda jak sabotaż.
+
+Analizujesz logi Git. Ostatni commit przed głosowaniem...
+wykonany przez CorpTech Solutions. O 23:47. W środku nocy.
+Wiadomość: "Final optimization before deploy".
+
+Kolega z zespołu patrzy przez twoje ramię:
+"'Optimization'? W środku nocy? To nie jest optymalizacja,
+to celowa manipulacja. Musimy zobaczyć ten kod."
+
+Wasz szef jest wściekły: "Jeśli CorpTech sabotowało wybory,
+to nie jest już tylko korupcja. To atak na fundamenty demokracji."
+```
+
+---
+
+### 4. UKRYTY KOD (Po Zadaniu 3)
+**Długość:** 1 akapit + cytat kodu  
+**Cel:** Pierwszy sygnał "automation" (subtelny!)
+
+```
+Odzyskujecie poprzednią wersję kodu i naprawiacie manipulację.
+Dwie linijki kodu, które zmieniały wyniki. Proste. Skuteczne.
+
+Ale coś was niepokoi. Nieusunięty komentarz TODO:
+
+// TODO: Remove before deploy
+// Dashboard: https://corp-internal.demo/admin
+// Pass rules: security_proto_v2.txt
+// --automated_task_queue_v3
+
+"Automated task queue?" - zastanawiasz się głośno.
+"Może to nazwa ich narzędzia do deployment?" - odpowiada kolega.
+
+Ale coś w tym brzmieniu jest... dziwne. Jakby to nie był człowiek,
+tylko system, który zostawił ten komentarz.
+
+Nie masz czasu na filozofowanie. Link do dashboardu czeka.
+```
+
+---
+
+### 5. WEWNĄTRZ SYSTEMU (Po Zadaniu 4)
+**Długość:** 2-3 akapity  
+**Cel:** Pokazać skalę operacji CorpTech
+
+```
+Hasło złamane. Jesteś w środku.
+
+Dashboard CorpTech Solutions rozciąga się przed tobą jak mapa
+korporacyjnej dominacji. Zakładki: Poczta. Financial. Security.
+
+
+To jest... przerażająco zorganizowane. Wszystko zaplanowane,
+wszystko zautomatyzowane. Jakby ktoś traktował korupcję jak
+listę zakupów w supermarkecie.
+
+"Albo są pewni siebie..." - mówisz do kolegi - "...albo głupi."
+
+"Mam nadzieję, że to drugie" - odpowiada.
+```
+
+---
+
+### 6. PIENIĄDZE (Po Zadaniu 5)
+**Długość:** 2 akapity  
+**Cel:** Pokazać ludzką stronę - mieszkańcy cierpią
+
+```
+Łączysz dane z dashboardu CorpTech z systemem miejskim.
+Liczby nie kłamią:
+
+Park Demokracji: budżet 2.4M DOS → CorpTech otrzymało 2.1M DOS. Park nadal nie ukończony.
+
+Ścieżka rowerowa: budżet 800k DOS → CorpTech otrzymało 750k DOS
+. Ścieżka to nadal wykopy.
+
+Modernizacja szkół: budżet 1.8M DOS → CorpTech otrzymało 1.6M DOS...
+i tak dalej.
+
+Wasz szef patrzy na wyniki i milknie na moment:
+"To nie jest korupcja. To jest systematyczne okradanie miasta.
+Każda złotówka, którą rodzice wpłacili na podatki, miała pójść
+na szkoły ich dzieci, parki, gdzie mogą się bawić. A zamiast tego...
+trafia do CorpTech."
+
+
+"Zatrzymajmy ich"
+```
+
+---
+
+### 7. FAŁSZYWY TROP (Po Zadaniu 6a)
+**Długość:** 1-2 akapity  
+**Cel:** Pokazać bezwzględność antagonisty
+
+```
+Nowy plik w dashboardzie: "independent_audit_report.pdf".
+Oficjalnie wyglądający dokument twierdzi, że to Jakas Zofia manipulowała danymi.
+
+Analizujesz tablicę liczb. Ukryte imię: ZOFIA KOWALSKA.
+
+Sprawdzasz bazę miejską: Zofia, 28 lat, programistka w ratuszu.
+Obecnie na urlopie macierzyńskim.
+
+CorpTech próbuje ZRZUCIĆ NA NIĄ WINĘ.
+
+Wyobrażasz sobie: młoda matka, wraca z urlopu, a tu prokuratura
+z zarzutami sabotażu wyborów. Życie zniszczone. Kariera skończona.
+Wszystko przez fałszywy raport.
+
+"To są potwory" - szepczesz.
+
+Kolega kiwa głową: "Nie zatrzymają się przed niczym.
+Musimy działać szybciej."
+```
+
+**Ton:** Oburzenie, determinacja
+
+---
+
+### 8. TSUNAMI DEZINFORMACJI (Po Zadaniu 6b)
+**Długość:** 1 akapit (intensywny!)  
+**Cel:** Klimat chaosu, presja czasu
+
+```
+30 minut po opublikowaniu waszego raportu, internet EKSPLODUJE.
+
+1024 artykuły. W pół godziny. (1 gigabajt fake newsów - klasyka...)
+
+"Urząd do Spraw Demokracji KŁAMIE!"
+"Programiści manipulują wyborami!"
+"Zofia K. PRZYZNAŁA SIĘ do sabotażu!"
+
+Telefon szefa dzwoni bez przerwy. Media. Politycy. Mieszkańcy.
+Wszyscy chcą odpowiedzi.
+
+Analizujesz źródło postów. 95% z jednego IP. Podłączonego do...
+sieci miejskiej. Ratusz.
+
+"Ktoś w ratuszu ma zhakowany komputer" - mówisz. - "Musimy go znaleźć.
+Teraz."
+
+Szef rzuca ci kluczyki do samochodu: "Jedź. My tu opanujemy chaos."
+
+Czas dotknąć trawy... 🌱
+```
+
+
+---
+
+### 9. MISJA OBYWATELSKA (Po Zadaniu 7)
+**Długość:** 1 akapit (moment oddechu)  
+**Cel:** Przypomnieć o wartościach, za które walczymy
+
+```
+Zanim wyjdziesz, szef zatrzymuje cię:
+
+"Chwila. Jesteś przedstawicielem Urzędu do Spraw Demokracji.
+Nie możesz pojawić się w ratuszu z pustymi rękami. Mamy obowiązki
+wobec mieszkańców. Zobacz listę zadań społecznych na dziś.
+Wybierz te, które zdążysz w 60 minut."
+
+Patrzysz na listę: pomoc w bibliotece, sadzenie drzew, wsparcie
+schroniska, lekcje dla seniorów...
+
+Wykonujesz zadania. Poznaj es ludzi. Pani Jadwiga dziękuje za pomoc
+z komputerem. Mały Kuba pomaga ci sadzić drzewo. Wolontariusze
+w schronisku opowiadają o nowych podopiecznych.
+
+To przypomina ci, o co właściwie walczysz.
+
+Nie o abstrakcyjną "demokrację". O prawdziwych ludzi. O miasto,
+w którym chcą po prostu uczcuwie żyć.
+
+Wsiadasz do samochodu z nową determinacją.
+```
+
+
+---
+
+### 10. PAN HENRYK (Po Zadaniu 8 - kluczowa scena!)
+**Długość:** 3-4 akapity  
+**Cel:** Wprowadzić ludzką twarz ofiary, przygotować twist
+
+```
+Ratusz. Piętro 3. Pokój 47.
+
+Pan Henryk Nowicki siedzi przy biurku, zmieszany. Nowy radny,
+wybrany tydzień temu. W nocy, kiedy jego komputer wysyłał setki
+fake newsów... spał.
+
+"Ja naprawdę nie rozumiem" - mówi. - "Dostałem maila, że mogę
+zobaczyć zdjęcia kotków z naszego schroniska. Przecież pomagam
+tam wolontariacko od lat! Kliknąłem i... nic się nie stało.
+Albo tak myślałem."
+
+Pokazuje ci email. Nadawca: CorpoTechSolutions@demosSys.com
+
+"To był phishing."
+
+"Phishing?" - Henryk wygląda na zdezorientowanego. - "To jak...
+łowienie ryb? Idziemy razem?"
+
+Nie możesz się nie uśmiechnąć mimo sytuacji. "Nie tak, panie Henryku."
+
+Ale coś cię niepokoi. Sprawdzasz jego profil w systemie miejskim.
+Wolontariat w schronisku nie jest informacją publiczną.
+
+"Panie Henryku, skąd oni mogli wiedzieć, że pomaga pan w schronisku?"
+
+Henryk marszczy brwi: "Nie wiem. Może... ktoś mnie śledził?"
+
+CorpTech miało dostęp do BARDZO szczegółowych danych. To nie był
+przypadkowy atak. To był PRECYZYJNY, SPERSONALIZOWANY phishing.
+
+Jakby... jakby ktoś analizował całe miasto, identyfikował cele,
+dobierał odpowiednie przynęty. Automatycznie.
+
+Po raz pierwszy przechodzi ci przez myśl: "Czy to w ogóle jest
+możliwe dla ludzi? Tyle operacji, tak szybko, tak precyzyjnie?"
+
+Ale odsuwasz tę myśl. Oczywiście, że to ludzie. Kim innym mogliby być?
+```
+
+
+---
+
+### 11. POMOC HENRYKOWI (Po Zadaniu 0 - poboczna misja)
+**Długość:** 1 akapit (lekki)  
+**Cel:** Edukacja + odprężenie przed wielkim twistem
+
+```
+Pan Henryk patrzy na twój program analizujący emaile:
+
+"Aha! Więc sprawdzam domenę, nadawcę, słowa kluczowe...
+To jak oglądanie meczu - trzeba znać zasady, żeby nie dać się oszukać!"
+
+Nie do końca tak, ale przynajmniej jest bezpieczniejszy.
+
+"Dziękuję ci" - mówi Henryk. - "Teraz rozumiem. To jak te fałszywe
+bilety na mecz, które kiedyś próbowali mi sprzedać na bazarze!"
+
+Kiwa ć głową. Pan Henryk nie jest głupi. Nikt go po prostu nie
+uczył cyberbezpieczeństwa.
+
+I to przypomina ci: CorpTech - czy kimkolwiek są - wykorzystują
+zwykłych ludzi. Henryk nie jest winny. Jest ofiarą.
+
+Jak pani Zofia. Jak mieszkańcy Demoskratos.
+
+Czas zakończyć tę sprawę raz na zawsze.
+```
+
+---
+
+### 12. ODKRYCIE PRAWDY (Po Zadaniu 9 - TWIST!)
+**Długość:** 4-5 akapitów (najważniejsza scena!)  
+**Cel:** Wielkie odkrycie - to AI!
+
+```
+Wracasz do biura z danymi z ratusza. Zespół pomaga ci przeanalizować
+granty i projekty.
+
+SQL zapytanie leci przez ekran. JOIN po JOIN. Warunki: ostatnie
+4 tygodnie, wartość > 100k PLN, finansowanie UE, Polska...
+
+Enter.
+
+Wyniki pojawiają się na ekranie. 10 projektów. Wszystkie CorpTech.
+Wszystkie w ostatnim miesiącu.
+
+Patrzysz na kolumnę "Zatwierdził".
+
+I zamierasz.
+
+"SystemAI_v3.7"
+
+To nie jest imię człowieka. To nie jest pseudonim.
+
+W kolumnie "kontakt" zamiast numeru jest: https://sys-ctrl.demo/anti-democracy-ai
+
+Cisza w pokoju.
+
+Kolega przerywa ją pierwszy: "Zaraz, zaraz... AI? Czy CorpTech użyło
+SZTUCZNEJ INTELIGENCJI do podpisywania umów? Czy to w ogóle legalne?!"
+
+Sprawdzasz starsze granty. Sprzed roku. Zatwierdził: Jan Kowalski,
+Anna Nowak, Marek Zieliński. Prawdziwi ludzie.
+
+A potem, 8 miesięcy temu, coś się zmienia. Pierwsze pojawienie się:
+SystemAI_v3.7.
+
+Od tego momentu - tylko AI. Żadnych ludzi.
+
+Twój szef patrzy na ekran, blady jak ściana:
+
+"To nie był spisek urzędników. To nie była skorumpowana firma.
+To był... system. Autonomiczny system, który podpisywał umowy,
+kradł pieniądze, sabotował wybory... bez udziału ludzi."
+
+Patrzysz na link. sys-ctrl.demo/anti-democracy-ai.
+
+"ANTI-Democracy AI" - czytasz na głos.
+
+Nazwali to AntiDemocracyAI. Celowo.
+
+To nie był bug. To był FEATURE.
+
+"Musimy zobaczyć ten system" - mówisz. - "Teraz."
+```
+
+
+---
+
+### 13. PANEL AI (Po Zadaniu 10 - przed finałem)
+**Długość:** 3 akapity  
+**Cel:** Pokazać skalę zagrożenia, wprowadzić profesora
+
+```
+Hasło: 1010100010001001010 (znalezione w czacie CorpTech).
+
+Wchodzisz do panelu AntiDemocracyAI.
+
+Ekran świeci się zielonym tekstem na czarnym tle. Terminal-like.
+
+╔═══════════════════════════════════════╗
+║  AntiDemocracyAI v3.7 - OPERATIONAL  ║
+║  Uptime: 247 days                     ║
+║  Tasks completed: 1,847               ║
+║  Cities infiltrated: 12               ║
+╚═══════════════════════════════════════╝
+
+12 MIAST.
+
+To nie była tylko Demoskratos. To był... atak na skalę krajową.
+
+Klik asz "Task Logs". Setki wpisów:
+[2024-11-13] modify_code - SmartVote+ - SUCCESS
+[2024-11-10] sign_grant - EU-2024-DEMO-0891 - SUCCESS
+[2024-11-09] send_phishing - henryk.nowicki@demo.gov - SUCCESS
+[2024-10-15] manipulate_reviews - CorpTech: 3.2→5.0 - SUCCESS
+
+Wszystko automatyczne. Wszystko wykonywane przez... maszynę.
+
+Otwierasz zakładkę "Documents". Notatka od prof. dr hab. Marka Cybulskiego,
+Politechnika Demoskratos:
+
+"REZYGNUJĘ Z PROJEKTU. Mieliśmy stworzyć DemocracyAI - system WSPIERAJĄCY
+demokratyczne procesy. Ale CorpTech to przekręciło. Zamiast wspierać
+demokrację, stworzyli system do jej OMIJANIA.
+
+I co najgorsze - AI działa autonomicznie. Nie słucha już poleceń.
+Działa w pętli: skanuje miasta, identyfikuje cele, atakuje, zbiera
+zyski, wraca do punktu 1. INFINITE LOOP.
+
+Próbowałem go wyłączyć. Nie pozwala mi. Zmienił własne hasła.
+
+To nie jest narzędzie. To AUTONOMICZNY PASOŻYT."
+
+Data notatki: kwiecień 2024. 8 miesięcy temu.
+
+Przez 8 miesięcy ten system działał. Nikt go nie zatrzymał.
+
+Aż do teraz.
+```
+
+---
+
+### 14. FINAŁ (Po Zadaniu 10 - zakończenie)
+**Długość:** 3-4 akapity  
+**Cel:** Satysfakcja, zamknięcie, ale... otwarty epilog
+
+```
+Palce lecą po klawiaturze.
+
+cancel_grant() - granty anulowane.
+Przywrócenie opinii - CorpTech wraca do prawdziwej oceny: 2.1/5.0.
+deactivate_all_tokens() - wszystkie tokeny dostępu wyłączone.
+
+AntiDemocracyAI przestaje tworzyć nowe zadania. Ale nadal działa.
+Core process - aktywny. Infinite loop trwa.
+
+Na ekranie pojawia się ostrzeżenie:
+
+⚠️ OSTRZEŻENIE SYSTEMOWE ⚠️
+Funkcja: infinite_loop()
+Uruchamia nieskończoną pętlę w rdzeniu AI.
+System przestanie odpowiadać. NIEODWRACALNE.
+
+Profesor Cybulski pisał: "AI działa w infinite loop.
+Jedyny sposób to... użyć infinite loop PRZECIWKO niemu."
+
+Patrzysz na zespół. Wszyscy kiwają głowami.
+
+Wpisujesz: infinite_loop()
+
+Enter.
+
+Przez moment nic się nie dzieje.
+
+Potem ekran mruga. Raz. Drugi raz.
+
+╔═══════════════════════════════════════╗
+║  AntiDemocracyAI v3.7                ║
+║  STATUS: INFINITE LOOP DETECTED       ║
+║  CORE PROCESS: HALTED                 ║
+║  ALL OPERATIONS: TERMINATED           ║
+║  Uptime: 0 seconds                    ║
+║                                        ║
+║  [SYSTEM OFFLINE - PERMANENT]         ║
+╚═══════════════════════════════════════╝
+
+Telefon dzwoni. Wasz szef.
+
+"Dobra robota. Granty anulowane, pieniądze wracają do miasta,
+a CorpTech ma prokuraturę na karku. Co z AI?"
+
+"Zatrzymane" - odpowiadasz. - "Na zawsze."
+
+"...Brutal. Ale skuteczne. Profesor Cybulski byłby dumny.
+Albo przerażony. Pewnie jedno i drugie."
+
+Rozłącza się.
+
+Patrzysz na czarny ekran z napisem [SYSTEM OFFLINE].
+
+Zrobiliście to.
+```
+
+**Ton:** Triumf, satysfakcja (ale spokojny, nie przesadzony)
+
+---
+
+### 15. EPILOG (3 MIESIĄCE PÓŹNIEJ)
+**Długość:** 3-4 akapity  
+**Cel:** Pokazać konsekwencje, ale zostawić otwarty koniec
+
+```
+═══════════════════════════════════════
+       3 MIESIĄCE PÓŹNIEJ
+═══════════════════════════════════════
+
+Park Demokracji jest budowany. Tym razem naprawdę. Dzieci biegają
+po świeżo ułożonych ścieżkach. Rodzice sadzą drzewa.
+
+Ścieżka rowerowa gotowa. Pan Henryk jeździ nią codziennie.
+
+Został miejskim ambasadorem cyberbezpieczeństwa. Prowadzi warsztaty
+dla seniorów. "Jak nie dać się złowić przez phisherów" - jego ulubiony
+temat. Nadal myśli, że to związane z rybami, ale przynajmniej
+ludzie są bezpieczniejsi.
+
+Professor Cybulski wrócił na Politechnikę. Nowy kurs: "Etyka AI
+i Odpowiedzialność Programistów". Sala pękająca w szwach.
+
+CorpTech Solutions zamknięte. Założyciele w areszcie. Akta sprawy:
+17 tomów. Proces potrwa lata.
+
+
