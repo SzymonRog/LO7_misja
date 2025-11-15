@@ -89,7 +89,7 @@ Możecie dodać więcej kolumn do analizy
 
  
 
-ZADANIE 2a: System Głosowania Borda 
+ZADANIE 2: System Głosowania Borda 
 
 Język: Python/C++ 
 
@@ -127,7 +127,7 @@ Dodajcie walidację (co jeśli ktoś nie podał wszystkich Projektów?)
 
  
 
-ZADANIE 2b: Analiza Git Logów 
+ZADANIE 3: Analiza Git Logów 
 
 Język: Python 
 
@@ -157,7 +157,7 @@ Możecie dodać więcej warunków
 
 
 
-ZADANIE 3: Debugging i TODO 
+ZADANIE 4: Debugging i TODO 
 
 Język: Python/C++ 
 
@@ -184,7 +184,7 @@ Komentarz TODO może być bardziej ukryty (np. w środku kodu)
 
  
 
-ZADANIE 4: Brute-force Hasła 
+ZADANIE 5: Brute-force Hasła 
 
 Język: Python/C++ 
 
@@ -206,7 +206,7 @@ Specyfikacja:
 3 (mozliowsci ceny kebaba)  X 15(słow młodzierzowych) = 45 mozliwosci hasła
 
 
-ZADANIE 5: Analiza Finansowa 
+ZADANIE 6: Analiza Finansowa 
 
 Język: SQL 
 
@@ -242,7 +242,7 @@ Możecie dodać więcej tabel (np. invoices, contractors)
 
  
 
-ZADANIE 6a: Steganografia w Tablicy 
+ZADANIE 7: Steganografia w Tablicy 
 
 Język: Python/C++ 
 
@@ -285,7 +285,7 @@ Możecie użyć innych operacji (XOR, shift, etc.)
 
  
 
-ZADANIE 6b: Clustering IP (DBSCAN) 
+ZADANIE 8: Clustering IP (DBSCAN) 
 
 Język: Python/C++ 
 
@@ -321,7 +321,7 @@ Możecie zmienić proporcje (np. 90% zamiast 95%)
 
  
 
-ZADANIE 7: Problem Plecakowy (Misja Obywatelska) 
+ZADANIE 9: Problem Plecakowy (Misja Obywatelska) 
 
 Język: Python/C++ 
 
@@ -351,7 +351,7 @@ Dla bonusu: jeśli ktoś zwróci wszystkie, to Otzryma odzanek "społecznik" (W 
 
  
 
-ZADANIE 8: Book Cipher (Constitutio Cipher) 
+ZADANIE 10: Book Cipher (Constitutio Cipher) 
 
 Język: Python 
 
@@ -374,7 +374,18 @@ pierwszy element (2.1) czyli 2 oznacza punkt jesli ma tylko jedna liczbe np. 1 t
 trzeba zapisac cłay tekst z deszyfrowanego maila. Ale sam tekst bedzie głupi bo konstytucja ma mało pzrydatnych słów więc bedzie kolejna funkcjia normalize_email(teks) do której wrzucamy tekst dekodowanego emailu i mamy w tedy dostajemy znormalizowae i sensowane zdanie kóre zapisujemy do listy emailów która zwracamy
 
 
-ZADANIE 9: Zaawansowane SQL (PUNKT ZWROTNY)
+
+ZADANIE 11: Multi-warunek Filtrowanie (POBOCZNE)
+Język: Python/C++
+Trudność: ⭐⭐⭐ Średnie/Trudne
+
+Opis:
+Program analizujący bezpieczeństwo emaili (edukacja o phishingu).
+Specyfikacja:
+#przygotowane listy np. safe_domens itp.
+#gracz musi sprawdzic wsyztkie warunki i zwrócić safe_emails
+
+ZADANIE 12: Zaawansowane SQL (PUNKT ZWROTNY)
 Język: SQL
 Trudność: ⭐⭐⭐ Trudne
 
@@ -407,7 +418,8 @@ CREATE TABLE signatories ();
 -- OCZEKIWANY WYNIK:
 -- Wszystkie projekty podpisane przez "SystemAI_v3.7" z linkiem w kolumnie phone!
 
-ZADANIE 10: API Manipulation (FINAŁ)
+
+ZADANIE 13: API Manipulation (FINAŁ)
 Język: Python/C++
 Trudność: ⭐⭐⭐ Trudne
 
