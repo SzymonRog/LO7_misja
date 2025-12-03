@@ -4,9 +4,30 @@ Typy plików:
 - np. Test.py nie widoczny dla użykownika
 
 
-Tresc fabuły:
-Tresc calego zadania:
 
-Uwagi:
+Tresc zadania czerwona ramka:
 
-Wykonawca: Szymon
+Twoim zadaniem jest uzupełnienie funkcji decode_emails, tak aby wypisywała wszystkie odszyfrowane emaile.
+Do dyspozycji masz funkcję get_emails(ids), która przyjmuje listę ID, np. get_emails(['1', '2']), i zwraca listę emaili w formacie:
+
+[
+    {
+        "id": 1234,
+        "title": "Misja - Demos Kratos",
+        "from": "...",
+        "to": "...",
+        "subject": "...",
+        "body": "1.1.2 1.2.2 1.3.3 ..."
+    }
+]
+
+
+Każdy token w polu body ma format ARTYKUŁ.PUNKT.SŁOWO i wskazuje konkretne słowo w Agendzie Dobrego Obywatela DemosKratos (plik agenda.py):
+ARTYKUŁ – numer artykułu,
+PUNKT – numer punktu w artykule (linia),
+SŁOWO – numer słowa w tym punkcie.
+ID emaili do odszyfrowania znajdziesz w dashboardzie.
+Uwaga: Punkty i słowa są liczone od 1, np. 2.1.1 oznacza artykuł 2, punkt 1, słowo 1.
+
+
+Wykonawca: Szymon (Tech-leader)
