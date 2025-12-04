@@ -25,6 +25,7 @@ INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes
 INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Silesia PharmaLab',4.5,'Dolnośląskie',370,5600000.33);
 INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('EcoStone Engineering',4.3,'Dolnośląskie',10,700000.);
 INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('SolarVision Wrocław',4.8,'Dolnośląskie',900,14000000.8);
+INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('TechCorp',5.0,'Dolnośląskie',340,3700000.73);
 INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Dolnośląski Instytut IT',4.6,'Dolnośląskie',690,9500000.3);
 INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('CrystalGlass Tech',4.4,'Dolnośląskie',150,100000.15);
 INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('GreenForest BioTech',4.,'Dolnośląskie',180,1600000.1);
@@ -47,5 +48,6 @@ INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes
 INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Quantum Robotics DS',4.8,'Dolnośląskie',1110,16400000.88);
 INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Silesia AgroLab',4.0,'Dolnośląskie',95,800000.1);
 INSERT INTO demoskratos_system(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Wrocław Engineering Group',4.3,'Dolnośląskie',40,3400000.66);
+
 
 
