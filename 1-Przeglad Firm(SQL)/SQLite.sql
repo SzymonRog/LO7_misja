@@ -73,6 +73,7 @@ INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid)
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.8,'NextGenIT','Mazowieckie',850,1600000.50);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.7,'PaperMax','Lubelskie',1,300000.33);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.6,'ShipPro','Pomorskie',130,1500000.10);
+INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('TechCorp',4.9,'Dolnośląskie',340,3500000.69);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.5,'EcoFarm','Warmińsko-Mazurskie',60,10000.00);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.4,'TechSpeed','Śląskie',480,3300000.35);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.,'MediaSoft','Mazowieckie',390,7400000.40);
