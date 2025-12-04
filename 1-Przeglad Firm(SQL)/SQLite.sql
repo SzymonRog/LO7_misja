@@ -6,7 +6,7 @@ CREATE TABLE national_bip(
   ,taxes_paid          float NOT NULL
 );
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.8,'TechPol','Mazowieckie',50,1500000.50);
-INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.,'KopalniaPlus','Śląskie',100,9800000.00);
+INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.2,'KopalniaPlus','Śląskie',100,9800000.00);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.6,'BalticTrade','Pomorskie',340,4300000.75);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.9,'AgroPol','Wielkopolskie',150,100000.10);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.5,'BuildMax','Małopolskie',430,300000.00);
@@ -28,7 +28,7 @@ INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid)
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.8,'GeoMining','Świętokrzyskie',510,3100000.10);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.5,'ElektroMax','Mazowieckie',300,8700000.00);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.7,'AutoParts','Śląskie',440,400000.75);
-INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.,'MedTech','Łódzkie',60,900000.31);
+INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.2,'MedTech','Łódzkie',60,900000.31);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.4,'ProEdu','Podlaskie',75,450000.5);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.0,'FarmaLux','Warmińsko-Mazurskie',95,370000.60);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.9,'RoboticsAI','Mazowieckie',970,18400000.50);
@@ -39,7 +39,7 @@ INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid)
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.7,'ModeDesign','Łódzkie',60,4100000.55);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.8,'EcoLine','Podkarpackie',7,330000.11);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.5,'AutoDrive','Śląskie',830,11900000.00);
-INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.,'MetroIT','Mazowieckie',350,7600000.66);
+INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.2,'MetroIT','Mazowieckie',350,7600000.66);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.7,'FreshFood','Małopolskie',10,980000.77);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.1,'BioHerbs','Podlaskie',44,160000.45);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.3,'ShipyardPro','Pomorskie',150,14300000.90);
@@ -49,7 +49,7 @@ INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid)
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.4,'MobileApps','Mazowieckie',410,700000.44);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.8,'SecureIT','Małopolskie',790,1600000.10);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.6,'GreenHouse','Lubuskie',5,180000.00);
-INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.,'SteelArt','Śląskie',1010,11800000.66);
+INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.2,'SteelArt','Śląskie',1010,11800000.66);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.1,'PharmaPlus','Łódzkie',340,5400000.19);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.5,'SoftStar','Mazowieckie',60,1350000.75);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.8,'EcoResources','Podkarpackie',88,40000.);
@@ -63,7 +63,7 @@ INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid)
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.8,'AutoLine','Śląskie',550,800000.10);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.9,'CloudNet','Mazowieckie',990,1000000.40);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.6,'BuildNow','Kujawsko-Pomorskie',18,540000.55);
-INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.,'GreenEnergy','Pomorskie',440,500000.1);
+INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.2,'GreenEnergy','Pomorskie',440,500000.1);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.5,'SmartRobotics','Łódzkie',580,9000000.40);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.7,'FinPro','Mazowieckie',730,13000000.10);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.9,'WoodCraft','Podkarpackie',11,410000.4);
@@ -76,7 +76,7 @@ INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid)
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('TechCorp',4.9,'Dolnośląskie',340,3500000.69);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.5,'EcoFarm','Warmińsko-Mazurskie',60,10000.00);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.4,'TechSpeed','Śląskie',480,3300000.35);
-INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.,'MediaSoft','Mazowieckie',390,7400000.40);
+INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.2,'MediaSoft','Mazowieckie',390,7400000.40);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.8,'FoodLine','Świętokrzyskie',95,50000.00);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.5,'AutoPartsPlus','Łódzkie',860,1000000.70);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.7,'SmartIT','Małopolskie',510,8400000.55);
@@ -94,7 +94,7 @@ INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid)
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.5,'SolarWave','Lubelskie',380,5100000.10);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.9,'DataAI','Mazowieckie',1040,800000.75);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.8,'ChemIndustry','Opolskie',330,1600000.66);
-INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.,'NextSoft','Wielkopolskie',700,9000000.10);
+INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.2,'NextSoft','Wielkopolskie',700,9000000.10);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (3.9,'RoadBuild','Małopolskie',10,70000.3);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.6,'BlueTech','Pomorskie',840,9900000.11);
 INSERT INTO national_bip(rating,name,wojewodztwo,number_of_employees,taxes_paid) VALUES (4.4,'FreshMarket','Świętokrzyskie',105,430000.0);
@@ -108,14 +108,14 @@ INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid)
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('LowerSilesia Logistics',4.1,'Dolnośląskie',460,300000.44);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('GreenPower Dolny Śląsk',4.5,'Dolnośląskie',30,900000.0);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('NanoWroc Technologies',4.4,'Dolnośląskie',360,5100000.88);
-INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('AutoCraft DS',4.,'Dolnośląskie',190,1800000.);
+INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('AutoCraft DS',4.2,'Dolnośląskie',190,1800000.);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('MetalExpert Wrocław',4.0,'Dolnośląskie',980,9500000.1);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('BioMedica Dolnośląska',4.6,'Dolnośląskie',540,700000.6);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('DeepVision Labs',4.8,'Dolnośląskie',110,16500000.);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Sudecka Fabryka Druku 3D',4.3,'Dolnośląskie',40,3300000.55);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('SmartEnergy Wrocław',4.5,'Dolnośląskie',480,6900000.0);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('TechWave DS',4.4,'Dolnośląskie',350,5700000.9);
-INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Wrocław Automation',4.,'Dolnośląskie',410,4100000.1);
+INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Wrocław Automation',4.2,'Dolnośląskie',410,4100000.1);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('BlueData Analytics',4.7,'Dolnośląskie',660,10500000.4);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('AgroFuture Dolny Śląsk',4.1,'Dolnośląskie',10,980000.1);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Precision MetalWorks DS',4.0,'Dolnośląskie',760,600000.0);
@@ -124,21 +124,21 @@ INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid)
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('SolarVision Wrocław',4.8,'Dolnośląskie',900,14000000.8);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Dolnośląski Instytut IT',4.6,'Dolnośląskie',690,9500000.3);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('CrystalGlass Tech',4.4,'Dolnośląskie',150,100000.15);
-INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('GreenForest BioTech',4.,'Dolnośląskie',180,1600000.1);
+INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('GreenForest BioTech',4.2,'Dolnośląskie',180,1600000.1);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('FutureSteel DS',4.1,'Dolnośląskie',80,700000.77);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('WroCyber Security',4.7,'Dolnośląskie',850,14800000.);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('QuantumSoft Dolny Śląsk',4.8,'Dolnośląskie',100,17500000.5);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('BlackMountain Logistics',4.0,'Dolnośląskie',610,3300000.);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('BioFresh Solutions',4.3,'Dolnośląskie',140,1700000.4);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('LowerSilesia AI Center',4.6,'Dolnośląskie',880,1500000.75);
-INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('EcoFarmTech DS',4.,'Dolnośląskie',00,1400000.3);
+INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('EcoFarmTech DS',4.2,'Dolnośląskie',00,1400000.3);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Wroclaw DroneWorks',4.5,'Dolnośląskie',330,4300000.33);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('SteelArt Dolny Śląsk',4.1,'Dolnośląskie',500,900000.55);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('NanoBuild Engineering',4.4,'Dolnośląskie',310,3600000.1);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('GreenLine Mobility',4.3,'Dolnośląskie',40,500000.0);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('DeepAI Systems DS',4.7,'Dolnośląskie',70,1300000.4);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('LowerSilesia Energy Hub',4.5,'Dolnośląskie',640,8800000.33);
-INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Silesia Optics Lab',4.,'Dolnośląskie',130,100000.5);
+INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Silesia Optics Lab',4.2,'Dolnośląskie',130,100000.5);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('WroTech Motors',4.1,'Dolnośląskie',950,8300000.1);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('CloudMatrix Dolnośląskie',4.6,'Dolnośląskie',870,1500000.4);
 INSERT INTO national_bip(name,rating,wojewodztwo,number_of_employees,taxes_paid) VALUES ('Quantum Robotics DS',4.8,'Dolnośląskie',1110,16400000.88);
