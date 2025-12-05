@@ -5,8 +5,9 @@ Typy plików:
 
 
 Tresc fabuły:
-Tresc calego zadania:
+Tresc calego zadania: 
+where status== delayed lub active oraz budżet na PROJEKT > 500000 DOSÓW  oraz wykonawca to id firmy TechCorp 
 
 Uwagi:
-
+w wyniku będzie widaćże TC dostał 85 % finansowań miasta ale nadal większośćprojektów nie są dokończone
 Wykonawca: Semen

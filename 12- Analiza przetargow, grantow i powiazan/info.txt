@@ -4,8 +4,9 @@ Typy plików:
 - np. Test.py nie widoczny dla użykownika
 
 
-Tresc fabuły:
+Tresc fabuły: po przeszukiwaniu niedobrych finansowań widzimy że one zostałyu podpisaane przez SystemAI_v3.7
 Tresc calego zadania:
+Dupa dupna wiele sprawdzeń cośw stylu DARPA questów na LNU
 
 Uwagi:
 
