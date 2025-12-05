@@ -1,0 +1,10 @@
+database.py
+widoczny: NIE
+do edycji: NIE
+
+update_actions:
+widoczny: TAK
+do edycji: TAK
+
+output: TAK
+testy: NIE

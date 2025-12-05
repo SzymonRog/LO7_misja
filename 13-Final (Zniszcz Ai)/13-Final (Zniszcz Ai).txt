@@ -1,0 +1,34 @@
+Z poprzedniego zadania dostaleś kopię chatlogów AI. 
+AI używa tych wiadomości do komunikacji, jest to jedyny sposób. Dziwnie, że taka "superinteligencja" nie wymyśliła nic lepszego niż e-mail. 
+Wszystkie funkcje i hasła, z których korzysta AI muszą najpierw być zawarte w tych wiadomościach, inaczej AI nie będzie wiedziała o ich istnieniu.
+Ale to również oznacza, że...
+Masz dostęp do wszystkiego! To jest twoja szansa na ocalenie miasta Demoskratos raz na zawsze!
+
+Godzinami przeszukując wszystkie wiadomości, zauważyleś pewną ważną informację:
+Istnieje plik database.py, który ma w sobie wszytkie działania AI, samą AI i co najważniejsze, funkcję update_actions(database) do której udało ci się dostać dostęp.
+Profesor XYZ pozostawił w kodzie AI funkcję infinite_loop(), która po uruchomieniu dezaktywuję AI w całości. Niestety, nie był wystarczająco odważny żeby ją użyć.
+Uruchomienie tej funkcji nie jest łatwe, ale to nawet nie jest glównym problemem. 
+Jeśli dezaktywować centralną AI, zadania polecone mniejszym maszynom nie będą automatycznie odwołane. Do zmiany zadań tych maszyn służy wlaśnie funkcja update_actions(database).
+
+A więc plan jest dość prosty:
+1) Zrozumieć działanie systemu
+2) Dostać hasło do wszystkich potrzebnych elementów planu
+3) Odwołać, lub jeszcze lepiej - odwrócić działania maszyn pod kontrolą AI
+4) Dezaktywować obronę centralnego AI
+5) Uruchomić infinite_loop()
+
+1) 
+- W spomnianym już wcześniej pliku database.py znajduje się klasa Database. wlaśnie ta klasa jest przekazywana do update_actions jako argument
+- W pliku [top_secret]AIcode.py znajdują się opisy wszytkich klas i funkcji potrzebnych do zniszczenia AI. Nie da się go uruchomić, ale da się przeczytać. 
+Znalazleś ten plik w glębi chatlogów AI. Widocznie jakaś maszyna potrzebowała tej informacji. A może to plik od samego profesora? Dziwnie. W każdym razie to ci się przyda.
+
+2) Hasło do GetAllActions i GetAI to 862520. Znaczy się, nie do końca, bo komputery rozumieją tylko 0 i 1. Widocznie zapis dziesiętny był zastosowany do zmniejszenia ilości pamięci.
+Hasło do DisableDefences jest takie samo, jak to poprzednie, ale odwrócone. 0 -> 1, 1 -> 0
+
+3) Jeśli działaniem AI jest przysyłanie wirusa, trzeba zamienić to na usuwanie wirusa i aktywować działanie (state = 1)
+   Jeśli działaniem AI jest akceptowanie umowy[?] (grant to umowa?) to trzeba dezaktywować działanie
+
+4,5) Reszta należy do ciebie, powodzenia!
+
+
+
