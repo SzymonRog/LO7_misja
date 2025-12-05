@@ -2,7 +2,11 @@ database.py
 widoczny: NIE
 do edycji: NIE
 
-update_actions:
+[top_secret]AIcode.py
+widoczny: TAK
+do edycji: NIE
+
+update_actions.py:
 widoczny: TAK
 do edycji: TAK
 
