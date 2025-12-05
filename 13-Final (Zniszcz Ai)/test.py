@@ -13,3 +13,5 @@ def test():
     except:
         print("Coś poszło nie tak!")
         return False
+
+test()
