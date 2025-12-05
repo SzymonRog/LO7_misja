@@ -1,12 +1,12 @@
-Język: Python/C++
+Język: Python
 Liczba Punktów za wykonanie:
 Typy plików:
-- np. Test.py nie widoczny dla użykownika
-
+- Lista_zadan.py - zawiera tablicę z wybranymi czynnościami dla obywatela (z tego co rozumiem, to ma być niewidoczne lub zablokowane)
+- Program_do_maksymalizacji_pkt - zawiera program zwracający maksymalną ilość punktów do zdobycia przy wylosowanym czasie
 
 Tresc fabuły:
 Tresc calego zadania:
 
-Uwagi:
+Uwagi: 
 
-Wykonawca: 
+Wykonawca: Mateusz Markowski
