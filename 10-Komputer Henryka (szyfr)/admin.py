@@ -109,43 +109,46 @@ agenda_json = {
     ]
 }
 
-
 emails_db = {
-  "67": {
-    "id": 67,
-    "title": "Zlecenie manipulacji",
-    "from": "automated_task_queue_v3@corptech.internal",
-    "to": "system_executor@corptech.demo",
-    "subject": "[AUTO] Task #1847-A",
-    "body": "Zadanie priorytetowe. Podpisać umowę na projekt budowy parku. Zmanipulować głosowanie dotyczące budżetu. Przekierować środki na konto firmowe. Termin realizacji jutro rano."
-  },
+    # ===== MAIL #67: MANIPULACJA SMARTVOTE+ =====
+    "67": {
+        "id": 67,
+        "title": "Sabotaż systemu głosowania",
+        "from": "automated_task_queue_v3@corptech.internal",
+        "to": "system_executor@corptech.demo",
+        "subject": "[AUTO] Task #8471-VOTE",
+        "body": "Zadanie priorytetowe. Zmodyfikować system SmartVote plus. Zmienić wyniki głosowania rady miejskiej na jutro. Opcja druga musi wygrać. Dostęp do pliku count votes. Wykonać o dwudziestej trzeciej czterdzieści siedem. Commit message Final optimization before deploy. Usunąć logi dostępu."
+    },
 
-  "128": {
-    "id": 128,
-    "title": "Potwierdzenie grantu",
-    "from": "grant_system@corptech.internal",
-    "to": "automated_task_queue_v3@corptech.internal",
-    "subject": "Grant zatwierdzony",
-    "body": "Grant automatycznie zatwierdzony bez kontroli. Kwota dwa miliony przekazana. Projekt może pozostać niezrealizowany. System działa poprawnie."
-  },
+    # ===== MAIL #128: ATAK PHISHINGOWY NA PANA HENRYKA =====
+    "128": {
+        "id": 128,
+        "title": "Operacja phishingowa",
+        "from": "automated_task_queue_v3@corptech.internal",
+        "to": "phishing_module@corptech.demo",
+        "subject": "[AUTO] Task #2847-PHISH",
+        "body": "Cel ataku Henryk Nowicki. Radny miejski. Lubi kotki i wolontariat w schronisku. Kompetencje IT bardzo niskie. Wysłać mail ze zdjęciami kotków. Załącznik z wirusem. Nadawca CorpoTechSolutions at demosSys dot com. Wykonanie jutro o dwudziestej trzeciej czterdzieści siedem."
+    },
 
-  "64": {
-    "id": 64,
-    "title": "Raport tygodniowy",
-    "from": "automated_task_queue_v3@corptech.internal",
-    "to": "operations@corptech.demo",
-    "subject": "Raport operacyjny",
-    "body": "Skanowanie zakończone pomyślnie. Wykryto siedemnaście luk bezpieczeństwa w systemie miejskim. Wykorzystano czternaście exploitów. Zidentyfikowano osiem nowych celów do ataku phishingowego."
-  },
+    # ===== MAIL #64: MANIPULACJA W MIĘDZYNARODOWYM REJESTRZE =====
+    "64": {
+        "id": 64,
+        "title": "Modyfikacja ocen",
+        "from": "automated_task_queue_v3@corptech.internal",
+        "to": "reputation_manager@corptech.demo",
+        "subject": "[AUTO] Task #7234-REPUTATION",
+        "body": "Zmienić oceny CorpoTech Solutions. Polski rejestr BIP trzy przecinek dwa na pięć. Europejska baza dwa przecinek osiem na pięć. Portal międzynarodowy trzy przecinek jeden na pięć. Cel wszystkie pięć przecinek zero na pięć. Usunąć recenzje poniżej czterech gwiazdek. Dodać czterdzieści siedem fałszywych pozytywnych recenzji. Wykonać w nocy."
+    },
 
-  "1024": {
-    "id": 1024,
-    "title": "Dezinformacja",
-    "from": "propaganda_system@corptech.internal",
-    "to": "automated_task_queue_v3@corptech.internal",
-    "subject": "Kampania uruchomiona",
-    "body": "Przygotowano fałszywy raport. Wyznaczono kozła ofiarnego. Uruchomiono kampanię dezinformacyjną. Opublikowano tysiąc artykułów w ciągu trzydziestu minut. Cel został osiągnięty zgodnie z planem."
-  },
+    # ===== MAIL #1024: OGROMNY GRANT UE =====
+    "1024": {
+        "id": 1024,
+        "title": "Grant europejski",
+        "from": "automated_task_queue_v3@corptech.internal",
+        "to": "system_executor@corptech.demo",
+        "subject": "[AUTO] Task #9999-ENDGAME",
+        "body": "Największy projekt w historii. Grant Unii Europejskiej. Wartość osiemdziesiąt siedem milionów pięćset tysięcy DOS. Projekt Pan European Smart Governance Infrastructure. Dwanaście miast w pięciu krajach. Polska Czechy Słowacja Węgry Rumunia. Podpisać umowę do piętnastego grudnia. Pierwszy przelew trzydzieści pięć milionów. Jeśli sukces pełna kontrola. Jeśli porażka koniec operacji."
+    }
 }
 
 
@@ -179,7 +182,7 @@ def text_to_word_tokens(text, agenda):
 
     return tokens, unknown
 
-email_text = "Przygotowano fałszywy raport. Wyznaczono kozła ofiarnego. Uruchomiono kampanię dezinformacyjną. Opublikowano tysiąc artykułów w ciągu trzydziestu minut. Cel został osiągnięty zgodnie z planem."
+email_text = "Cel ataku Henryk Nowicki. Radny miejski. Lubi kotki i wolontariat w schronisku. Kompetencje IT bardzo niskie. Wysłać mail ze zdjęciami kotków. Załącznik z wirusem. Nadawca CorpoTechSolutions at demosSys dot com. Wykonanie jutro o dwudziestej trzeciej czterdzieści siedem."
 
 tokens, unknown = text_to_word_tokens(email_text, agenda_json)
 
