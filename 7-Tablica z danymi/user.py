@@ -1,4 +1,5 @@
-from api import data_table
+from api import table
 
 def decode_hidden_name(table):
     return 0
+
