@@ -9,10 +9,10 @@ Typy plików:
 Treść zadania: Twoim zadaniem jest odnalezienie zakodowanego imienia z tabeli data_table stosując się do zasad podanych poniżej:
 1. Wybierz liczby gdzie: index % 21 == 19 
 2. Z każdej liczby weź: number % 100 
-3. Jeśli wynik w zakresie 1-26: 1='A', 2='B', ..., 26='Z' 
+3. Jeśli wynik w zakresie 1-26: 1='A', 2='B', ..., 26='Z' 27='a', 28='b' ... 53=' '
 4. Połącz litery w imię i Nazwisko
 
 
-Uwagi: imię i Nazwisko nie są oddzielone spacją oraz są tylko duże litery.
+Uwagi:
 
 Wykonawca: Maks
