@@ -1,12 +1,17 @@
-Język: Python/C++
+Język: Python
 Liczba Punktów za wykonanie:
 Typy plików:
-- np. Test.py nie widoczny dla użykownika
+- sprawdzanie_dekoder.py oraz nie widoczny dla użykownika
+- tabelka.py widoczne dla użytkownika
 
 
-Tresc fabuły:
-Tresc calego zadania:
+Treść zadania: Twoim zadaniem jest za pomocą odnalezienie zakodowanego imienia z tabeli data_table stosując się do zasad podanych poniżej:
+1. Wybierz liczby gdzie: index % 21 == 19 
+2. Z każdej liczby weź: number % 100 
+3. Jeśli wynik w zakresie 1-26: 1='A', 2='B', ..., 26='Z' 
+4. Połącz litery w imię i Nazwisko
 
-Uwagi:
 
-Wykonawca: 
+Uwagi: imię i Nazwisko nie są oddzielone spacją oraz są tylko duże litery.
+
+Wykonawca: Maks
