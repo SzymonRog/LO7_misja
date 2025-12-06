@@ -1,5 +1,5 @@
 from decode_emails import decode_emails
-from api import get_emails
+from get_emails import get_emails
 from agenda import agenda
 
 def decode():

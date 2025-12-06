@@ -1,0 +1,42 @@
+Język: Python
+Liczba Punktów za wykonanie:
+
+
+Tresc fabuły:
+
+Tresc zadania (łososiowa ramka):
+
+
+
+decode_emails.py :
+widoczny: TAK
+do edycji: TAK
+
+agenda.py :
+widoczny: TAK
+do edycji: NIE
+
+admin.py :
+Funkcja do szyfrowania
+widoczny: NIE
+do edycji: NIE
+
+get_emails.py :
+widoczny: NIE
+do edycji: NIE
+
+test.py :
+Plik testowy
+widoczny: NIE
+do edycji: NIE
+
+answer.py :
+Proponowana odpowiedz
+widoczny: NIE
+do edycji: NIE
+
+output: TAK
+testy: NIE
+
+
+Wykonawca: Szymon
