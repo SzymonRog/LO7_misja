@@ -2,7 +2,8 @@ from api import get_emails
 from agenda import agenda
 
 def decode_emails():
-    emails = get_emails(['67', '128'])
+    emails = get_emails(['67', '234234','128', '1024', '64'])
+    text_emails = []
 
     for email in emails:
         decoded_text = ""
@@ -18,9 +19,9 @@ def decode_emails():
             words = sentence.split(" ")
             decoded_text += " " + words[word_index]
 
-        print(decoded_text.strip())
+        text_emails.append(decoded_text[1:])
 
-    return 0
+    return text_emails
 
 
-decode_emails()
+
