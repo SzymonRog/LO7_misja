@@ -5,7 +5,7 @@ Typy plików:
 - tabelka.py widoczne dla użytkownika
 
 
-Treść zadania: Twoim zadaniem jest za pomocą odnalezienie zakodowanego imienia z tabeli data_table stosując się do zasad podanych poniżej:
+Treść zadania: Twoim zadaniem jest odnalezienie zakodowanego imienia z tabeli data_table stosując się do zasad podanych poniżej:
 1. Wybierz liczby gdzie: index % 21 == 19 
 2. Z każdej liczby weź: number % 100 
 3. Jeśli wynik w zakresie 1-26: 1='A', 2='B', ..., 26='Z' 
