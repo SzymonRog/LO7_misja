@@ -1,8 +1,9 @@
 Język: Python
 Liczba Punktów za wykonanie:
 Typy plików:
-- sprawdzanie_dekoder.py oraz nie widoczny dla użykownika
-- tabelka.py widoczne dla użytkownika
+- user widoczny dla użykownika i do edycji
+- tabela.py widoczne dla użytkownika, edycja:nie
+-rozwiazanie nie widoczne i nie do edycji
 
 
 Treść zadania: Twoim zadaniem jest odnalezienie zakodowanego imienia z tabeli data_table stosując się do zasad podanych poniżej:
