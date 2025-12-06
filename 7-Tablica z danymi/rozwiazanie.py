@@ -1,8 +1,8 @@
-from api import table
-def decode_hidden_name(table):
+from api import tabela
+def decode_hidden_name(tabela):
     letters = []
 
-    for i, num in enumerate(table):
+    for i, num in enumerate(tabela):
         if i % 21 == 19:
             last = num % 100
             if 1 <= last <= 26:
@@ -10,3 +10,4 @@ def decode_hidden_name(table):
 
 
     return "".join(letters)
+
