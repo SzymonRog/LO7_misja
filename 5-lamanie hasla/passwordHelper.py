@@ -13,14 +13,15 @@ mlodziezowe_slowa2025 = ["67",
                          "szponcić",
                          "tuff",
                          "twin"]
-CorrectPassword = "D03591tuff114AS32"
+
+CorrectPassword = "D03591tuff114AS51"
 
 
-def getYouthWord2025():
+def get_youth_word_2025():
     return mlodziezowe_slowa2025
 
 
-def checkPass(password):
+def check_pass(password):
     if CorrectPassword == password:
         return True
     return False

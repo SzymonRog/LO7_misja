@@ -1,10 +1,10 @@
-from bruteForce import bruteForce
-from passwordHelper import checkPass
+from crack_password import crack_password
+from passwordHelper import check_pass
 
 
 def test():
     try:
-        if checkPass(bruteForce()):
+        if check_pass(crack_password()):
             print("Hasło zaakceptowano")
             return True
         print("To chyba złe hasło")
