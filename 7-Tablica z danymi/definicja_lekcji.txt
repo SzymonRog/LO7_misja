@@ -1,0 +1,40 @@
+Język: Python
+Liczba Punktów za wykonanie:
+
+
+Tresc fabuły:
+
+Tresc zadania (łososiowa ramka):
+Udało nam się dostać dostęp do raportu firmy TrueCorp w sprawie afery SmartVote jednak przez błędy w sieci część danych jest zamieniona na liczby
+Twoim zadaniem jest uzupełnienie funkcji decode_hidden_name() która odszyfruje dane osobowe ukryte w raporcie firmy TrueCorp. Patrząc po tych wszystkich liczbach nasz specjalista zauwazył, że sensowne słowa otzrymujemy jesli:
+1. Wybierz liczby gdzie: index % 21 == 19
+2. Z każdej liczby weź: number % 100
+3. Jeśli wynik w zakresie 1-26: 1='A', 2='B', ..., 26='Z' 27='a', 28='b' ... 53=' '
+4. Połącz litery w imię i Nazwisko
+
+Całe szczęście wszystkie liczby z raportu zostały juz zebrane i sa przekazywane do funkcji jako zmienna tabela
+
+user.py:
+widoczny: TAK
+do edycji: TAK
+
+tabela.py:
+widoczny: NIE
+do edycji: NIE
+
+
+test.py:
+Plik testowy
+widoczny: NIE
+do edycji: NIE
+
+rozwiazanie.py:
+Proponowana odpowiedz
+widoczny: NIE
+do edycji: NIE
+
+output: TAK
+testy: NIE
+
+
+Wykonawca: Maksiu
