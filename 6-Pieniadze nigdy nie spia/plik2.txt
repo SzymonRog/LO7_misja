@@ -1,0 +1,2 @@
+result_query: select name from importantProjects where organisation="TechCorp" and (status="active" or status="delayed")
+"TechCorp" : NIE

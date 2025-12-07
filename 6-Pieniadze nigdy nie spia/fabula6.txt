@@ -1,0 +1,2 @@
+Niezłą decyzją było by sprawdzić szczelność wykonywanych projektów. Ostatnio władze dużo się skarżą na nieefektywność inicjatyw w porównaniu do budżetów które na nie się wydziela.
+Twoim celem jest wyświetlenie nazw projektów oraz ich organizatorów (odpowiednio w kolumnach name i organisation) które mają aktywny lub opóźniony status ORAZ budżet większy od 500000 DOS-ów, posortuj wyniki alfabetycznie według nazw projektów.
