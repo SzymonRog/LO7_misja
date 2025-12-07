@@ -10,36 +10,36 @@ emails_db = {
 
   "128": {
     "id": 128,
-    "title": "Token-1127373",
-    "from": "grant_system@corptech.internal",
-    "to": "automated_task_queue_v3@corptech.internal",
-    "subject": "Grant zatwierdzony",
+    "title": "Token-1127345",
+    "from": "automated_task_queue_v3@corptech.internal",
+    "to": "system_executor@corptech.demo",
+    "subject": "[AUTO] Task #1847-A",
     "body": "7.2.5 5.5.3 13.1.1 13.1.2 13.1.3 13.1.6 1.7.3 13.2.1 4.2.5 13.2.7 13.2.8 19.3.2 13.1.10 1.1.9 11.2.2 1.2.3 13.1.15 19.6.1 19.7.1 19.7.2 19.7.3 19.4.7 19.8.1 1.4.13 19.9.11 19.8.7 14.1.4 19.10.1 2.8.2 1.7.2 16.4.10 16.4.11 16.4.12 14.5.1 14.5.2"
   },
 
   "64": {
     "id": 64,
-    "title": "Token-1072373",
+    "title": "Token-1072393",
     "from": "automated_task_queue_v3@corptech.internal",
-    "to": "operations@corptech.demo",
-    "subject": "Raport operacyjny",
+    "to": "system_executor@corptech.demo",
+    "subject": "[AUTO] Task #1847-A",
     "body": "15.1.1 3.1.2 3.1.6 3.1.7 1.2.3 15.1.6 1.4.6 3.6.1 15.1.10 14.5.2 3.6.7 15.1.13 15.1.14 3.5.8 3.1.2 3.1.3 15.1.1 3.7.2 13.1.1 15.2.3 15.2.4 15.2.5 15.2.6 1.2.3 15.3.2 15.3.3 15.3.5 15.3.6 1.4.13 15.3.8 4.5.9 15.3.10 15.3.11 15.4.1 15.4.2 1.7.5 15.4.4 15.4.5 15.4.6 15.4.7 15.4.8 15.5.1 1.4.7 15.5.3 15.5.4 15.5.5 3.4.11 15.5.7 15.5.8 15.6.1 15.6.2 3.6.5 15.6.4 14.3.6 3.6.7 4.4.1 7.5.1 3.6.25 21.4.1 21.4.2 4.4.1 21.2.2 21.2.3 21.3.1 21.3.2"
   },
 
   "1024": {
     "id": 1024,
-    "title": "Token-1237373",
-    "from": "propaganda_system@corptech.internal",
-    "to": "automated_task_queue_v3@corptech.internal",
-    "subject": "Kampania uruchomiona",
+    "title": "Token-1237381",
+    "from": "automated_task_queue_v3@corptech.internal",
+    "to": "system_executor@corptech.demo",
+    "subject": "[AUTO] Task #1847-A",
     "body": "20.1.1 14.2.8 14.1.2 14.1.3 14.2.1 14.2.2 14.2.3 14.3.2 14.3.3 3.5.6 1.5.4 14.3.6 14.3.7 17.1.1 17.1.2 17.1.3 17.1.4 17.1.5 17.1.6 17.2.1 17.2.2 17.2.3 17.2.1 14.2.2 17.3.1 14.3.2 14.3.3 3.5.6 1.5.4 14.3.6 14.3.7 7.2.5 2.3.1 14.3.6 14.3.3 14.4.10 1.5.4 14.3.6 14.3.7 14.4.14 18.6.1 18.6.2 20.3.2 20.3.1 14.5.1 14.5.2 20.4.1 14.5.3 14.5.4 18.4.1 1.2.3 14.5.11"
   },
     "234234": {
     "id": 1024,
-    "title": "Token-1237373",
-    "from": "propaganda_system@corptech.internal",
-    "to": "automated_task_queue_v3@corptech.internal",
-    "subject": "Kampania uruchomiona",
+    "title": "Token-1237378",
+    "from": "automated_task_queue_v3@corptech.internal",
+    "to": "system_executor@corptech.demo",
+    "subject": "[AUTO] Task #1847-A",
     "body": "2.8.11 22.2.2 22.3.2 22.3.3 6.3.4 1.4.7 22.5.5 18.4.4 22.6.4 22.7.2 1.5.4 6.4.9 6.4.10 7.2.5 22.8.2 22.9.2 22.10.2 22.11.2 22.8.1 22.8.2 5.6.6 1.5.4 22.15.5 22.16.2 6.2.2 6.3.4 1.4.7 22.17.4 22.18.2 1.7.2 22.19.4 22.20.3 22.22.2 22.22.3 22.23.2 1.10.6 22.24.2 22.25.3 22.26.2 22.27.2 22.28.2 19.9.24 1.8.4 22.29.3 22.30.2 2.2.3 22.31.4 18.4.1 4.4.9"
   },
 
