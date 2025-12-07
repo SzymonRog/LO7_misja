@@ -1,7 +1,6 @@
-from posty import posts
 
 def find_suspicious_ip(posts, time_threshold):
-    ip_groups = {} #grupowanie postów po ip okej?
+    ip_groups = {}
     for p in posts:
         ip_groups.setdefault(p["ip"], []).append(p)
 
@@ -10,13 +9,13 @@ def find_suspicious_ip(posts, time_threshold):
     max_count = 0
 
     for ip, group in ip_groups.items():
-        group.sort(key=lambda x: x["timestamp"]) #sortowanie postów po czasie spoko?
+        group.sort(key=lambda x: x["timestamp"])
 
         current_chain = 1
         posts_count = 0
 
         for i in range(1, len(group)):
-            if group[i]["timestamp"] - group[i-1]["timestamp"] < time_threshold:
+            if group[i]["timestamp"] - group[i-1]["timestamp"] <= time_threshold:
                 current_chain += 1
             else:
                 if current_chain > 1:
@@ -30,10 +29,5 @@ def find_suspicious_ip(posts, time_threshold):
             max_count = posts_count
             max_ip = ip
 
-    percent = (max_count / total_posts) * 100
+    percent = round((max_count / total_posts) * 100, 2)
     return max_ip, percent
-
-time_threshold = 11 # próg czasowy jakby co?
-ip, percent = find_suspicious_ip(posts, time_threshold)
-#chyba wyniki?
-print(find_suspicious_ip(posts, time_threshold))
