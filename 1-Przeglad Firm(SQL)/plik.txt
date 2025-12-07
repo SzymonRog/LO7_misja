@@ -1,0 +1,2 @@
+result_query: select name from demoskratos_system where name="TechCorp"
+"TechCorp" :Nie 
