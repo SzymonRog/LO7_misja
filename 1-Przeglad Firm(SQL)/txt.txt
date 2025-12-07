@@ -1,0 +1,9 @@
+Odpowiednie rekordy
+
+Jesteś młody bohater walki o sprawiedliwość, dobro, demokrację i kotków oczywiście. Masz swoją drużynę, i wy w tej drużynie dbacie o przestrzeganie zasad demokracji w Polsce.
+Wcześniej byliście raczej IRL działaczami ale teraz zastanawiacie się czy mogą złodzieje ukrywać się od waszych oczy w sieci? W tym internecie naprawdę jest dużo miejsca i komputery dzisiaj rządzą wszystkim.
+Więc decydujesz się kupić własny laptop i zostać policjantem sieci. Jako pierwsze wchodzisz na stronę swojego świetnego państwa, na ich stronie znajdujesz wkładkę z bazami danych.
+Jako pierwsze zadanie masz zweryfikowanie wszystkich firm w polskim rejestrze oraz rejestrze Dolnego Śląsku. Teraz masz przed sobą dwie tablicy.
+Twoim zadaniem jest znalezienie wyświetlanie wszystkich rekordów firm dolnośląskich gdzie znajdziesz nieodpowiednie wartości, np. rating tej samej firmy jest różny w dwóch tablicach.
+Podaj tylko nazwę firm w kolumnie name posortowane alfabetycznie
+
