@@ -1,0 +1,28 @@
+Język: C++
+Liczba punktów za wykonanie:
+
+test.cpp
+funkcja Testująca
+widoczne: NIE
+do edycji: NIE
+
+smartvote.cpp
+widoczne: TAK
+do edycji: TAK
+
+smartvote.hpp
+widoczne: NIE
+do edycji: NIE
+
+amswer.hpp
+proponowana odpowiedz
+widoczne: NIE
+do edycji: NIE
+
+
+output: TAK
+testy: TAK
+liczba_testów: 5
+min_zaliczonych: 5
+
+Wykonawca: Irek

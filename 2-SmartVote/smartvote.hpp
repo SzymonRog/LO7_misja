@@ -1,6 +1,5 @@
 #ifndef SMARTVOTE_HPP
 #define SMARTVOTE_HPP
-
 #include <string>
 using namespace std;
 

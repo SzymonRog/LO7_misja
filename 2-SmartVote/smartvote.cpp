@@ -1,6 +1,5 @@
-#include "borda.hpp"
+#include "smartvote.hpp"
 
-void smartCount(const string votes[15][8], const string projects[8], int results[8])
-{
-  
+void smartCount(const string votes[15][8], const string projects[8], int results[8]) {
+
 }

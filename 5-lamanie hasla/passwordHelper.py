@@ -14,7 +14,7 @@ mlodziezowe_slowa2025 = ["67",
                          "tuff",
                          "twin"]
 
-CorrectPassword = "D03591tuff114AS51"
+CorrectPassword = "D03591TUFF114AS51"
 
 
 def get_youth_word_2025():

@@ -9,8 +9,9 @@ def crack_password():
 
     for word in words:
         password = password_1st + word + password_2nd
-        if check_pass(password):
-            return password
+        if check_pass(password.upper()):
+            return password.upper()
 
     return ""
+
 
