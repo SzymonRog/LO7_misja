@@ -1,0 +1,9 @@
+Język: SQL
+
+liczba punktów za zadanie:
+
+treść fabuły:
+treść zadania łososiowa ramka:
+Do dyspozycji masz dwie tabele, .... zawierające dane lokalne na temat firm z DemosKratos  i ... zawierające dane na arenie międzynarodowej. w obu tabelach znajduje sie kolumna rating. Twoim zadaniem jest znalesć wszytskie firmy których różnica w ocenie międzynarodowej a lokalnej jest większa niż 4 i wyświetlić ich nazwy z kolumny name a także obliczoną różnice. Wynik posortuj malejąco po różnicy ocen.
+
+
