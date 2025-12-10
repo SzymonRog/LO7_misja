@@ -1,3 +1,5 @@
+Etykietki: INFINITE_LOOP
+
 database.py
 widoczny: NIE
 do edycji: NIE

@@ -35,23 +35,26 @@ def answer(posts, time_threshold):
     return max_ip, percent
 
 def test():
+    komunikat = ""
     try:
         posts = gen_posts()
         time_threshold = 10
-
 
         correct_answer = answer(posts, time_threshold)
         user_answer = find_suspicious_ip(posts, time_threshold)
 
         if user_answer == correct_answer:
-            print(f"Pieknie!\nWygląda na to że {user_answer[1]}% postów i artykułów zostało wysłanych z ip {user_answer[0]}.\n"
-                  f"Ciekawe do kogo należy komputer z tym ip?")
+            komunikat += f"Pieknie!\nWygląda na to że {user_answer[1]}% postów i artykułów zostało wysłanych z ip {user_answer[0]}.\n"
+            komunikat +=  f"Ciekawe do kogo należy komputer z tym ip?"
+            print(komunikat)
             return True
         else:
-            print("Hmm mm najwyraźniej coś jest nie tak.")
+            komunikat += "Hmm mm najwyraźniej coś jest nie tak."
+            print(komunikat)
             return False
     except:
-        print("Hmm mm najwyraźniej coś jest nie tak.")
+        komunikat += "Coś poszło nie tak!"
+        print(komunikat)
         return False
 
 

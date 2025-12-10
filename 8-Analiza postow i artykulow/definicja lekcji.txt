@@ -1,6 +1,6 @@
 Język: Python
 Liczba Punktów za wykonanie:
-
+Etykietki: SZERYF_PRAWDY
 
 Tresc fabuły:
 
