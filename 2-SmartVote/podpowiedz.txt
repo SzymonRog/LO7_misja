@@ -1,0 +1,9 @@
+No powiem tak, na pewno jest to troche skomplikowane ale przyda się coś w tym stylu:
+
+for (int v = 0; v < 15; v++) {
+        for (int pos = 0; pos < 8; pos++) {
+          .....
+        }
+      }
+      
+Gdybym podpowiedział ci więcej było by to za proste a nie o to tu chodzi. Powodzenia <3
