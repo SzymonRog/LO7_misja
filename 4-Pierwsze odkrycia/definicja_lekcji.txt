@@ -1,0 +1,33 @@
+Język: C++
+Liczba Punktów za wykonanie:
+
+
+Tresc fabuły:
+
+Tresc zadania (łososiowa ramka):
+Po zlokalizowaniu miejsca awari zostałeś wysłany by ja naprawić. Twoje zxadanie jest proste znaleść błąd w pliku smartvote.cpp i go usunąc następnie wystarczy odpalic program.
+Ciekawe co tam znajdziesz....
+
+smartvote.hpp :
+- widoczny: NIE
+- do edycji: NIE
+
+smartvote.cpp :
+widoczny: TAK
+do edycji: TAK
+
+test.cpp :
+Plik testowy
+widoczny: NIE
+do edycji: NIE
+
+answer.cpp :
+Proponowana odpowiedz
+widoczny: NIE
+do edycji: NIE
+
+output: TAK
+testy: NIE
+
+
+Wykonawca: Szymon

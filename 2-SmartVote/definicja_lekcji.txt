@@ -1,6 +1,25 @@
 Język: C++
 Liczba punktów za wykonanie:
 
+treść zadania łososiowa ramka:
+Twoim zadaniem jest uzupełnić funkcję smartCount() tak, aby obliczała wyniki głosowania metodą Borda.
+Do funkcji przekazywane są następujące argumenty:
+votes – dwuwymiarowa lista zawierająca głosy poszczególnych osób, np.:
+[['Projekt_A', 'Projekt_B'], ['Projekt_B', 'Projekt_A']]
+projects – lista wszystkich dostępnych projektów, np.:
+['Projekt_A', 'Projekt_B', ...]
+result – tablica, którą należy uzupełnić o liczbę punktów zdobytych przez projekty z listy projects.
+
+Twoim zadaniem jest zaimplementować metodę Borda, która:
+Dla każdej listy z votes przyznaje projektom punkty w zależności od ich pozycji.
+Projekt na pozycji:
+indeks 0 dostaje 7 punktów
+indeks 1 dostaje 6 punktów
+…
+indeks 7 dostaje 0 punktów
+Funkcja nie musi nic zwracać — wystarczy, że odpowiednio zmodyfikuje tablicę result.
+
+
 test.cpp
 funkcja Testująca
 widoczne: NIE

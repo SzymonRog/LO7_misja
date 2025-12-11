@@ -5,7 +5,14 @@ Liczba Punktów za wykonanie:
 Tresc fabuły:
 
 Tresc zadania (łososiowa ramka):
-
+Twoim zadaniem jest uzupełnić funkcjie find_log() tak by znalazło odpowiedniego commita który sprawił że nasz system nie działa
+Do funkcji przekazywane sa nastepujace argument:
+-date to maksymalna data przed jaka został wykonany szukany commit
+-branch to nazwa brancha na którym został wykonany szukany commit
+-file to nazwa pliku w jakim zostały wykonane zmiany przez które nasz system nie działa.
+id|date|message|file|main|user
+Wszytskie dane są zapisane w pliku commits.txt.
+Twoim zadaniem jest znaleść ostatnią zmiane w pliku file przed data date na branchu branch i zwróić id tego commit.
 
 commits.txt :
 - widoczny: NIE

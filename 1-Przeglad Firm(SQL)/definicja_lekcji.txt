@@ -4,9 +4,9 @@ liczba punktów za zadanie:
 
 Treść fabuły:
 Treść zadania łososiowa ramka:
-Do dyspozycji masz dwie tabele, demoskratos_system zawierające dane lokalne na temat firm z DemosKratos i ... zawierające dane na arenie międzynarodowej
+Do dyspozycji masz dwie tabele, demoskratos_system zawierające dane lokalne na temat firm z DemosKratos i ... zawierające dane z całego kraju
 w obu tabelach znajduje sie kolumna rating.
-Twoim zadaniem jest znalesć wszytskie firmy których różnica w ocenie międzynarodowej a lokalnej jest większa niż 4 i wyświetlić ich nazwy z kolumny name a także obliczoną różnice.
+Twoim zadaniem jest znalesć wszytskie firmy których różnica w ocenie krajowej a lokalnej jest większa niż 4 i wyświetlić ich nazwy z kolumny name a także obliczoną różnice.
 Wynik posortuj malejąco po różnicy ocen.
 
 Wykonawca: Semen
