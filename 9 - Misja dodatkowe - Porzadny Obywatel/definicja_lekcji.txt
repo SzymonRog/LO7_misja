@@ -5,7 +5,19 @@ Etykietki: CITIZEN
 Tresc fabuły:
 
 Tresc zadania (łososiowa ramka):
-
+Twoim zadaniem jako porządny obywatel jest pomagac innym dla tego postanowiłęs zmaksymalizować swoja efektywność.
+Douzupełnienia masz funkcjie find_best_tasks() która znajdzie największą liczbe punktów za wykonane zadania w podanym czasie
+Do funkcji zostaja przekazane 2 argumenty:
+- taska jest to lista słowników w formacie
+{
+"id": 1, 
+"name": "Pomoc w bibliotece", 
+"time": 15, 
+"points": 50
+},
+gdzie time to czas który zajmuje wykonanie danego zadania a points to liczba punktów jakie otrzymamy po jego zrobieniu
+- max_time to maksymalny czas w którym możemy wykonywac zadania
+Funkcja ma zwrócić maksymalna ilośc punktów możliwych do zdobycia w podanym czasie
 
 best_tasks.txt :
 - widoczny: TAK

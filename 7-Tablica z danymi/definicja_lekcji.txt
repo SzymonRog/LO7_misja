@@ -5,7 +5,7 @@ Liczba Punktów za wykonanie:
 Tresc fabuły:
 
 Tresc zadania (łososiowa ramka):
-Udało nam się dostać dostęp do raportu firmy TrueCorp w sprawie afery SmartVote jednak przez błędy w sieci część danych jest zamieniona na liczby
+Udało nam się dostać dostęp do raportu firmy TrueCorp w sprawie afery SmartVote jednak przez błędy w sieci część danych jest zamieniona na liczby.
 Twoim zadaniem jest uzupełnienie funkcji decode_hidden_name() która odszyfruje dane osobowe ukryte w raporcie firmy TrueCorp. Patrząc po tych wszystkich liczbach nasz specjalista zauwazył, że sensowne słowa otzrymujemy jesli:
 1. Wybierz liczby gdzie: index % 21 == 19
 2. Z każdej liczby weź: number % 100
@@ -22,6 +22,9 @@ tabela.py:
 widoczny: NIE
 do edycji: NIE
 
+raport.txt
+widoczny: TAK
+do edycji: NIE
 
 test.py:
 Plik testowy

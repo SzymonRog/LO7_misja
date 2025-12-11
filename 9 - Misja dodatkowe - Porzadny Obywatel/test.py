@@ -25,6 +25,7 @@ def calc_points(tasks, max_time):
 
 
 def test():
+    komunikat = ""
     try:
         random.seed()
         selected_random_tasks = random.sample(tasks, 10)
@@ -34,11 +35,15 @@ def test():
         correct_answer = calc_points(selected_random_tasks, max_time)
 
         if user_answer == correct_answer:
-            print(f"Test {i + 1} passed!")
+            komunikat += "Test {i + 1} passed!"
+            print(komunikat)
             return False
 
         else:
-            print(f"Test {i + 1} failed!")
+            komunikat += f"Test {i + 1} failed!\n"
+            komunikat += f"Expected: {correct_answer}"
+            komunikat += f" Result: {user_answer}"
+            print(komunikat)
             return True
 
     except:
