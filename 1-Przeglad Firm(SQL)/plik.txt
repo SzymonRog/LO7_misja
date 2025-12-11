@@ -1,2 +1,15 @@
-result_query: select name from demoskratos_system where name="TechCorp"
-"TechCorp" :Nie 
+result_query: TAK
+query:
+SELECT
+    krs.KRS,
+    krs.Nazwa_Firmy,
+    krs.Rating AS Rating_Krajowy,
+    dk.Rating_Lokalny,
+    krs.Status_Prawny
+FROM
+    KRS_data AS krs
+INNER JOIN
+    demos_system AS dk
+    ON krs.KRS = dk.KRS
+WHERE krs.Status_Prawny = 'Aktywna'  and abs(krs.Rating - dk.Rating_Lokalny) > 2.5
+

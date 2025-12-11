@@ -4,11 +4,19 @@ liczba punktów za zadanie:
 
 Treść fabuły:
 Treść zadania łososiowa ramka:
-Do dyspozycji masz dwie tabele, demoskratos_system zawierające dane lokalne na temat firm z DemosKratos i ... zawierające dane z całego kraju
-w obu tabelach znajduje sie kolumna rating.
-Twoim zadaniem jest znalesć wszytskie firmy których różnica w ocenie krajowej a lokalnej jest większa niż 4 i wyświetlić ich nazwy z kolumny name a także obliczoną różnice.
-Wynik posortuj malejąco po różnicy ocen.
+Do dyspozycji masz dwie tabele, demos_system zawierające dane lokalne na temat firm z DemosKratos i KRS_data zawierające dane z publicznego KRS na temat firm w całej Polsce.
+Twoim zadaniem jest proste znaleźć firmy które są wciąż aktywne a różnica Rating_lokalny i Rating (Z tablicy KRS_data) jest większa niż 2.5.
+Wynikowa tablica powinna zawierac następujące kolumny:
+-KRS
+-Nazwa_firmy
+-Rating_Krajowy
+-Rating_lokalny
+-Status_Prawny
 
-Wykonawca: Semen
+
+
+
+
+Wykonawca: Szymon/Semen
 
 
