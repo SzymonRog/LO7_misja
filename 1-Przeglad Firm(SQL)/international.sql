@@ -96,7 +96,6 @@ INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('MoscowWorks','Russia
 INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('TorontoSystems','Canada',134.55,0,'Liam Brown');
 INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('SydneyDynamics','Australia',89.77,17,'Mia Wilson');
 INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('LondonTech','UK',173.,6,'Emily Davis');
-INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('TechCorp','Poland',173.4,42,'Jan Kowalski');
 INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('ParisSystems','France',96.55,1,'Julien Martin');
 INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('BerlinDynamics','Germany',85.33,19,'Lukas Becker');
 INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('RomeWorks','Italy',00.11,NULL,'Giulia Bianchi');
@@ -116,4 +115,3 @@ INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('BialystokTech','Pola
 INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('RzeszowWorks','Poland',66.88,4,'Piotr Wozniak');
 INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('OlsztynDynamics','Poland',55.33,3,'Katarzyna Michalska');
 INSERT INTO mytable(Name,Country,Stock,rating,CEO) VALUES ('OpoleTech','Poland',44.77,NULL,'Marcin Zielinski');
-

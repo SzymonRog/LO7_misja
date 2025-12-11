@@ -1,4 +1,4 @@
-CREATE TABLE demoskratos_system(
+CREATE TABLE mytable(
    Name            VARCHAR(18) NOT NULL PRIMARY KEY
   ,Taxes_Paid      INTEGER  NOT NULL
   ,Founder         VARCHAR(18) NOT NULL
@@ -53,7 +53,6 @@ INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('VortexEnterprises',1035364,'Ethan Yamamoto',3559,19,.4,0.49,'Technology',3485643,15.94,'Lucas Griffin',0.44,'Poland');
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('VertexTech',57350,'Wioletta Schneider',3578,0,4.84,0.54,'Media',9368769,9.37,'Wioletta Garcia',0.43,'Poland');
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('HelioGroup',6066865,'Ethan Garcia',611,43,1.0,0.76,'Energy',166894754,71.8,'Olga Dubois',0.6,'Poland');
-INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('TechCorp',5651547,'Julia Schneider',3476,48,.78,0.85,'Manufacturing',404917948,37.84,'Jan Kowalski',0.37,'Poland');
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('EmeraldTech',3760617,'Lena Kerr',640,9,4.0,0.7,'Retail',47565557,160.7,'Wioletta Watanabe',0.68,'Poland');
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('GoldenLabs',584797,'Olga Miller',50,8,.11,0.7,'Transport',4816967,163.51,'Robert Smith',0.88,'Poland');
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('VertexSystems',533334,'John Dubois',360,3,4.7,0.55,'Media',8090877,7.55,'Marek Bergström',0.68,'Poland');
@@ -164,5 +163,3 @@ INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('GoldenTech',7456196,'Emma Zielinski',78,3,3.57,0.84,'Agriculture',34967315,57.69,'Sophie Watanabe',0.84,'Poland');
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('BlueWorks',134946,'Robert Schneider',719,9,4.66,0.63,'Healthcare',310990,135.43,'Victor Garcia',0.77,'Poland');
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('TitanHoldings',6709466,'Robert Schneider',659,11,3.0,0.5,'Energy',03636163,193.76,'Helena Bergström',0.48,'Poland');
-
-
