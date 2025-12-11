@@ -1,4 +1,4 @@
-import database
+
 
 def update_actions(ai_database):
     password = "11010010100100111000"
