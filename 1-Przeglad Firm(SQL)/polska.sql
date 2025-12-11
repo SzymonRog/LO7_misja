@@ -1,4 +1,4 @@
-CREATE TABLE mytable(
+CREATE TABLE demoskratos_system(
    Name            VARCHAR(18) NOT NULL PRIMARY KEY
   ,Taxes_Paid      INTEGER  NOT NULL
   ,Founder         VARCHAR(18) NOT NULL
@@ -164,4 +164,5 @@ INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('GoldenTech',7456196,'Emma Zielinski',78,3,3.57,0.84,'Agriculture',34967315,57.69,'Sophie Watanabe',0.84,'Poland');
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('BlueWorks',134946,'Robert Schneider',719,9,4.66,0.63,'Healthcare',310990,135.43,'Victor Garcia',0.77,'Poland');
 INSERT INTO mytable(Name,Taxes_Paid,Founder,Nr_Of_Employees,Rating,Public_Review,Democracy_Level,Sector,GDP,Stock_Price,CEO,GEI,Country) VALUES ('TitanHoldings',6709466,'Robert Schneider',659,11,3.0,0.5,'Energy',03636163,193.76,'Helena Bergström',0.48,'Poland');
+
 
