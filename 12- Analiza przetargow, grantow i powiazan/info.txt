@@ -1,13 +1,29 @@
-Język: SQL
-Liczba Punktów za wykonanie:
-Typy plików:
-- np. Test.py nie widoczny dla użykownika
+result_query: TAK
+query:
+SELECT
+    eg.grant_id,
+    eg.project_name,
+    eg.grant_amount,
+    c.company_name,
+    ga.implementation_country,
+    s.full_name,
+    s.position,
+    s.phone,
+    gs.signature_date as signing_date
+FROM
+    eu_grants eg
+    JOIN grant_signatures gs ON eg.grant_id = gs.grant_id
+    JOIN signatories s ON gs.signatory_id = s.signatory_id
+    JOIN grant_assignments ga ON eg.grant_id = ga.grant_id
+    JOIN contractors c ON ga.contractor_id = c.contractor_id
+    JOIN eu_founding_sources efs ON ga.source_id = efs.source_id
+WHERE
+	eg.signing_date > '2025-11-01'
+    and eg.implementation_months <= 36
+    AND eg.grant_amount >= 150000
+    AND efs.fund_type LIKE '%EU%'
+    AND ga.implementation_country = 'Poland'
+    AND gs.is_verified = 1
+ORDER BY
+    gs.signature_date DESC;
 
-
-Tresc fabuły: po przeszukiwaniu niedobrych finansowań widzimy że one zostałyu podpisaane przez SystemAI_v3.7
-Tresc calego zadania:
-Dupa dupna wiele sprawdzeń cośw stylu DARPA questów na LNU
-
-Uwagi:
-
-Wykonawca: Semen
