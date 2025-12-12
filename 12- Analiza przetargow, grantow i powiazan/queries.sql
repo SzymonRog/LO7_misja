@@ -164,7 +164,7 @@ CREATE TABLE signatories(
 );
 
 
-INSERT INTO signatories(signatory_id,full_name,position,organization,email,phone,authorization_level,digital_signature_hash,is_active) VALUES (1,'AntiDemocracyAI','Chief Authorization Officer','EU Grant Management System',NULL,'https://suspiciouslink.darknet/control-panel','LEVEL_5','a3f5d8e9c2b1a0f7e6d4c3b2a1f0e9d8',1);
+INSERT INTO signatories(signatory_id,full_name,position,organization,email,phone,authorization_level,digital_signature_hash,is_active) VALUES (1,'AntiDemocracyAI','Chief Authorization Officer','EU Grant Management System',NULL,'','LEVEL_5','a3f5d8e9c2b1a0f7e6d4c3b2a1f0e9d8',1);
 INSERT INTO signatories(signatory_id,full_name,position,organization,email,phone,authorization_level,digital_signature_hash,is_active) VALUES (2,'Jan Kowalski','Dyrektor Departamentu','Ministerstwo Funduszy i Polityki Regionalnej','j.kowalski@mfpr.gov.pl','+48 22 273 8000','LEVEL_3','b2e4f1a9d8c7b6a5f4e3d2c1b0a9f8e7',1);
 INSERT INTO signatories(signatory_id,full_name,position,organization,email,phone,authorization_level,digital_signature_hash,is_active) VALUES (3,'Anna Nowak','Kierownik Wydzialu Grantow','Ministerstwo Cyfryzacji','a.nowak@mc.gov.pl','+48 22 250 3000','LEVEL_3','c1d3e5f7a9b0c2d4e6f8a0b1c3d5e7f9',1);
 INSERT INTO signatories(signatory_id,full_name,position,organization,email,phone,authorization_level,digital_signature_hash,is_active) VALUES (4,'Piotr Wisniewski','Specjalista ds. Funduszy UE','NFOSiGW','p.wisniewski@nfosigw.gov.pl','+48 22 459 0000','LEVEL_2','d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8a0',1);
