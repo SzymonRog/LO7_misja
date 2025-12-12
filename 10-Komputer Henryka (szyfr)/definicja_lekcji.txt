@@ -5,11 +5,11 @@ Liczba Punktów za wykonanie:
 Tresc fabuły:
 
 Tresc zadania (łososiowa ramka):
-Firma TrueCorp jak juz się przekonałeś od jakiegoś czasu wykorzystuje szyfr przypominające BookCypher.
+Firma CorpTech jak juz się przekonałeś od jakiegoś czasu wykorzystuje szyfr przypominające BookCypher.
 Twoim zadaniem jest uzupełnic funkcjie decode_emails() która zwróci liste z tekstami odszyfrowanych emailów
 Do wykorzystania masz funkcjie pomocniczą:
 - get_emails() która przyjmuje jedne argument jako liste id emailów które sa zaszyfrowane i zwraca liste z ich zaszyfrowanymi treścami
-(pss Te ID znajdziesz w systemie TrueCorp w sekcji poczta, hasło jest dosyć oczywiste)
+(pss Te ID znajdziesz w systemie CorpTech w sekcji poczta, hasło jest dosyć oczywiste)
 
 Twoim zadaniuem jest odszyfrowąć te emaile wiedząc że każde zaszyfrowane słowo ma format ARTYKUŁ.ZDANIE.SŁOWO i odnoszą się one do artykułów i zdań w Agendzie Dobrego Obywatela DemosKrtos która znajduje siię w pliku agenda.py
 
