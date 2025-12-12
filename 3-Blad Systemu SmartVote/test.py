@@ -9,8 +9,9 @@ def find_commit(id):
                 return commit
 
 def test():
+    komunikat = ""
     try:
-        commit_data = 'gg23f42 | 2024-12-04 03:45:22 | Final optimization | Borda.cpp |main | [AutoTask]-TrueCorp'
+        commit_data = 'gg23f42 | 2024-12-04 03:45:22 | Final optimization | Borda.cpp |main | [AutoTask] CorpTech'
         branch = 'main'
         file = 'Borda.cpp'
 
@@ -19,14 +20,19 @@ def test():
         user_answer = find_log(date, branch, file)
 
         if user_answer == answer:
-            print(f"Ostatni commit przed awarią: \n{commit_data}\nCoś tu smierdzi czyżby ktoś tu specjanlnie próbował sabotowac nasz system?\n'AutoTask - TrueCorp'  co to ma wogóle znaczyć?")
+            komunikat += "Brawo udało ci sie!\n"
+            komunikat += f"Ostatni commit przed awarią: \n{commit_data}\nCoś tu smierdzi czyżby ktoś tu specjanlnie próbował sabotowac nasz system?\n'AutoTask - CorpTech'  co to ma wogóle znaczyć?"
+            print(komunikat)
             return True
         else:
             user_commit = find_commit(user_answer).strip().split("|")
-            print(f"Ten commit chyba jest w porządku: \n{user_commit[0]} | {user_commit[1]} | {user_commit[2]} | {user_commit[3]} | {user_commit[4]} | {user_commit[5]}")
+            komunikat += "Coś jest chyba nie tak.\n"
+            komunikat += f"Ten commit chyba jest w porządku: \n{user_commit[0]} | {user_commit[1]} | {user_commit[2]} | {user_commit[3]} | {user_commit[4]} | {user_commit[5]}"
+            print(komunikat)
             return False
     except:
-        print("Nie ma takiego commita.")
+        komunikat += "Nie ma takiego commita."
+        print(komunikat)
         return False
 
 test()

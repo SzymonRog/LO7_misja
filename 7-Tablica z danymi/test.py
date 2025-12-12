@@ -1,4 +1,4 @@
-from user import decode_hidden_name
+from decode_name import decode_hidden_name
 from tabela import tabela
 
 def decode(tabel):
@@ -18,19 +18,24 @@ def decode(tabel):
 
 
 def test():
+    komunikat = ""
     try:
         answer = decode(tabela)
         user_answer = decode_hidden_name(tabela)
 
         if answer == user_answer:
-            print(f"Wygląda na to że osoba ukryta w raporcie to {answer}.\n"
-                  f"Ciekawe czy faktycznie miała cos dotczynienia z tym błędem.")
+            komunikat += f"Wygląda na to że osoba ukryta w raporcie to {answer}.\n"
+            komunikat +=f"Ciekawe czy faktycznie miała cos wspólnego z tym błędem."
+            print(komunikat)
             return True
         else:
-            print("Hmmm wygląda na to że to nie o to nam chodziło")
+            komunikat += f"Twoja funkcja wypluła cos takiego: {str(user_answer)}\n"
+            komunikat += "Hmmm wygląda na to że to nie o to nam chodziło"
+            print(komunikat)
             return False
     except:
-        print("Hmmm wygląda na to że to nie o to nam chodziło")
+        komunikat += "Hmmm wygląda na to że to nie o to nam chodziło"
+        print(komunikat)
         return False
 
 

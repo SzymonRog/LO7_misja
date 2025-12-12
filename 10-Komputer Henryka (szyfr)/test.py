@@ -1,3 +1,4 @@
+
 from decode_emails import decode_emails
 from get_emails import get_emails
 from agenda import agenda
@@ -81,7 +82,7 @@ formated_emails = [
     Raport niezależny musi wyglądać 
     profesjonalnie. 
     Zrzucenie winy na kozła ofiarnego. 
-    Cel Zofia Kowalska 
+    Cel Zofia Nowak
     programistka ratusz.
     Pani Zofia obecnie na urlopie macierzyńskim. 
     Fałszywy raport musi zawierać oskarżenia o manipulację systemami. 
@@ -93,6 +94,7 @@ formated_emails = [
 ]
 
 def test():
+    komunikat = ""
     global formated_emails
     try:
         user_answer = decode_emails()
@@ -105,13 +107,16 @@ def test():
             return False
         if set(answer) == set(user_answer):
             for i in range(len(answer)):
-                print(formated_emails[i])
+                komunikat += "Email nr " + str(i + 1) + ":"
+                komunikat += str(formated_emails[i])
+                komunikat += "\n"
+                print(komunikat)
             return True
         else:
             print("Hmmmm coś sie nie zgadza w odszyfrowanym tekście. Spróbuj to naprawić")
             return False
     except:
-        print("To chyba nie te maile")
+        print("Coś poszło nie tak!")
         return False
 
 test()

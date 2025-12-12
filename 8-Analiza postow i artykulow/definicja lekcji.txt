@@ -21,11 +21,9 @@ Przykład:
 
 time_threshold — maksymalny odstęp czasu (w sekundach), jaki może wystąpić między kolejnymi postami, aby należały do tego samego łańcucha.
 
-Funkcja ma znaleźć IP komputera z którego został wysłany największy łańcuch postów, w którym odstępy między postami były nie większe niż time_threshold.
-Funkcja ma zwracać krotkę w któraj na pierwszym miejscu jest podane IP a na drugim zaokrąglony do 2 miejsc po przecinku procentowy udział najdłuższego łańcucha do liczby wszytskich postów
-np. output: (89.74.152.23, 93.45)
-
-
+Funkcja ma znaleźć IP komputera, z którego został wysłany największy łańcuch postów, w którym odstępy między postami były nie większe niż time_threshold.
+Funkcja ma zwracać krotkę, w której na pierwszym miejscu jest podane ip znalezionego komputera a na drugim zaokrąglony do 2 miejsc po przecinku procentowy udział najdłuższego łańcucha do liczby wszystkich postów
+np. output: (79.14.132.23, 91.4)
 
 
 find_ip.py:

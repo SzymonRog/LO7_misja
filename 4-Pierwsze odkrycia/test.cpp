@@ -63,7 +63,7 @@ bool test() {
     smartCount(votes, projects, results);
 
     if (checkResults(expected, results)) {
-        komunikat = "Brawo!! udało ci się znaleźć błąd. Ale co to za komentaz w kodzie z jakimś linkiem: https://truecomp.vercel.app/ .\n";
+        komunikat = "Brawo!! udało ci się znaleźć błąd. Ale co to za komentarz w kodzie z jakimś linkiem: https://corptech-internal.vercel.app/ .\n";
         cout << komunikat;
         return true;
     }

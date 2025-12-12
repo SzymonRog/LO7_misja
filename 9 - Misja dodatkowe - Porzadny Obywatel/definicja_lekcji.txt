@@ -37,8 +37,10 @@ Proponowana odpowiedz
 widoczny: NIE
 do edycji: NIE
 
-output: NIE
+output: TAK
 testy: TAK
+liczba_testów: 10
+min_zaliczonych: 10
 
 
 Wykonawca: Mateusz

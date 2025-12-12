@@ -127,11 +127,11 @@ ce1cb9a|2024-12-01 15:02:11|Refactor ranking order|RankingSystem.cpp|develop|sar
 ef91bc2|2024-12-02 10:30:14|Improve threshold logic|VoteThreshold.cpp|develop|foxbyte
 fa210cd|2024-12-03 14:56:20|Optimize candidate filtering|CandidateFilter.cpp|develop|katya
 0e1ac9f|2024-12-03 17:10:09|Fix filter inconsistency|CandidateFilter.cpp|main|daniel
-f1c9ab0|2024-12-04 01:33:11|Tune Borda scoring weights|Borda.cpp|main|TrueCorp
-gg23f42|2024-12-04 03:45:21|Final optimization|Borda.cpp|main|[AutoTask] - TrueCorp
+f1c9ab0|2024-12-04 01:33:11|Tune Borda scoring weights|Borda.cpp|main|CorpTech
+gg23f42|2024-12-04 03:45:21|Final optimization|Borda.cpp|main|[AutoTask] - CorpTech
 cba11ef|2024-12-04 07:22:12|Refactor result paths|Paths.cpp|develop|marek-dev
 9bfa201|2024-12-04 09:55:42|Fix pointer cleanup|Memory.cpp|main|sara
-e0c1fbd|2024-12-04 15:33:21|Adjust Borda internal mapping|Borda.cpp|main|TrueCorp
+e0c1fbd|2024-12-04 15:33:21|Adjust Borda internal mapping|Borda.cpp|main|CorpTech
 ccaf921|2024-12-04 18:42:05|Fix mapping bounds|Borda.cpp|main|daniel
 ff1a0bc|2024-12-04 20:51:27|Improve Borda overflow protection|Borda.cpp|develop|foxbyte
 0c1af92|2024-12-05 10:14:12|Add safety guards|VoteCounter.cpp|main|katya
