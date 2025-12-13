@@ -1,0 +1,2 @@
+Jeśli masz mały problem to myśle, że ten warunek może ci pomóc:
+..... WHERE krs.Status_Prawny = 'Aktywna'  and abs(krs.Rating - dk.Rating_Lokalny) > 2.5;

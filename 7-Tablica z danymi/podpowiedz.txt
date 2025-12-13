@@ -1,0 +1,9 @@
+Mała podpowiedz:
+if 1 <= last <= 26:
+    letters.append(chr(last + 64))
+elif 27 <= last <= 52:       # A-z
+    letters.append(chr(last - 27 + 97)) # a–z
+elif last == 0 or last == 53:  # spacja
+    letters.append(" ")
+
+To powinno pomóc <3

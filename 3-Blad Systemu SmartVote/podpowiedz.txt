@@ -1,0 +1,6 @@
+W tym zadaniu możesz miec mały problem z porównaniem dat do tego przydała ci się ten kod:
+
+from datetime import datetime
+commit_date = datetime.strptime(data, "%Y-%m-%d %H:%M:%S")
+
+teraz możesz swobodnie porównywać date z commit_date

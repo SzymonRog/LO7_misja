@@ -1,0 +1,5 @@
+HHmmmm znowu nie wiesz, jak coś zrobić no to masz podpowiedz:
+
+... WHERE status = 'W trakcie' AND koszty_zl > budzet_zl And data_rozpoczecia > '2025-01-01' ...
+
+Mam nadzieje, że ci to pomoże <3

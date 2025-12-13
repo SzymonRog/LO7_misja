@@ -1,0 +1,19 @@
+result_query: TAK
+query:
+SELECT
+    id,
+    nazwa_projektu,
+    wykonawca,
+    koszty_zl * 0.46 AS koszty_dos,
+    budzet_zl * 0.46 AS budzet_dos,
+    (koszty_zl - budzet_zl) * 0.46 AS roznica_dos,
+    status,
+    data_rozpoczecia,
+    kategoria
+FROM projects
+WHERE
+    status = 'W trakcie'
+    AND koszty_zl > budzet_zl
+    And data_rozpoczecia > '2025-01-01'
+ORDER BY (koszty_zl - budzet_zl) DESC;
+

@@ -1,11 +1,11 @@
 Język: C++
-Liczba Punktów za wykonanie:
+Liczba Punktów za wykonanie: 10 000
 
 
 Tresc fabuły:
 
 Tresc zadania (łososiowa ramka):
-Po zlokalizowaniu miejsca awari zostałeś wysłany by ja naprawić. Twoje zadanie jest proste znaleść błąd w pliku smartvote.cpp i go usunąc następnie wystarczy odpalic program.
+Po zlokalizowaniu miejsca awari zostałeś wysłany by ja naprawić. Twoje zadanie jest proste znaleźć błąd w pliku smartvote.cpp i go usunąć, następnie wystarczy odpalić program.
 Ciekawe co tam jeszcze znajdziesz....
 
 smartvote.hpp :

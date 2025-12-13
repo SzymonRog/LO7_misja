@@ -1,5 +1,5 @@
 Język: Python
-Liczba Punktów za wykonanie:
+Liczba Punktów za wykonanie: 40 000
 Etykietki: SZERYF_PRAWDY
 
 Tresc fabuły:

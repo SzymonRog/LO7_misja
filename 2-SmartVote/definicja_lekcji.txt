@@ -1,5 +1,5 @@
 Język: C++
-Liczba punktów za wykonanie:
+Liczba punktów za wykonanie: 20 000
 
 treść zadania łososiowa ramka:
 Twoim zadaniem jest uzupełnić funkcję smartCount() tak, aby obliczała wyniki głosowania metodą Borda.

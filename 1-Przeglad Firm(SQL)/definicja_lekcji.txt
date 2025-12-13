@@ -1,6 +1,6 @@
 Język: SQL
 
-liczba punktów za zadanie:
+liczba punktów za zadanie: 15 000
 
 Treść fabuły:
 Treść zadania łososiowa ramka:
@@ -13,8 +13,8 @@ Wynikowa tablica powinna zawierac następujące kolumny:
 -Rating_lokalny
 -Status_Prawny
 
-
-
+tables.sql
+Plik z queries do stworzenia bazy danych
 
 
 Wykonawca: Szymon/Semen
