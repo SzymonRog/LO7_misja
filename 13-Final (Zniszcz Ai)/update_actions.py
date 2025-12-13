@@ -1,2 +1,2 @@
-def update_actions(ai_database):
+def update_actions(ai_system):
     pass

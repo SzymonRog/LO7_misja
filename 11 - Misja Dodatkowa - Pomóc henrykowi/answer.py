@@ -1,5 +1,4 @@
 def filter_safe_emails(email, safe_domains, suspicious_words, safe_extensions):
-    """Filtruje emaile i zwraca tylko bezpieczne"""
 
 
     # Warunek 1: Sprawdź domenę nadawcy
@@ -27,7 +26,7 @@ def filter_safe_emails(email, safe_domains, suspicious_words, safe_extensions):
     if len(links) > 3:
         return False
 
-    # Warunek 5: Sprawdź załączniki (NOWE!)
+    # Warunek 5: Sprawdź załączniki
     attachments = email["attachments"]
 
     # Jeśli są załączniki, sprawdź każdy z nich

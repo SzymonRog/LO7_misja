@@ -1,5 +1,5 @@
 Język: Python
-Liczba Punktów za wykonanie:
+Liczba Punktów za wykonanie: 10 000
 Etykietki: CITIZEN
 
 Tresc fabuły:

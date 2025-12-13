@@ -1,5 +1,5 @@
 Język: SQL
-Liczba Punktów za wykonanie:
+Liczba Punktów za wykonanie: 20 000
 
 Tresc fabuły:
 Tresc calego zadania:

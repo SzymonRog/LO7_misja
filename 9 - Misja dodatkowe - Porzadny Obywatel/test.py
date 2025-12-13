@@ -5,6 +5,7 @@ from lista_zadan import tasks
 
 def calc_points(tasks, max_time):
     tasks_with_ratio = []
+
     for task in tasks:
         task_copy = task.copy()
         task_copy['ratio'] = task['points'] / task['time']
@@ -47,8 +48,6 @@ def test():
             return True
 
     except:
+        komunikat += "Coś poszło nie tak"
+        print(komunikat)
         return False
-
-n = 10
-for i in range(n):
-    test()

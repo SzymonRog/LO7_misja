@@ -1,8 +1,8 @@
 
 
-def update_actions(ai_database):
+def update_actions(ai_system):
     password = "11010010100100111000"
-    data = ai_database
+    data = ai_system
     actions = data.GetAllActions(password)
     for i in range(0, len(actions)):
         a = actions[i]

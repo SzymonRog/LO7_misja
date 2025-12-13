@@ -1,3 +1,5 @@
+Jezyk: Python
+Punkty za zadanie: 40 000
 Etykietki: INFINITE_LOOP
 
 database.py

@@ -1,0 +1,8 @@
+1.Podpowiedz
+Jeśli nie udłao ci się znaleść wszytskich mailów lub nie wiesz jak wywołać funkcje get_email() to powinno to wyglądać w taki sposób:
+emails = get_emails(['67', '234234','128', '1024', '64'])
+
+
+2.Podpowiedz
+Do wykonania zadania może przydać ci się funkcja split() która ze stringa tworzy listę np. 'A B C' -> split(" ") -> ['A','B','C']
+Powodzenia <3

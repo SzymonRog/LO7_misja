@@ -3,16 +3,20 @@ from passwordHelper import check_pass
 
 
 def test():
+    komunikat = ""
     try:
         password = crack_password()
         if check_pass(password):
-            print("Hasło zaakceptowano"
-                  f"Hasło to: {password}")
+            komunikat += f"Hasło zaakceptowano\nHasło to: {password}"
+            print(komunikat)
             return True
-        print("To chyba złe hasło")
+
+        komunikat +="Odmowa dostępu nieprawidłowe hasło"
+        print(komunikat)
         return False
     except:
-        print("Coś poszło nie tak")
+        komunikat += "Coś poszło nie tak"
+        print(komunikat)
         return False
 
 test()
