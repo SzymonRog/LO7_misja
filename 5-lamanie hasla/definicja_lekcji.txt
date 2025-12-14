@@ -5,11 +5,11 @@ Liczba Punktów za wykonanie: 10 000
 Tresc fabuły:
 
 Tresc zadania (łososiowa ramka):
-System firm CorpTech jest zabezpieczony hasłem ale zasady tworzenia go sa dosyć dziwne...
+System firm CorpTech jest zabezpieczony hasłem, ale zasady tworzenia go są dosyć dziwne...
 Twoim zadaniem jest uzupełnić funkcje crack_password() która zwróci poprawne hasło do systemu.
 Do wykonania zadania mogą się przydać dwie funkcje już dla ciebie przygotowane:
 - get_youth_word_2025 która zwraca listę młodzieżowych słów roku 2025
-- check_pass() która sprawdza czy hasło jest poprawne, jesli jest to zwraca True jeśli nie False
+- check_pass() która sprawdza czy hasło jest poprawne, jeśli jest to zwraca True, jeśli nie False
 
 crack_password.py:
 widoczny: TAK

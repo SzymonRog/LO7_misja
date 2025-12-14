@@ -1,4 +1,4 @@
-Kluczowe w całym zadaniu jest połączenie wszytskich tabel, wcale nie jest to takie trudne jak się wydaje musisz napisac coś w tym stylu:
+Kluczowe w całym zadaniu jest połączenie wszystkich tabel, wcale nie jest to takie trudne jak się wydaje musisz napisać coś w tym stylu:
 ....FROM eu_grants eg
 JOIN grant_signatures gs ON eg.grant_id = gs.grant_id
 JOIN signatories s ON gs.signatory_id = s.signatory_id

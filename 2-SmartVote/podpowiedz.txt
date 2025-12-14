@@ -6,4 +6,4 @@ for (int v = 0; v < 15; v++) {
         }
       }
       
-Gdybym podpowiedział ci więcej było by to za proste a nie o to tu chodzi. Powodzenia <3
+Gdybym podpowiedział ci więcej, byłoby to za proste, a nie o to tu chodzi. Powodzenia <3

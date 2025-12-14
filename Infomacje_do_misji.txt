@@ -1,0 +1,23 @@
+Tytuł Misji: DemosKratos - Walka o demokrację
+
+Osiągnięcia:
+
+tytuł: Infinite Loop
+opis: Za wywołanie przerażającej funkcji w misji "..."
+nazwa etykietki: INFINITE_LOOP
+liczba etykietek: 1
+plik: Infinite_loop100.png
+
+tytuł: Szeryf Prawdy
+opis: Za zidentyfikowanie źródła fałszywych postów
+nazwa etykietki:
+liczba etykietek: 1
+plik: Szeryf100.png
+
+tytuł: Citizen++
+opis: Za pomoc wszystkim w mieście
+nazwa etykietki: Citizen
+liczba etykietek: 2
+plik: Citizen100.png
+
+W folderze odznaki znajdują się pliki png z odznakami, a w folderze assets, można znaleźć wersję z wysoką rozdzielczością

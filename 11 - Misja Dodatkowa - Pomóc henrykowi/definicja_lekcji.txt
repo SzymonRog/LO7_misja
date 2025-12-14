@@ -24,7 +24,7 @@ Do uzupełnienia masz funkcjie filter_safe_emails która przyjmuje 4 argument:
 -suspicious_words - lista podejrzanych słów
 -safe_extensions - lista bezpiecznych rozszerzeń plików
 
-Funkcja ma zwracać wartość True jesli email jest bezpieczny lub false w przeciwnym razie.
+Funkcja ma zwracać wartość True, jeśli email jest bezpieczny lub false w przeciwnym razie.
 
 filter_emails.py:
 widoczny: TAK

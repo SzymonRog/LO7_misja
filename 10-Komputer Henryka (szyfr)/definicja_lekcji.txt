@@ -6,12 +6,12 @@ Tresc fabuły:
 
 Tresc zadania (łososiowa ramka):
 Firma CorpTech jak juz się przekonałeś od jakiegoś czasu wykorzystuje szyfr przypominające BookCypher.
-Twoim zadaniem jest uzupełnic funkcjie decode_emails() która zwróci liste z tekstami odszyfrowanych emailów
-Do wykorzystania masz funkcjie pomocniczą:
-- get_emails() która przyjmuje jedne argument jako liste id emailów które sa zaszyfrowane i zwraca liste z ich zaszyfrowanymi treścami
+Twoim zadaniem jest uzupełnić funkcję decode_emails() która zwróci listę z tekstami odszyfrowanych emailów
+Do wykorzystania masz funkcję pomocniczą:
+- get_emails() która przyjmuje jedne argument jako listę id emailów, które sa zaszyfrowane i zwraca listę z ich zaszyfrowanymi treściami
 (pss Te ID znajdziesz w systemie CorpTech w sekcji poczta, hasło jest dosyć oczywiste)
 
-Twoim zadaniuem jest odszyfrowąć te emaile wiedząc że każde zaszyfrowane słowo ma format ARTYKUŁ.ZDANIE.SŁOWO i odnoszą się one do artykułów i zdań w Agendzie Dobrego Obywatela DemosKrtos która znajduje siię w pliku agenda.py
+Twoim zadaniem jest odszyfrować te emaile wiedząc, że każde zaszyfrowane słowo ma format ARTYKUŁ.ZDANIE.SŁOWO i odnoszą się one do artykułów i zdań w Agendzie Dobrego Obywatela DemosKrtos, która znajduje się w pliku agenda.py
 
 
 

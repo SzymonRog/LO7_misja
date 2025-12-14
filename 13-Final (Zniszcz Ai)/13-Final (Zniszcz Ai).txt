@@ -1,6 +1,6 @@
-Z poprzedniego zadania udało ci się dostać dostęp do zablokowanej wczesniej sekcji z SystememAI,
-Dzięki temu mamy podgląd na część kodu systemu AntiDemocracyAi. Jak pewnie przeczytałes z notatki Profesora Cybulskiego jedyną opcją by raz na zawsze zatrzymac Ai jest wywołac przerażającą funkcjie dla każdego programisty infinite_loop() (chyba nie muszę tłumaczyć co robi)
-Jest jednak mały problem jesli zdezaktywujemy główny serwer AI to zadania polecone mniejszym maszynom nie będą automatycznie odwołane. Do odwoałnia zadań tych maszyn służy wlaśnie funkcja update_actions(database) którą włąsnie uzupełnisz.
+Z poprzedniego zadania udało ci się dostać dostęp do zablokowanej wcześniej sekcji z SystememAI,
+Dzięki temu mamy podgląd na część kodu systemu AntiDemocracyAi. Jak pewnie przeczytałeś z notatki Profesora Cybulskiego jedyną opcją, by raz na zawsze zatrzymać Ai jest wywołać przerażającą funkcję dla każdego programisty infinite_loop() (chyba nie muszę tłumaczyć co robi)
+Jest jednak mały problem, jeśli zdezaktywujemy główny serwer AI, to zadania polecone mniejszym maszynom nie będą automatycznie odwołane. Do odwołania zadań tych maszyn służy właśnie funkcja update_actions(database) którą uzupełnisz.
 A więc plan jest dość prosty:
 1) Zrozumieć działanie systemu
 2) Dostać hasło do wszystkich potrzebnych elementów planu
@@ -9,15 +9,15 @@ A więc plan jest dość prosty:
 5) Uruchomić infinite_loop()
 
 1)
-- W pliku [top_secret]AIcode.py znajdują się opisy wszytkich klas i funkcji potrzebnych do zniszczenia AI. Nie da się go uruchomić, ale da się przeczytać.
+- W pliku [top_secret]AIcode.py znajdują się opisy wszystkich klas i funkcji potrzebnych do zniszczenia AI. Nie da się go uruchomić, ale da się przeczytać.
 
-2) Hasło do GetAllActions i GetAI jest takie jak przekazal nam Profesor w notatce 862520. Znaczy się, nie do końca, bo komputery rozumieją tylko 0 i 1. Widocznie zapis dziesiętny był zastosowany do zmniejszenia ilości pamięci.
+2) Hasło do GetAllActions i GetAI jest takie, jak przekazał nam Profesor w notatce 862520. Znaczy się, nie do końca, bo komputery rozumieją tylko 0 i 1. Widocznie zapis dziesiętny był zastosowany do zmniejszenia ilości pamięci.
 Hasło do DisableDefences jest takie samo, jak to poprzednie, ale odwrócone. 0 -> 1, 1 -> 0
 
 3) Jeśli działaniem AI jest przysyłanie wirusa, trzeba zamienić to na usuwanie wirusa i aktywować działanie (state = 1)
    Jeśli działaniem AI jest akceptowanie umowy to trzeba dezaktywować działanie
 
-4,5) Reszta należy do ciebie, powodzenia!
+Reszta należy do ciebie, powodzenia!
 
 
 

@@ -2,7 +2,7 @@ from get_emails import get_emails
 from agenda import agenda
 
 def decode_emails():
-    emails = get_emails(['67', '234234','128', '1024', '64'])
+    emails = get_emails(['745', '234', '128', '1024', '64'])
     text_emails = []
 
     for email in emails:
@@ -22,6 +22,5 @@ def decode_emails():
         text_emails.append(decoded_text[1:])
 
     return text_emails
-
 
 

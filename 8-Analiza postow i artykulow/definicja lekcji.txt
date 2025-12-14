@@ -5,6 +5,7 @@ Etykietki: SZERYF_PRAWDY
 Tresc fabuły:
 
 Tresc zadania (łososiowa ramka):
+
 Twoim zadaniem jest uzupełnienie funkcji find_suspicious_ip().
 Do funkcji przekazywane są dwa argumenty:
 posts — lista słowników opisujących kolejne posty.

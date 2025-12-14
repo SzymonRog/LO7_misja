@@ -1,6 +1,6 @@
 1. Podpowiedz:
 To zadanie finałowe, ale i tak ci pomogę.
-Najważniejsze w tym zadaniu jest zrozumienie classy, zwróć szczególną uwagę na te funkcje co w zasadzie robią:
+Najważniejsze w tym zadaniu jest zrozumienie classy, zwróć szczególną uwagę na te funkcje, co w zasadzie robią:
 
 - GetAllActions(password)
 - GetObjective()
@@ -10,7 +10,7 @@ Najważniejsze w tym zadaniu jest zrozumienie classy, zwróć szczególną uwag�
 - infinite_loop()
 
 2. Podpowiedz:
-Jeśli dalej nie rozgryzłeś jak odwrócić niektóre działania AI to masz tu taką małą inspiracjię:
+Jeśli dalej nie rozgryzłeś jak odwrócić niektóre działania AI, to masz tu taką małą inspirację:
 
 ...
 actions = ai_system.GetAllActions(password)

@@ -3,8 +3,9 @@ Liczba Punktów za wykonanie: 20 000
 
 Tresc fabuły:
 Tresc calego zadania:
-Znowu ci się przyszło zmierzyć z danymi tym razem masz do dyspozycji tabele projects która zawiera dane różnych projektów wykonywanych i zlecanych przez miasto różnym firmą
-Twoim zadaniem jest wyświetlić projekty których koszta już przekroczyły budżet a w dalszym ciągu mają status "W trakcie", interesują nas tylko projekty które zostały rozpoczęte przed data '2025-01-01'
+
+Znowu ci się przyszło zmierzyć z danymi, tym razem masz do dyspozycji tabele projects, która zawiera dane różnych projektów wykonywanych i zlecanych przez miasto różnym firmą
+Twoim zadaniem, jest wyświetlić projekty, których koszta już przekroczyły budżet, a w dalszym ciągu mają status "W trakcie", interesują nas tylko projekty, które zostały rozpoczęte przed datą '2025-01-01'
 Wynikowa tabela powinna zawierać kolumny:
 -'id' projektu
 -'nazwa_projektu' z nazwą projektu

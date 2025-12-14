@@ -1,6 +1,6 @@
 1. Podpowiedz:
 
-Cóż zadanie jest dosyć trudne ale nik nie mówił że będzie łatwo.
+Cóż zadanie jest dosyć trudne, ale nik nie mówił, że będzie łatwo.
 Ten kod stworzy grupy ze wszystkimi ip
    ip_groups = {}
     for p in posts:
@@ -8,10 +8,10 @@ Ten kod stworzy grupy ze wszystkimi ip
 
 
 2. Podpowiedz:
-Kolejnym kluczowym elementem jest przejście po każdej grupie i sprawdzanie czy każdy kolejny post jest w podanym przedziale czasowym od poprzedniego ale by to zrobić najpierw najlepiej posortować każdą z grup można to zrobić za pomoca tej funkcji:
+Kolejnym kluczowym elementem jest przejście po każdej grupie i sprawdzanie, czy każdy kolejny post jest w podanym przedziale czasowym od poprzedniego, ale by to zrobić, najpierw najlepiej posortować każdą z grup można to zrobić za pomoca tej funkcji:
 for ip, group in ip_groups.items():
     group.sort(key=lambda x: x["timestamp"])
 
-Powodzenia wiecej nie mogę ci powiedzieć <3
+Powodzenia więcej nie mogę ci powiedzieć <3
 
 

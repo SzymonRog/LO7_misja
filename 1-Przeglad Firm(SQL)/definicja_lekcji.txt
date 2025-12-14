@@ -1,12 +1,11 @@
 Język: SQL
-
 liczba punktów za zadanie: 15 000
 
 Treść fabuły:
 Treść zadania łososiowa ramka:
 Do dyspozycji masz dwie tabele, demos_system zawierające dane lokalne na temat firm z DemosKratos i KRS_data zawierające dane z publicznego KRS na temat firm w całej Polsce.
-Twoim zadaniem jest proste znaleźć firmy które są wciąż aktywne a różnica Rating_lokalny i Rating (Z tablicy KRS_data) jest większa niż 2.5.
-Wynikowa tablica powinna zawierac następujące kolumny:
+Twoim zadaniem jest proste znaleźć firmy, które są wciąż aktywne a różnica Rating_lokalny i Rating (Z tablicy KRS_data) jest większa niż 2.5.
+Wynikowa tablica powinna zawierać następujące kolumny:
 -KRS
 -Nazwa_firmy
 -Rating_Krajowy
