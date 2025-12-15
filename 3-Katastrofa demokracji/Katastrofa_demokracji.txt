@@ -1,0 +1,10 @@
+Po pomyślnym wdrożeniu Waszego modułu Borda w SmartVote+, nadszedł dzień pierwszego, publicznego głosowania na projekty obywatelskie. System, nad którym czuwał CorpTech Solutions, miał być wzorem nowoczesności.
+Niestety, zamiast triumfu, nadeszła katastrofa.
+Dosłownie kilka minut po zamknięciu urn cyfrowych, system wyrzuca alert: BŁĄD WAGI KRYTYCZNEJ. Weryfikacja wyników pokazuje coś, co jest matematycznie niemożliwe i kompromitujące dla miasta: jeden z projektów otrzymał 103% głosów!
+Chaos wybucha natychmiast. Urząd Miasta jest w panice. Wasz zespół z UDS-D jako jedyny ma pełny dostęp do logów.
+Podejrzenia, które do tej pory musieliście tłumić, nagle stają się faktem. Ta anomalia to nie przypadek. Firma, która widnieje w krajowych bazach jako "niebezpieczna" i która wygrała kluczowy przetarg na SmartVote+, maczała w tym palce. CorpTech Solutions musiało dokonać celowej modyfikacji w kodzie, która zniekształciła wyniki.
+Wasza misja jest prosta: musicie znaleźć dowód. Musicie ustalić, kiedy i gdzie dokładnie wprowadzono błąd.
+Dlaczego to zrobili? Wprowadzenie tak rażącego błędu, który łatwo wykryć (jak 103% głosów), nie jest typowe dla subtelnej korupcji. To musi być celowy sabotaż – może mają większy plan, albo chcą skompromitować system i zyskać jeszcze większą kontrolę nad jego "naprawą"?
+
+
+Wybory samorządowe to właśnie te, które naprawdę wpływają na to, co dzieje się wokół Ciebie na co dzień – chodzi o sprawy takie jak drogi, szkoły, śmieci czy woda. To nie są jakieś odległe tematy, tylko konkretne rzeczy, które dotykają nas wszystkich na co dzień.
