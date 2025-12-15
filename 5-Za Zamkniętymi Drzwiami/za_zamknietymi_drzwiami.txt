@@ -20,8 +20,8 @@ Ten link – https://corp-internal.demo/admin – to panel kontrolny CorpTech.
 
 Ale jest jeden problem: panel jest zabezpieczony hasłem.
 I to nie jest zwykłe hasło.
-Na stronie pierwsze co widzicie to okinko logowania i zasady tworzenia hasłą.
-Kto pisze reguły tworzenia hasła zamiast po prostu użyć silnego hasła szczególnie jeśli mowa tu to panelu zarządzania? Chyba że...
+Na stronie pierwsze, co widzicie to okienko logowania i zasady tworzenia hasłą.
+Kto pisze reguły tworzenia hasła, zamiast po prostu użyć silnego hasła, szczególnie jeśli mowa tu to panelu zarządzania? Chyba że...
 Chyba że hasło jest generowane automatycznie według wzoru. A jeśli znacie wzór... możecie je odtworzyć.
 
 Czas otworzyć zamknięte drzwi!
@@ -32,7 +32,7 @@ Macie kawałki układanki. Czas je połączyć.
 ---------
 Szara ramka:
 Uwaga: link do strony jest jak najbardziej funkcjonalny i misję można przechodzić w bardziej interaktywny sposób i korzystać z przygotowanej strony,
-jeśli jednak nie mamy takiej możliwości to wystarczy że w lekcjach w których musimy znaleźć coś na stronie odkryjemy pierwszą podpowiedz a tam znajdziemy potzrebne dane.
+jeśli jednak nie mamy takiej możliwości, to wystarczy, że w lekcjach, w których musimy znaleźć coś na stronie, wystarczy, że odkryjemy pierwszą podpowiedz, a tam znajdziemy potzrebne dane.
 Miłej zabawy: https://corptech-internal.vercel.app (link na niebiesko)
 ---------
 
@@ -41,7 +41,7 @@ Tresc zadania (łososiowa ramka):
 System firm CorpTech jest zabezpieczony hasłem, ale zasady tworzenia go są dosyć dziwne...
 Twoim zadaniem jest uzupełnić funkcje crack_password() która zwróci poprawne hasło do systemu.
 Do wykonania zadania mogą się przydać dwie funkcje już dla ciebie przygotowane:
-- get_youth_word_2025 która zwraca listę młodzieżowych słów roku 2025
+- get_youth_word_2025 , która zwraca listę młodzieżowych słów roku 2025
 - check_pass() która sprawdza czy hasło jest poprawne, jeśli jest to zwraca True, jeśli nie False
 ---------
 

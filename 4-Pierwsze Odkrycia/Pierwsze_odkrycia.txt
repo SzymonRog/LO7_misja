@@ -6,7 +6,7 @@ Burmistrz odetchnął z ulgą. Media można tymczasowo uspokoić. Kryzys zażegn
 Ale chwila...
 
 Naprawienie awarii nie rozwiązuje problemu całkowicie. Musicie być pewni, czy to był celowy sabotaż, czy może głupi błąd?
-Prawnik miasta jest bardzo konkretny: "Potrzebuję twardych dowodów. Musicie mi pokazać DOKŁADNIE co oni zmienili i dlaczego to była manipulacja, nie pomyłka."
+Prawnik miasta jest bardzo konkretny: "Potrzebuję twardych dowodów. Musicie mi pokazać, DOKŁADNIE co oni zmienili i dlaczego to była manipulacja, nie pomyłka."
 Wasza misja jest teoretycznie prosta: zlokalizować konkretne złośliwe linijki kodu odpowiedzialne za magiczne "103% głosów". Standardowa praca programisty, przejrzeć diff, znaleźć zmienione linie, zrozumieć co robią.
 Powinno zająć 10 minut, max 15.
 Ale oczywiście nic nigdy nie jest takie proste...

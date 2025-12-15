@@ -11,11 +11,11 @@ def find_commit(id):
 def test():
     komunikat = ""
     try:
-        commit_data = 'gg23f42 | 2024-12-04 03:45:22 | Final optimization | Borda.cpp |main | [AutoTask] CorpTech'
+        commit_data = 'gg23f42 | 2025-12-04 03:45:22 | Final optimization | Borda.cpp |main | [AutoTask] CorpTech'
         branch = 'main'
         file = 'Borda.cpp'
 
-        date = datetime.strptime("2024-12-04 10:00:00", "%Y-%m-%d %H:%M:%S")
+        date = datetime.strptime("2025-12-04 10:00:00", "%Y-%m-%d %H:%M:%S")
         answer = 'gg23f42'
         user_answer = find_log(date, branch, file)
 

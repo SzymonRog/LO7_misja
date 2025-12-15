@@ -1,139 +1,139 @@
-e4b19af|2024-10-01 09:12:44|Init project structure|VoteCounter.cpp|main|marek-dev
-a91cd02|2024-10-01 11:32:10|Setup basic build pipeline|CMakeLists.txt|main|katya
-fc02ed1|2024-10-01 14:55:02|Add logging utils|Logger.cpp|develop|foxbyte
-9d2b1fe|2024-10-02 08:14:55|Add ballot structure|Ballot.h|main|daniel
-bb19dfa|2024-10-02 10:33:40|Refactor include dirs|VoteCounter.cpp|develop|marek-dev
-cf91e21|2024-10-03 16:48:21|Implement vote validation|VoteValidator.cpp|develop|sara
-2f8c3d1|2024-10-03 18:22:55|Update README|README.md|main|katya
-b81ff04|2024-10-04 10:05:43|Add candidate ranking logic|RankingSystem.cpp|main|michal
-19ac04f|2024-10-04 12:48:10|Improve sorting performance|RankingSystem.cpp|develop|daniel
-72fbd09|2024-10-05 14:27:18|Fix ballot parsing bug|Ballot.cpp|hotfix|foxbyte
-6e91af2|2024-10-05 16:55:01|Remove unused headers|Utils.h|develop|katya
-d19c0a1|2024-10-06 09:51:02|Add Borda count method|Borda.cpp|main|marek-dev
-f2d91b3|2024-10-06 11:33:27|Cleanup formatting|VoteCounter.cpp|develop|michal
-ca81dde|2024-10-07 18:33:59|Implement plurality voting|Plurality.cpp|main|daniel
-880bf12|2024-10-07 20:44:12|Fix column alignment|Plurality.cpp|develop|foxbyte
-3fa1d9e|2024-10-08 07:22:11|Add vote weight calculation|VoteWeight.cpp|develop|katya
-bf19e31|2024-10-08 13:11:05|Adjust vote weights|VoteWeight.cpp|main|sara
-aa129ce|2024-10-09 12:47:03|Fix ranking overflow|RankingSystem.cpp|main|michal
-dd81b2e|2024-10-09 15:50:22|Fix integer cast|RankingSystem.cpp|develop|daniel
-f91cd20|2024-10-10 15:09:44|Add IRV algorithm|InstantRunoff.cpp|main|katya
-c281fb0|2024-10-10 18:45:13|Improve IRV perf|InstantRunoff.cpp|develop|foxbyte
-e001ab9|2024-10-11 20:16:39|Optimize vote counting|VoteCounter.cpp|develop|sara
-a2b19cd|2024-10-11 22:11:58|Add vote counter tests|VoteCounterTest.cpp|main|michal
-0c9dafa|2024-10-12 13:41:12|Add tie-breaking rules|TieBreaker.cpp|main|marek-dev
-baf120c|2024-10-12 15:10:02|Fix missing include|TieBreaker.cpp|hotfix|katya
-fe10cda|2024-10-13 09:25:58|Fix memory allocation in Borda|Borda.cpp|hotfix|daniel
-af21ef9|2024-10-13 11:09:18|Cleanup Borda logic|Borda.cpp|develop|sara
-c129bfe|2024-10-14 17:11:21|Implement Condorcet method|Condorcet.cpp|main|michal
-a0bc14e|2024-10-14 19:55:33|Refactor Condorcet|Condorcet.cpp|develop|foxbyte
-2cbe01d|2024-10-15 08:59:30|Add ballot import/export|BallotIO.cpp|develop|katya
-9d1a03b|2024-10-15 12:22:11|Fix YAML parsing|BallotIO.cpp|main|daniel
-eb2f0d1|2024-10-16 19:43:14|Fix ranking tie detection|RankingSystem.cpp|main|sara
-f10d3cb|2024-10-16 21:11:29|Refactor tiebreak|RankingSystem.cpp|develop|michal
-8b01acd|2024-10-17 11:06:49|Add vote verification|VoteVerifier.cpp|main|foxbyte
-9a1fd22|2024-10-17 13:49:55|Fix verifier crash|VoteVerifier.cpp|hotfix|daniel
-a2cb013|2024-10-18 15:57:25|Optimize Borda calculation|Borda.cpp|develop|marek-dev
-cb91ac2|2024-10-18 17:33:45|Minimize allocations|Borda.cpp|develop|sara
-1db2a10|2024-10-19 10:20:31|Add preference matrix|PreferenceMatrix.cpp|main|michal
-a03efc1|2024-10-19 12:42:55|Update matrix tests|PreferenceMatrixTest.cpp|main|katya
-b2df1ac|2024-10-20 21:14:52|Fix vote duplication bug|VoteCounter.cpp|hotfix|daniel
-ce19d2a|2024-10-20 23:50:12|Cleanup counting logic|VoteCounter.cpp|develop|foxbyte
-df8120b|2024-10-21 18:45:10|Implement approval voting|ApprovalVoting.cpp|main|sara
-2e91bc1|2024-10-21 21:33:48|Add approval tests|ApprovalVotingTest.cpp|develop|michal
-01ab9c2|2024-10-22 09:36:02|Add candidate elimination|CandidateEliminator.cpp|develop|katya
-fbae21c|2024-10-22 13:12:19|Fix elimination edge case|CandidateEliminator.cpp|main|daniel
-bc9120f|2024-10-23 14:03:49|Fix Borda point allocation|Borda.cpp|main|marek-dev
-d1ab023|2024-10-23 17:22:33|Refactor Borda scoring|Borda.cpp|develop|foxbyte
-11cd820|2024-10-24 08:24:17|Add vote audit trail|VoteAudit.cpp|main|sara
-fe21a3c|2024-10-24 10:10:44|Fix log timestamps|VoteAudit.cpp|develop|daniel
-9df102b|2024-10-25 13:59:40|Implement STAR voting|StarVoting.cpp|develop|katya
-ff20ac1|2024-10-25 15:48:19|Fix STAR rounding|StarVoting.cpp|main|michal
-0f2dd1e|2024-10-26 19:33:11|Fix ballot validation|VoteValidator.cpp|main|daniel
-18b02cf|2024-10-26 21:55:22|Remove deprecated field|VoteValidator.cpp|develop|sara
-c81bb04|2024-10-27 16:42:56|Add weighted voting support|VoteWeight.cpp|main|marek-dev
-b129cd3|2024-10-27 18:02:11|Improve weight calc|VoteWeight.cpp|develop|katya
-a90bc1e|2024-10-28 11:28:22|Optimize ranking algorithm|RankingSystem.cpp|develop|michal
-fe88201|2024-10-28 13:47:33|Fix division by zero|RankingSystem.cpp|main|foxbyte
-b7ac2df|2024-10-29 07:55:19|Fix vote normalization|VoteCounter.cpp|hotfix|daniel
-a1fc12c|2024-10-29 09:33:58|Refactor normalization|VoteCounter.cpp|develop|marek-dev
-9c1b0f2|2024-10-30 22:03:33|Add Copeland method|Copeland.cpp|main|sara
-17bcd91|2024-10-30 23:49:01|Adjust Copeland ranking|Copeland.cpp|develop|foxbyte
-c03a912|2024-10-31 17:48:07|Implement Schulze method|Schulze.cpp|main|michal
-e4a9f01|2024-10-31 20:15:32|Refine path strength calc|Schulze.cpp|develop|katya
-f9bb012|2024-11-01 12:22:41|Fix preference calculation|PreferenceMatrix.cpp|develop|sara
-bb21cd0|2024-11-01 14:09:18|Improve matrix performance|PreferenceMatrix.cpp|main|daniel
-7fa19cd|2024-11-02 09:03:58|Add vote aggregation|VoteAggregator.cpp|main|foxbyte
-a83bcfe|2024-11-02 11:45:50|Fix aggregation null checks|VoteAggregator.cpp|develop|michal
-9fab112|2024-11-03 18:49:23|Optimize Borda performance|Borda.cpp|main|katya
-0bb10de|2024-11-03 20:00:10|Improve memory use|Borda.cpp|develop|marek-dev
-0acb1e9|2024-11-04 20:14:50|Fix candidate ordering|RankingSystem.cpp|hotfix|sara
-91c2fe0|2024-11-04 21:51:31|Refine ordering rules|RankingSystem.cpp|develop|daniel
-13b9fa1|2024-11-05 11:42:31|Add ballot anonymization|BallotAnonymizer.cpp|main|foxbyte
-c10f82b|2024-11-05 15:18:55|Improve anonymization|BallotAnonymizer.cpp|develop|katya
-3a1cd40|2024-11-06 14:57:12|Implement Kemeny-Young|KemenyYoung.cpp|develop|michal
-f0ab1c2|2024-11-06 17:22:20|Fix Kemeny scoring|KemenyYoung.cpp|main|daniel
-aa101f3|2024-11-07 08:39:47|Fix vote parsing edge case|Ballot.cpp|main|marek-dev
-cc219de|2024-11-07 10:55:12|Improve parser|Ballot.cpp|develop|sara
-b22af01|2024-11-08 19:28:02|Add result export|ResultExporter.cpp|main|katya
-9bc12de|2024-11-08 21:12:45|Fix CSV export|ResultExporter.cpp|develop|foxbyte
-cc1fda2|2024-11-09 10:54:36|Optimize vote validation|VoteValidator.cpp|develop|michal
-e01bc91|2024-11-09 12:33:12|Fix null guard|VoteValidator.cpp|main|daniel
-d9a1b0e|2024-11-10 15:21:55|Fix Borda tie handling|Borda.cpp|main|katya
-9bbaf02|2024-11-10 16:44:09|Refactor tie scoring|Borda.cpp|develop|foxbyte
-a001fbc|2024-11-11 17:37:41|Add vote statistics|VoteStats.cpp|main|marek-dev
-c2a190d|2024-11-11 19:03:12|Improve stat aggregation|VoteStats.cpp|develop|sara
-0dfa2c1|2024-11-12 12:44:18|Implement Bucklin method|Bucklin.cpp|develop|daniel
-aa129bf|2024-11-12 14:22:09|Fix Bucklin rounding|Bucklin.cpp|main|michal
-e1c9fa2|2024-11-13 09:58:27|Fix ranking consistency|RankingSystem.cpp|hotfix|foxbyte
-c91fbc0|2024-11-13 12:44:15|Refactor consistency checks|RankingSystem.cpp|develop|katya
-9ad01f2|2024-11-14 18:13:09|Add vote visualization data|VoteVisualizer.cpp|main|sara
-d1cb902|2024-11-14 19:55:10|Fix chart export|VoteVisualizer.cpp|develop|michal
-eebc102|2024-11-15 07:26:54|Optimize ballot processing|BallotIO.cpp|main|daniel
-a9c00b1|2024-11-15 09:49:11|Remove legacy fields|BallotIO.cpp|develop|marek-dev
-ccab1d3|2024-11-16 20:51:10|Fix memory leak in counter|VoteCounter.cpp|hotfix|katya
-99bfd13|2024-11-16 22:22:55|Improve memory tracking|VoteCounter.cpp|develop|foxbyte
-de1a0cf|2024-11-17 14:37:45|Add minimax method|Minimax.cpp|main|sara
-f22cd00|2024-11-17 17:05:12|Fix minimax indexing|Minimax.cpp|develop|daniel
-e3f109a|2024-11-18 10:25:29|Implement Dodgson method|Dodgson.cpp|develop|marek-dev
-a20dd1b|2024-11-18 12:41:57|Fix Dodgson tie|Dodgson.cpp|main|michal
-0bfc12a|2024-11-19 16:49:16|Fix Borda edge case|Borda.cpp|main|katya
-bc12e9a|2024-11-19 18:33:42|Improve Borda stability|Borda.cpp|develop|sara
-ed9012c|2024-11-20 08:31:37|Add vote integrity check|VoteIntegrity.cpp|main|daniel
-cbad120|2024-11-20 10:05:51|Refactor integrity checker|VoteIntegrity.cpp|develop|foxbyte
-fa1d0c9|2024-11-21 19:10:03|Optimize preference matrix|PreferenceMatrix.cpp|develop|michal
-bca119d|2024-11-21 20:44:11|Fix matrix overflow|PreferenceMatrix.cpp|main|katya
-2adc013|2024-11-22 11:58:55|Fix candidate comparison|RankingSystem.cpp|hotfix|sara
-dca11ef|2024-11-22 13:15:42|Improve comparison logic|RankingSystem.cpp|develop|daniel
-8ff12bc|2024-11-23 17:13:44|Add vote logging|VoteLogger.cpp|main|marek-dev
-af02cd1|2024-11-23 19:00:33|Extend log format|VoteLogger.cpp|develop|foxbyte
-0bc91ad|2024-11-24 20:29:31|Implement Coombs method|Coombs.cpp|main|katya
-7df013a|2024-11-24 22:40:11|Fix Coombs ranking|Coombs.cpp|develop|michal
-9ca1f0b|2024-11-25 13:07:18|Fix ballot ordering|Ballot.cpp|develop|daniel
-fa8cd10|2024-11-25 15:30:09|Restore stable sorting|Ballot.cpp|main|sara
-1dcab02|2024-11-26 09:54:41|Add quota calculation|QuotaCalculator.cpp|main|marek-dev
-ab19ec1|2024-11-26 11:10:22|Fix quota precision|QuotaCalculator.cpp|develop|foxbyte
-0ef91ca|2024-11-27 18:36:12|Optimize Borda sorting|Borda.cpp|main|katya
-fbc9120|2024-11-27 19:55:27|Refactor Borda sorter|Borda.cpp|develop|michal
-a0cfd21|2024-11-28 15:49:26|Fix vote overflow|VoteCounter.cpp|hotfix|daniel
-ed0ab12|2024-11-28 17:01:10|Improve counter safety|VoteCounter.cpp|develop|sara
-d1bc20f|2024-11-29 21:58:33|Add STV implementation|SingleTransferableVote.cpp|main|foxbyte
-c9a1fe0|2024-11-29 23:44:21|Refactor STV logic|SingleTransferableVote.cpp|develop|michal
-bbf1e02|2024-11-30 10:12:22|Implement Nanson method|Nanson.cpp|develop|katya
-a92cdf1|2024-11-30 12:44:33|Fix Nanson ranking|Nanson.cpp|main|daniel
-fdd21c0|2024-12-01 13:19:57|Fix ranking stability|RankingSystem.cpp|main|marek-dev
-ce1cb9a|2024-12-01 15:02:11|Refactor ranking order|RankingSystem.cpp|develop|sara
-0acb91e|2024-12-02 08:42:33|Add vote threshold check|VoteThreshold.cpp|main|michal
-ef91bc2|2024-12-02 10:30:14|Improve threshold logic|VoteThreshold.cpp|develop|foxbyte
-fa210cd|2024-12-03 14:56:20|Optimize candidate filtering|CandidateFilter.cpp|develop|katya
-0e1ac9f|2024-12-03 17:10:09|Fix filter inconsistency|CandidateFilter.cpp|main|daniel
-f1c9ab0|2024-12-04 01:33:11|Tune Borda scoring weights|Borda.cpp|main|CorpTech
-gg23f42|2024-12-04 03:45:21|Final optimization|Borda.cpp|main|[AutoTask] - CorpTech
-cba11ef|2024-12-04 07:22:12|Refactor result paths|Paths.cpp|develop|marek-dev
-9bfa201|2024-12-04 09:55:42|Fix pointer cleanup|Memory.cpp|main|sara
-e0c1fbd|2024-12-04 15:33:21|Adjust Borda internal mapping|Borda.cpp|main|CorpTech
-ccaf921|2024-12-04 18:42:05|Fix mapping bounds|Borda.cpp|main|daniel
-ff1a0bc|2024-12-04 20:51:27|Improve Borda overflow protection|Borda.cpp|develop|foxbyte
-0c1af92|2024-12-05 10:14:12|Add safety guards|VoteCounter.cpp|main|katya
-bfa1019|2024-12-05 12:55:01|Improve error output|Logger.cpp|develop|michal
-e21acdf|2024-12-05 16:41:05|Implement Black method|Black.cpp|main|daniel
+e4b19af|2025-10-01 09:12:44|Init project structure|VoteCounter.cpp|main|marek-dev
+a91cd02|2025-10-01 11:32:10|Setup basic build pipeline|CMakeLists.txt|main|katya
+fc02ed1|2025-10-01 14:55:02|Add logging utils|Logger.cpp|develop|foxbyte
+9d2b1fe|2025-10-02 08:14:55|Add ballot structure|Ballot.h|main|daniel
+bb19dfa|2025-10-02 10:33:40|Refactor include dirs|VoteCounter.cpp|develop|marek-dev
+cf91e21|2025-10-03 16:48:21|Implement vote validation|VoteValidator.cpp|develop|sara
+2f8c3d1|2025-10-03 18:22:55|Update README|README.md|main|katya
+b81ff04|2025-10-04 10:05:43|Add candidate ranking logic|RankingSystem.cpp|main|michal
+19ac04f|2025-10-04 12:48:10|Improve sorting performance|RankingSystem.cpp|develop|daniel
+72fbd09|2025-10-05 14:27:18|Fix ballot parsing bug|Ballot.cpp|hotfix|foxbyte
+6e91af2|2025-10-05 16:55:01|Remove unused headers|Utils.h|develop|katya
+d19c0a1|2025-10-06 09:51:02|Add Borda count method|Borda.cpp|main|marek-dev
+f2d91b3|2025-10-06 11:33:27|Cleanup formatting|VoteCounter.cpp|develop|michal
+ca81dde|2025-10-07 18:33:59|Implement plurality voting|Plurality.cpp|main|daniel
+880bf12|2025-10-07 20:44:12|Fix column alignment|Plurality.cpp|develop|foxbyte
+3fa1d9e|2025-10-08 07:22:11|Add vote weight calculation|VoteWeight.cpp|develop|katya
+bf19e31|2025-10-08 13:11:05|Adjust vote weights|VoteWeight.cpp|main|sara
+aa129ce|2025-10-09 12:47:03|Fix ranking overflow|RankingSystem.cpp|main|michal
+dd81b2e|2025-10-09 15:50:22|Fix integer cast|RankingSystem.cpp|develop|daniel
+f91cd20|2025-10-10 15:09:44|Add IRV algorithm|InstantRunoff.cpp|main|katya
+c281fb0|2025-10-10 18:45:13|Improve IRV perf|InstantRunoff.cpp|develop|foxbyte
+e001ab9|2025-10-11 20:16:39|Optimize vote counting|VoteCounter.cpp|develop|sara
+a2b19cd|2025-10-11 22:11:58|Add vote counter tests|VoteCounterTest.cpp|main|michal
+0c9dafa|2025-10-12 13:41:12|Add tie-breaking rules|TieBreaker.cpp|main|marek-dev
+baf120c|2025-10-12 15:10:02|Fix missing include|TieBreaker.cpp|hotfix|katya
+fe10cda|2025-10-13 09:25:58|Fix memory allocation in Borda|Borda.cpp|hotfix|daniel
+af21ef9|2025-10-13 11:09:18|Cleanup Borda logic|Borda.cpp|develop|sara
+c129bfe|2025-10-14 17:11:21|Implement Condorcet method|Condorcet.cpp|main|michal
+a0bc14e|2025-10-14 19:55:33|Refactor Condorcet|Condorcet.cpp|develop|foxbyte
+2cbe01d|2025-10-15 08:59:30|Add ballot import/export|BallotIO.cpp|develop|katya
+9d1a03b|2025-10-15 12:22:11|Fix YAML parsing|BallotIO.cpp|main|daniel
+eb2f0d1|2025-10-16 19:43:14|Fix ranking tie detection|RankingSystem.cpp|main|sara
+f10d3cb|2025-10-16 21:11:29|Refactor tiebreak|RankingSystem.cpp|develop|michal
+8b01acd|2025-10-17 11:06:49|Add vote verification|VoteVerifier.cpp|main|foxbyte
+9a1fd22|2025-10-17 13:49:55|Fix verifier crash|VoteVerifier.cpp|hotfix|daniel
+a2cb013|2025-10-18 15:57:25|Optimize Borda calculation|Borda.cpp|develop|marek-dev
+cb91ac2|2025-10-18 17:33:45|Minimize allocations|Borda.cpp|develop|sara
+1db2a10|2025-10-19 10:20:31|Add preference matrix|PreferenceMatrix.cpp|main|michal
+a03efc1|2025-10-19 12:42:55|Update matrix tests|PreferenceMatrixTest.cpp|main|katya
+b2df1ac|2025-10-20 21:14:52|Fix vote duplication bug|VoteCounter.cpp|hotfix|daniel
+ce19d2a|2025-10-20 23:50:12|Cleanup counting logic|VoteCounter.cpp|develop|foxbyte
+df8120b|2025-10-21 18:45:10|Implement approval voting|ApprovalVoting.cpp|main|sara
+2e91bc1|2025-10-21 21:33:48|Add approval tests|ApprovalVotingTest.cpp|develop|michal
+01ab9c2|2025-10-22 09:36:02|Add candidate elimination|CandidateEliminator.cpp|develop|katya
+fbae21c|2025-10-22 13:12:19|Fix elimination edge case|CandidateEliminator.cpp|main|daniel
+bc9120f|2025-10-23 14:03:49|Fix Borda point allocation|Borda.cpp|main|marek-dev
+d1ab023|2025-10-23 17:22:33|Refactor Borda scoring|Borda.cpp|develop|foxbyte
+11cd820|2025-10-24 08:24:17|Add vote audit trail|VoteAudit.cpp|main|sara
+fe21a3c|2025-10-24 10:10:44|Fix log timestamps|VoteAudit.cpp|develop|daniel
+9df102b|2025-10-25 13:59:40|Implement STAR voting|StarVoting.cpp|develop|katya
+ff20ac1|2025-10-25 15:48:19|Fix STAR rounding|StarVoting.cpp|main|michal
+0f2dd1e|2025-10-26 19:33:11|Fix ballot validation|VoteValidator.cpp|main|daniel
+18b02cf|2025-10-26 21:55:22|Remove deprecated field|VoteValidator.cpp|develop|sara
+c81bb04|2025-10-27 16:42:56|Add weighted voting support|VoteWeight.cpp|main|marek-dev
+b129cd3|2025-10-27 18:02:11|Improve weight calc|VoteWeight.cpp|develop|katya
+a90bc1e|2025-10-28 11:28:22|Optimize ranking algorithm|RankingSystem.cpp|develop|michal
+fe88201|2025-10-28 13:47:33|Fix division by zero|RankingSystem.cpp|main|foxbyte
+b7ac2df|2025-10-29 07:55:19|Fix vote normalization|VoteCounter.cpp|hotfix|daniel
+a1fc12c|2025-10-29 09:33:58|Refactor normalization|VoteCounter.cpp|develop|marek-dev
+9c1b0f2|2025-10-30 22:03:33|Add Copeland method|Copeland.cpp|main|sara
+17bcd91|2025-10-30 23:49:01|Adjust Copeland ranking|Copeland.cpp|develop|foxbyte
+c03a912|2025-10-31 17:48:07|Implement Schulze method|Schulze.cpp|main|michal
+e4a9f01|2025-10-31 20:15:32|Refine path strength calc|Schulze.cpp|develop|katya
+f9bb012|2025-11-01 12:22:41|Fix preference calculation|PreferenceMatrix.cpp|develop|sara
+bb21cd0|2025-11-01 14:09:18|Improve matrix performance|PreferenceMatrix.cpp|main|daniel
+7fa19cd|2025-11-02 09:03:58|Add vote aggregation|VoteAggregator.cpp|main|foxbyte
+a83bcfe|2025-11-02 11:45:50|Fix aggregation null checks|VoteAggregator.cpp|develop|michal
+9fab112|2025-11-03 18:49:23|Optimize Borda performance|Borda.cpp|main|katya
+0bb10de|2025-11-03 20:00:10|Improve memory use|Borda.cpp|develop|marek-dev
+0acb1e9|2025-11-04 20:14:50|Fix candidate ordering|RankingSystem.cpp|hotfix|sara
+91c2fe0|2025-11-04 21:51:31|Refine ordering rules|RankingSystem.cpp|develop|daniel
+13b9fa1|2025-11-05 11:42:31|Add ballot anonymization|BallotAnonymizer.cpp|main|foxbyte
+c10f82b|2025-11-05 15:18:55|Improve anonymization|BallotAnonymizer.cpp|develop|katya
+3a1cd40|2025-11-06 14:57:12|Implement Kemeny-Young|KemenyYoung.cpp|develop|michal
+f0ab1c2|2025-11-06 17:22:20|Fix Kemeny scoring|KemenyYoung.cpp|main|daniel
+aa101f3|2025-11-07 08:39:47|Fix vote parsing edge case|Ballot.cpp|main|marek-dev
+cc219de|2025-11-07 10:55:12|Improve parser|Ballot.cpp|develop|sara
+b22af01|2025-11-08 19:28:02|Add result export|ResultExporter.cpp|main|katya
+9bc12de|2025-11-08 21:12:45|Fix CSV export|ResultExporter.cpp|develop|foxbyte
+cc1fda2|2025-11-09 10:54:36|Optimize vote validation|VoteValidator.cpp|develop|michal
+e01bc91|2025-11-09 12:33:12|Fix null guard|VoteValidator.cpp|main|daniel
+d9a1b0e|2025-11-10 15:21:55|Fix Borda tie handling|Borda.cpp|main|katya
+9bbaf02|2025-11-10 16:44:09|Refactor tie scoring|Borda.cpp|develop|foxbyte
+a001fbc|2025-11-11 17:37:41|Add vote statistics|VoteStats.cpp|main|marek-dev
+c2a190d|2025-11-11 19:03:12|Improve stat aggregation|VoteStats.cpp|develop|sara
+0dfa2c1|2025-11-12 12:44:18|Implement Bucklin method|Bucklin.cpp|develop|daniel
+aa129bf|2025-11-12 14:22:09|Fix Bucklin rounding|Bucklin.cpp|main|michal
+e1c9fa2|2025-11-13 09:58:27|Fix ranking consistency|RankingSystem.cpp|hotfix|foxbyte
+c91fbc0|2025-11-13 12:44:15|Refactor consistency checks|RankingSystem.cpp|develop|katya
+9ad01f2|2025-11-14 18:13:09|Add vote visualization data|VoteVisualizer.cpp|main|sara
+d1cb902|2025-11-14 19:55:10|Fix chart export|VoteVisualizer.cpp|develop|michal
+eebc102|2025-11-15 07:26:54|Optimize ballot processing|BallotIO.cpp|main|daniel
+a9c00b1|2025-11-15 09:49:11|Remove legacy fields|BallotIO.cpp|develop|marek-dev
+ccab1d3|2025-11-16 20:51:10|Fix memory leak in counter|VoteCounter.cpp|hotfix|katya
+99bfd13|2025-11-16 22:22:55|Improve memory tracking|VoteCounter.cpp|develop|foxbyte
+de1a0cf|2025-11-17 14:37:45|Add minimax method|Minimax.cpp|main|sara
+f22cd00|2025-11-17 17:05:12|Fix minimax indexing|Minimax.cpp|develop|daniel
+e3f109a|2025-11-18 10:25:29|Implement Dodgson method|Dodgson.cpp|develop|marek-dev
+a20dd1b|2025-11-18 12:41:57|Fix Dodgson tie|Dodgson.cpp|main|michal
+0bfc12a|2025-11-19 16:49:16|Fix Borda edge case|Borda.cpp|main|katya
+bc12e9a|2025-11-19 18:33:42|Improve Borda stability|Borda.cpp|develop|sara
+ed9012c|2025-11-20 08:31:37|Add vote integrity check|VoteIntegrity.cpp|main|daniel
+cbad120|2025-11-20 10:05:51|Refactor integrity checker|VoteIntegrity.cpp|develop|foxbyte
+fa1d0c9|2025-11-21 19:10:03|Optimize preference matrix|PreferenceMatrix.cpp|develop|michal
+bca119d|2025-11-21 20:44:11|Fix matrix overflow|PreferenceMatrix.cpp|main|katya
+2adc013|2025-11-22 11:58:55|Fix candidate comparison|RankingSystem.cpp|hotfix|sara
+dca11ef|2025-11-22 13:15:42|Improve comparison logic|RankingSystem.cpp|develop|daniel
+8ff12bc|2025-11-23 17:13:44|Add vote logging|VoteLogger.cpp|main|marek-dev
+af02cd1|2025-11-23 19:00:33|Extend log format|VoteLogger.cpp|develop|foxbyte
+0bc91ad|2025-11-24 20:29:31|Implement Coombs method|Coombs.cpp|main|katya
+7df013a|2025-11-24 22:40:11|Fix Coombs ranking|Coombs.cpp|develop|michal
+9ca1f0b|2025-11-25 13:07:18|Fix ballot ordering|Ballot.cpp|develop|daniel
+fa8cd10|2025-11-25 15:30:09|Restore stable sorting|Ballot.cpp|main|sara
+1dcab02|2025-11-26 09:54:41|Add quota calculation|QuotaCalculator.cpp|main|marek-dev
+ab19ec1|2025-11-26 11:10:22|Fix quota precision|QuotaCalculator.cpp|develop|foxbyte
+0ef91ca|2025-11-27 18:36:12|Optimize Borda sorting|Borda.cpp|main|katya
+fbc9120|2025-11-27 19:55:27|Refactor Borda sorter|Borda.cpp|develop|michal
+a0cfd21|2025-11-28 15:49:26|Fix vote overflow|VoteCounter.cpp|hotfix|daniel
+ed0ab12|2025-11-28 17:01:10|Improve counter safety|VoteCounter.cpp|develop|sara
+d1bc20f|2025-11-29 21:58:33|Add STV implementation|SingleTransferableVote.cpp|main|foxbyte
+c9a1fe0|2025-11-29 23:44:21|Refactor STV logic|SingleTransferableVote.cpp|develop|michal
+bbf1e02|2025-11-30 10:12:22|Implement Nanson method|Nanson.cpp|develop|katya
+a92cdf1|2025-11-30 12:44:33|Fix Nanson ranking|Nanson.cpp|main|daniel
+fdd21c0|2025-12-01 13:19:57|Fix ranking stability|RankingSystem.cpp|main|marek-dev
+ce1cb9a|2025-12-01 15:02:11|Refactor ranking order|RankingSystem.cpp|develop|sara
+0acb91e|2025-12-02 08:42:33|Add vote threshold check|VoteThreshold.cpp|main|michal
+ef91bc2|2025-12-02 10:30:14|Improve threshold logic|VoteThreshold.cpp|develop|foxbyte
+fa210cd|2025-12-03 14:56:20|Optimize candidate filtering|CandidateFilter.cpp|develop|katya
+0e1ac9f|2025-12-03 17:10:09|Fix filter inconsistency|CandidateFilter.cpp|main|daniel
+f1c9ab0|2025-12-04 01:33:11|Tune Borda scoring weights|Borda.cpp|main|CorpTech
+gg23f42|2025-12-04 03:45:21|Final optimization|Borda.cpp|main|[AutoTask] - CorpTech
+cba11ef|2025-12-04 07:22:12|Refactor result paths|Paths.cpp|develop|marek-dev
+9bfa201|2025-12-04 09:55:42|Fix pointer cleanup|Memory.cpp|main|sara
+e0c1fbd|2025-12-04 15:33:21|Adjust Borda internal mapping|Borda.cpp|main|CorpTech
+ccaf921|2025-12-04 18:42:05|Fix mapping bounds|Borda.cpp|main|daniel
+ff1a0bc|2025-12-04 20:51:27|Improve Borda overflow protection|Borda.cpp|develop|foxbyte
+0c1af92|2025-12-05 10:14:12|Add safety guards|VoteCounter.cpp|main|katya
+bfa1019|2025-12-05 12:55:01|Improve error output|Logger.cpp|develop|michal
+e21acdf|2025-12-05 16:41:05|Implement Black method|Black.cpp|main|daniel

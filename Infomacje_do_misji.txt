@@ -22,22 +22,39 @@ plik: Citizen100.png
 
 W folderze odznaki znajdują się pliki png z odznakami w formacie 100x100, a w folderze assets, można znaleźć wersję z wysoką rozdzielczością.
 
-Kolejność zadań (foldery sa ponumerowane według kolejności):
--Prolog                 (lekcja z grafiką)
--Audyt                  (lekcja obowiązkowa)
--SmartVote              (lekcja obowiązkowa)
--Katastrofa Demokracji  (lekcja obowiązkowa)
--Pierwsze Odkrycia      (lekcja obowiązkowa)
--Za Zamkniętymi drzwiami (lekcja obowiązkowa)
--Pieniądze nigdy nie śpią (lekcja obowiązkowa)
--Kozioł                  (lekcja obowiązkowa)
--Bi Bi Bup               (lekcja obowiązkowa)
--Porządny Obywatel       (lekcja dodatkowa)
--Kotki                  (lekcja obowiązkowa)
--Coś więcej niż ryby    (lekcja dodatkowa)
--Coś Nowego             (lekcja obowiązkowa)
--Infinite loop          (lekcja obowiązkowa)
--Epilog                 (lekcja z grafiką)
+Kolejność zadań, ich tytuły i typ (foldery sa ponumerowane według kolejności):
+-Prolog                     (lekcja z grafiką)
+-Audyt                      (lekcja obowiązkowa)
+-SmartVote                  (lekcja obowiązkowa)
+-Katastrofa Demokracji      (lekcja obowiązkowa)
+-Pierwsze Odkrycia          (lekcja obowiązkowa)
+-Za Zamkniętymi drzwiami    (lekcja obowiązkowa)
+-Pieniądze nigdy nie śpią   (lekcja obowiązkowa)
+-Kozioł                     (lekcja obowiązkowa)
+-Bi Bi Bup                  (lekcja obowiązkowa)
+-Porządny Obywatel          (lekcja dodatkowa)
+-Kotki                      (lekcja obowiązkowa)
+-Coś więcej niż ryby        (lekcja dodatkowa)
+-Coś Nowego                 (lekcja obowiązkowa)
+-Infinite loop              (lekcja obowiązkowa)
+-Epilog                     (lekcja z grafiką)
+
+Treść zadań znajduje się w plikach tekstowych .txt o nazwach takich samych jak tytuł zadania, tręsci np. z szarej ramki są oznaczone:
+
+---------
+Szara Ramka:
+...
+---------
+
+Link do strony, która jest dodatkowym modułem misji: https://corptech-internal.vercel.app
+
+hasła to:
+główne: D03591TUFF114AS51
+poczta: corpetech@demos.com
+zabezpieczenia (dodatkowa sekcjia nie związana z misjią) hałso: 67
+tajne: corptech-internal.vercel.app/aiSystem/11
+
+
 
 
 
