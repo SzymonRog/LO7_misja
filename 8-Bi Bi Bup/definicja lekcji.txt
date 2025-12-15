@@ -1,21 +1,22 @@
-Lekcja Obowiązkowa
 Język: Python
-Liczba Punktów za wykonanie: 15 000
+Liczba Punktów za wykonanie: 20 000
+Etykietki: SZERYF_PRAWDY
 
-commits.txt
-widoczny: NIE
-do edycji: NIE
-
-find_commit.py
+find_ip.py:
 widoczny: TAK
 do edycji: TAK
 
-test.py
+posty.py:
+widoczny: NIE
+do edycji: NIE
+
+
+test.py:
 Plik testowy
 widoczny: NIE
 do edycji: NIE
 
-answer.py
+rozwiazanie.py:
 Proponowana odpowiedz
 widoczny: NIE
 do edycji: NIE
@@ -24,4 +25,4 @@ output: TAK
 testy: NIE
 
 
-Wykonawca: Szymon
+Wykonawca: Maksiu

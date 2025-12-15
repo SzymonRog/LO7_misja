@@ -2,20 +2,24 @@ Lekcja Obowiązkowa
 Język: Python
 Liczba Punktów za wykonanie: 15 000
 
-commits.txt
-widoczny: NIE
-do edycji: NIE
-
-find_commit.py
+user.py:
 widoczny: TAK
 do edycji: TAK
 
-test.py
+tabela.py:
+widoczny: NIE
+do edycji: NIE
+
+raport.txt
+widoczny: TAK
+do edycji: NIE
+
+test.py:
 Plik testowy
 widoczny: NIE
 do edycji: NIE
 
-answer.py
+rozwiazanie.py:
 Proponowana odpowiedz
 widoczny: NIE
 do edycji: NIE
@@ -24,4 +28,4 @@ output: TAK
 testy: NIE
 
 
-Wykonawca: Szymon
+Wykonawca: Maksiu

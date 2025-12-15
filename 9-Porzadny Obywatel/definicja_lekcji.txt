@@ -1,0 +1,29 @@
+Język: Python
+Liczba Punktów za wykonanie: 20 000
+Etykietki: CITIZEN
+
+best_tasks.py
+widoczny: TAK
+do edycji: TAK
+
+lista_zadan.py
+widoczny: NIE
+do edycji: NIE
+
+test.py
+Plik testowy
+widoczny: NIE
+do edycji: NIE
+
+answer.py
+Proponowana odpowiedz
+widoczny: NIE
+do edycji: NIE
+
+output: TAK
+testy: TAK
+liczba_testów: 10
+min_zaliczonych: 10
+
+
+Wykonawca: Mateusz

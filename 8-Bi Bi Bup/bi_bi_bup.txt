@@ -1,0 +1,51 @@
+
+---------
+Sprawdzacie bazę miejską i znajdujecie profil: Zofia Nowak, 28 lat, programistka w dziale IT ratusza. Aktualnie na urlopie macierzyńskim.
+"Serio?" – mówi ktoś z waszego zespołu, patrząc na ekran z niedowierzaniem. "Próbują wrobić kobietę na urlopie macierzyńskim?"
+Firma próbuje zrzucić na nią winę. Wstawili jej imię w fałszywym raporcie, pewnie licząc na to, że ktoś ją przypadkowo "odkryje" jako winną. Że media podchwycą temat. Że stanie się kozłem ofiarnym tej afery.
+
+Udało się! Ujawniliście pełne dowody na korupcję finansową CorpTech Solutions oraz ich obrzydliwą próbę wrobienia niewinnej Zofii Nowak.
+Zaledwie 30 minut po publikacji waszego raportu, internet EKSPLODUJE. Internet zalewaja posty i artykuły, dominuja w nich wiadomości w stylu:
+"Urząd do Spraw Demokracji KŁAMIE – oto dowody!"
+"SZOKUJĄCE: Programiści manipulują wynikami wyborów!"
+"Zofia N. PRZYZNAŁA SIĘ do sabotażu!"
+"SKANDAL: Fałszywy raport ma ukryć prawdziwych winnych!"
+
+Fałszywe konta. Sfabrykowane screenshoty. Deep fake'owe nagrania. Boty komentujące na każdym portalu społecznościowym.
+Liczba fałszywych postów i artykułów osiąga niewiarygodną skalę: 1024 posty w 30 minut – cała góra cyfrowego oszustwa.
+
+To niemożliwe" – mówi wasz kolega, przewijając ekran. "Nikt nie jest w stanie napisać tylu postów w pół godziny. To musi być..."
+"Bot farm" – kończycie za niego. "Zautomatyzowana armia fałszywych kont."
+Nie macie czasu na emocje. Musicie natychmiast znaleźć źródło tej skoordynowanej dezinformacji. Macie narzędzia do analizy sieci, które pozwalają na grupowanie aktywności w czasie i wykrywanie nieludzkich wzorców publikacji.
+Gdzieś w tym chaosie jest jeden adres IP, z którego wychodzi większość ataków.
+Czas go znaleść!
+---------
+
+---------
+Tresc zadania (łososiowa ramka):
+
+Twoim zadaniem jest uzupełnienie funkcji find_suspicious_ip().
+Do funkcji przekazywane są dwa argumenty:
+posts — lista słowników opisujących kolejne posty.
+Każdy element ma strukturę:
+
+{
+    "id": <numer posta>,
+    "ip": <adres IP autora>,
+    "timestamp": <czas utworzenia posta w formacie unix timestamp>
+}
+
+Przykład:
+[{"id": 12, "ip": "83.4.125.11", "timestamp": 1765078020},{"id": 13, "ip": "83.4.125.11", "timestamp": 1765078025}]
+
+time_threshold — maksymalny odstęp czasu (w sekundach), jaki może wystąpić między kolejnymi postami, aby należały do tego samego łańcucha.
+
+Funkcja ma znaleźć IP komputera, z którego został wysłany największy łańcuch postów, w którym odstępy między postami były nie większe niż time_threshold.
+Funkcja ma zwracać krotkę, w której na pierwszym miejscu jest podane ip znalezionego komputera a na drugim zaokrąglony do 2 miejsc po przecinku procentowy udział najdłuższego łańcucha do liczby wszystkich postów
+np. output: (79.14.132.23, 91.4)
+---------
+
+---------
+Szara Ramka:
+W wielu krajach masowe rozpowszechnianie fałszywych informacji w celu zdyskredytowania konkretnej osoby może być traktowane jako zniesławienie lub zorganizowana manipulacja informacją, nawet jeśli robią to boty.
+Dlatego jedną z podstawowych zasad walki z dezinformacją jest analiza źródeł i wzorców publikacji, tempo, powtarzalność i synchronizacja często zdradzają, że „opinie” nie pochodzą od ludzi.

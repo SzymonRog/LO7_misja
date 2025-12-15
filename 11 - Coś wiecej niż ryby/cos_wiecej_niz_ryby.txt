@@ -1,0 +1,38 @@
+---------
+Po spotkaniu z Panem Henrykiem zdajecie sobie sprawę, że nie rozumie on złożoności zagrożeń cyfrowych.
+Henryk: "Ten wasz 'fishing'... to może w sobotę razem na ryby? Mam dobre przynęty!"
+Ty: "To 'phishing', Panie Henryku. Z 'ph'. To cyfrowe łowienie ofiar na haczyk..."
+Henryk: "Aha! No to jak ryby, tylko w kompiterze. Rozumiem, rozumiem... chyba."
+
+Musicie stworzyć drugą linię obrony: inteligentny system filtrujący, który automatycznie oceni ryzyko e-maili, zanim trafią do skrzynek pracowników Ratusza.
+
+Tresc zadania (łososiowa ramka):
+Twoim zadaniem jest przygotowac progrma który ocenia czy email jest potencjalnie niebezpieczny. W trakcie oceny będziesz brał pod uwagę nastepujace czynniki:
+1.Domena z której pochodzi emial musi być wsród listy domen zaufanych np.abc@demos.com -> domena = demos.com
+2.Wszystkie linki (jesli takie są) muszą być chronione protokołem https a także niemoże być ich wiecej niż 3 (często oszusci dają ich duzo by zmylić odbiorcę)
+3.W temacie i treści maila nie ogą się znajdowac słowa z naszej listy podejrzanych słów mogących oznaczać próbe oszustwa np. "OKAZJA", "PILNE"
+4.Należy sprawdzić czy rozszerzenia wszytskie załączniki (jesli takie śą) znajdują się na liście bezpiecznych rozszerzeń.
+
+Do uzupełnienia masz funkcjie filter_safe_emails która przyjmuje 4 argument:
+-email jest to słownik w formacie:
+
+{
+  "sender": "ABC@...",
+  "subject": "Pan Henryk",
+  "body": "Lubie kotki...",
+  "links": ["https://......"],
+  "attachments": ["kotki.exe", "kotki.png"]
+}
+
+-safe_domains jest to lista bezpiecznych domen
+-suspicious_words - lista podejrzanych słów
+-safe_extensions - lista bezpiecznych rozszerzeń plików
+
+Funkcja ma zwracać wartość True, jeśli email jest bezpieczny lub false w przeciwnym razie.
+---------
+
+---------
+Szara Ramka:
+Phishing to technika oszustwa polegająca na podszywaniu się pod zaufane osoby lub instytucje w celu wyłudzenia danych, pieniędzy lub zainfekowania komputera.
+Należy zwracać uwagę na podejrzane adresy nadawców, pilny lub emocjonalny ton wiadomości oraz linki prowadzące do nieznanych stron.
+Szczególnie niebezpieczne są załączniki i wiadomości nakłaniające do szybkiego działania „bez zastanowienia”.

@@ -1,0 +1,18 @@
+Lekcja Obowiązkowa
+Język: SQL
+liczba punktów za zadanie: 10 000
+result_query: TAK
+
+tables.sql
+Plik z queries do stworzenia bazy danych
+
+plik.txt
+Zawiera query z rozwiązaniem
+
+Audyt.txt
+Treść zadania
+
+
+Wykonawca: Szymon/Semen
+
+

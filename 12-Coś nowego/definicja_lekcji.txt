@@ -1,0 +1,11 @@
+Język: SQL
+Liczba Punktów za wykonanie: 15 000
+
+queries.sql
+Plik z listą zapytań do stworzenia tablicy
+
+query.txt
+Plik z result query i rozwiązaniem
+
+
+

@@ -1,0 +1,34 @@
+---------
+Mimo że uzyskaliście dośtep do systemu CorpTech, zdemaskowaliście dezinformację i odparliście atak na niewinną osobę. Wciąż brakuje Wam jednego nazwiska – osoby, która w Urzędzie Miasta Demoskratos jest odpowiedzialna za system przyznawania grantów i popisywania umów. To tam zapadają kluczowe decyzje, tam manipuluje się przetargami i tam pieniądze legalnie trafiają do CorpTech Solutions.
+Wasz szef ma rację: system grantowy to klucz do rozwiązania całej zagadki. Musicie zbadać, kto faktycznie podpisuje umowy na projekty, które są albo podejrzane, albo mają potencjał do ukrycia korupcji.
+Aby zawęzić krąg podejrzanych do osób aktywnie i ostatnio legalizujących duże, szybkie i lukratywne projekty, musicie zastosować wszystkie poniższe warunki naraz.
+---------
+
+---------
+Tresc zadania łososiowa ramka:
+Znowu te dane! – ale teraz nie są to zwykłe miejskie projekty, tylko pełnoprawna baza danych grantów unijnych (Świetnie zaprojektowana, ale czy świetnie zabezpieczona ... ).
+Masz do dyspozycji kilka połączonych tabel (eu_grants, contractors, grant_assignments, signatories, grant_signatures, eu_founding_sources) i twoim zadaniem jest wydobyć z nich tylko te projekty, które faktycznie przeszły pełną weryfikację i kwalifikują się do audytu końcowego.
+Twoim zadaniem jest wyświetlić wszystkie granty, które:
+-zostały podpisane po 2025-11-01,
+-nie przekraczają 36 miesięcy realizacji,
+-mają przyznane minimum 150 000 PLN,
+-są finansowane przez fundusze UE,
+-są realizowane w Polsce,
+-mają zweryfikowany podpis w systemie.
+
+Wynikowa tabela powinna zawierać kolumny:
+
+grant_id — numer grantu
+project_name — nazwa projektu
+grant_amount — wysokość przyznanych środków
+company_name — nazwa wykonawcy
+implementation_country — kraj realizacji
+full_name — imię i nazwisko osoby podpisującej
+position — stanowisko sygnatariusza
+phone — numer z kontaktem do osoby podpisującej
+signing_date — data podpisania (z tabeli podpisów)
+
+Tabela powinna być posortowana malejąco po signing_date, aby najświeższe podpisy znalazły się na górze.
+Powodzenia!
+---------
+

@@ -1,0 +1,18 @@
+---------
+Po zidentyfikowaniu fałszywego commita z próbą manipulacji wykonanego przez CorpTech Solutions (dzięki twojej detektywistycznej pracy!), natychmiast wracacie do poprzedniej, czystej wersji kodu.
+Wykonujecie git revert i... system ożywa. Wiatraki serwerów zaczynają głośniej buczeć. Logi przestają wyrzucać czerwone błędy. Liczby w wynikach wyglądają wreszcie normalnie, żadnych 103%, tylko uczciwe procenty.
+"Działa! System znowu działa!" – krzyczy ktoś z zespołu.
+Burmistrz odetchnął z ulgą. Media można tymczasowo uspokoić. Kryzys zażegnany.
+Ale chwila...
+
+Naprawienie awarii nie rozwiązuje problemu całkowicie. Musicie być pewni, czy to był celowy sabotaż, czy może głupi błąd?
+Prawnik miasta jest bardzo konkretny: "Potrzebuję twardych dowodów. Musicie mi pokazać DOKŁADNIE co oni zmienili i dlaczego to była manipulacja, nie pomyłka."
+Wasza misja jest teoretycznie prosta: zlokalizować konkretne złośliwe linijki kodu odpowiedzialne za magiczne "103% głosów". Standardowa praca programisty, przejrzeć diff, znaleźć zmienione linie, zrozumieć co robią.
+Powinno zająć 10 minut, max 15.
+Ale oczywiście nic nigdy nie jest takie proste...
+---------
+---------
+Treść zadania (łososiowa ramka):
+Twoje zadanie jto znaleźć błąd w pliku smartvote.cpp i go usunąć, następnie wystarczy odpalić program.
+Ciekawe co jeszcze tam znajdziesz....
+---------

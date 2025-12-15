@@ -1,0 +1,46 @@
+---------
+Wyruszasz do Ratusza Demoskratos. Uzbrojony w analizę klastrową, namierzasz fizyczną lokalizację komputera o adresie 89.74.152.23. Znajduje się on w biurze nowego radnego – Henryka Nowaka, który został wybrany zaledwie tydzień temu.
+
+Konfrontujesz go z dowodami. Henryk jest zdruzgotany.
+-Henryk: "Co to w ogóle jest ten... IP adres? Kod pocztowy dla komputera?"
+-Ty:"W pewnym sensie, tak."
+-Henryk: "Ja w te komputery to kliknę sobie w ikonkę, obejrzę kotki i koniec. Ten mój wnuczek mówił coś o 'ajpiadresach', ale myślałem że to nowa nazwa na pendrive'a!"
+
+W czasie masowej wysyłki postów dezinformacyjnych Henryk spał, co wyklucza jego udział. Jest niewinnym ogniwem. Radny bez wahania udostępnia swój komputer.
+
+Henryk: "Proszę, proszę! Tylko niech Pan nie powyłącza kabli, bo potem nie umiem podłączyć z powrotem..."
+
+Szybka analiza ujawnia:
+-Wirus: Złośliwy kod wysyłający dezinformację w tle
+-Źródło: E-mail "Zdjęcia kotków dla fanów"
+-Nadawca: corptech@demos.com
+
+Henryk: "Ale tam były słodkie kociaki! W czapeczkach! Kto by pomyślał, że kociaki mogą być złe?!"
+
+Wracasz do systemu CorpTech. Nowe dowody pozwalają zlokalizować sekcję z korespondencją e-mail (poczta). Zakładka jest zabezpieczona słabym hasłem – wystarczy wpisać kluczowy adres e-mail.
+Korespondencja jest zaszyfrowana: Wygląda to na cos podobnego do BookCypher tylko do jakiej książki się odnosi?
+W systemie jest napisane AgendaCypher??
+Wiem, dawno temu w pradawnych czasach miasto wprowadziło dokument, 'Agendę Dobrego Obywatela Demoskratos' ponoć nik do niej nie zaglądał od stuleci, ale to musi być to!
+Ale chwila ta agenda wygląda jakoś dziwnie czyżby byłą prze kogos modifikowana? Tak czy siak to jej musimy użyć.
+Ciekawe co może się kryć w zaszyfrowanej korespondencji.
+---------
+
+---------
+Tresc zadania (łososiowa ramka):
+Firma CorpTech od jakiegoś czasu wykorzystuje szyfr przypominające BookCypher.
+Twoim zadaniem jest uzupełnić funkcję decode_emails() która zwróci listę z tekstami odszyfrowanych emailów
+Do wykorzystania masz funkcję pomocniczą:
+- get_emails() która przyjmuje jedne argument jako listę id emailów, które sa zaszyfrowane i zwraca listę z ich zaszyfrowanymi treściami
+(pss Te ID znajdziesz w systemie CorpTech w sekcji poczta, hasło jest dosyć oczywiste)
+
+
+Twoim zadaniem jest odszyfrować te emaile wiedząc, że każde zaszyfrowane słowo ma format ARTYKUŁ.ZDANIE.SŁOWO i odnoszą się one do artykułów i zdań w Agendzie Dobrego Obywatela DemosKrtos, która znajduje się w pliku agenda.py
+---------
+
+---------
+Szara Ramka:
+Book cipher to jeden z najstarszych znanych sposobów szyfrowania informacji, wykorzystywany już w starożytności i średniowieczu, gdy posłańcy przekazywali tajne wiadomości ukryte w odniesieniach do znanych tekstów.
+Stosowano go także w czasach nowożytnych, m.in. w dyplomacji i szpiegostwie, ponieważ bez dostępu do właściwej książki szyfr był praktycznie niemożliwy do złamania.
+
+
+

@@ -1,10 +1,41 @@
-Po pomyślnym wdrożeniu Waszego modułu Borda w SmartVote+, nadszedł dzień pierwszego, publicznego głosowania na projekty obywatelskie. System, nad którym czuwał CorpTech Solutions, miał być wzorem nowoczesności.
-Niestety, zamiast triumfu, nadeszła katastrofa.
-Dosłownie kilka minut po zamknięciu urn cyfrowych, system wyrzuca alert: BŁĄD WAGI KRYTYCZNEJ. Weryfikacja wyników pokazuje coś, co jest matematycznie niemożliwe i kompromitujące dla miasta: jeden z projektów otrzymał 103% głosów!
-Chaos wybucha natychmiast. Urząd Miasta jest w panice. Wasz zespół z UDS-D jako jedyny ma pełny dostęp do logów.
-Podejrzenia, które do tej pory musieliście tłumić, nagle stają się faktem. Ta anomalia to nie przypadek. Firma, która widnieje w krajowych bazach jako "niebezpieczna" i która wygrała kluczowy przetarg na SmartVote+, maczała w tym palce. CorpTech Solutions musiało dokonać celowej modyfikacji w kodzie, która zniekształciła wyniki.
-Wasza misja jest prosta: musicie znaleźć dowód. Musicie ustalić, kiedy i gdzie dokładnie wprowadzono błąd.
-Dlaczego to zrobili? Wprowadzenie tak rażącego błędu, który łatwo wykryć (jak 103% głosów), nie jest typowe dla subtelnej korupcji. To musi być celowy sabotaż – może mają większy plan, albo chcą skompromitować system i zyskać jeszcze większą kontrolę nad jego "naprawą"?
+---------
+Po pomyślnym wdrożeniu waszego modułu Borda w systemie SmartVote+, nadszedł wielki dzień, pierwsze publiczne głosowanie na projekty obywatelskie w historii Demoskratos.
+Burmistrz zorganizował konferencję prasową. Dziennikarze z całego regionu przyjechali zobaczyć "miasto przyszłości".
+System miał być wzorem nowoczesności, dumą Demoskratos, dowodem na to, że technologia służy demokracji.
+Wszystko szło idealnie. Mieszkańcy głosowali przez cały dzień. O 20:00 urny cyfrowe zamknęły się automatycznie. System zaczął liczyć głosy...
 
+Dosłownie kilka minut po zamknięciu głosowania, na głównym monitorze w UDS-D pojawia się czerwony alert:
+CRITICAL ERROR: VOTE WEIGHT ANOMALY DETECTED
+INTEGRITY CHECK FAILED
 
-Wybory samorządowe to właśnie te, które naprawdę wpływają na to, co dzieje się wokół Ciebie na co dzień – chodzi o sprawy takie jak drogi, szkoły, śmieci czy woda. To nie są jakieś odległe tematy, tylko konkretne rzeczy, które dotykają nas wszystkich na co dzień.
+Weryfikacja wyników pokazuje coś, co jest matematycznie niemożliwe i absolutnie kompromitujące dla miasta:
+Projekt "Nowa Przeprawa Mostowa" otrzymał... 103% głosów.
+
+Tak. 103 procent.
+Jak można dostać 103% głosów, skoro głosowało 100% mieszkańców? Ktoś głosował półtora raza? System liczył duchy?
+
+Te wszystkie niepokojące znaki, które do tej pory musieliście tłumić... te dziwne ratingi... zniknięcie danych o CorpTech... teraz nagle wszystko zaczyna mieć sens.
+To nie był przypadek. To nie był błąd programistyczny początkującego juniora.
+CorpTech Solutions musiało dokonać celowej modyfikacji w kodzie, która zniekształciła wyniki. To nie był bug, to była feature.
+
+Wasza misja jest prosta: ustalić, kiedy i gdzie dokładnie wprowadzono złośliwy kod.
+Trzeba przeszukać całą historię zmian w kodzie SmartVote+ i znaleźć moment, w którym zostały wprowadzone niechciane zmiany.
+---------
+---------
+treść zadania (łososiowa ramka):
+Twoim zadaniem jest uzupełnić funkcje find_log() tak by znalazło odpowiedniego commita, który sprawił, że nasz system nie działa.
+Do funkcji przekazywane są następujące argument:
+-date to maksymalna data, przed jaką został wykonany szukany commit
+-branch to nazwa brancha, na którym został wykonany szukany commit
+-file to nazwa pliku, w jakim zostały wykonane zmiany, przez które nasz system nie działa.
+
+Wszystkie dane są zapisane w pliku commits. i maja format.
+id|date|message|file|main|user
+
+Twoim zadaniem jest znaleźć ostatnią zmianę w pliku 'file' przed datą 'date' na branchu 'branch' i zwrócić id tego commit.
+---------
+
+---------
+Szara ramka Definicja:
+Głosowanie jest fundamentem demokracji, bo to właśnie poprzez wybory obywatele realnie decydują, kto sprawuje władzę i w jakim kierunku rozwija się państwo. Bez wolnego wyboru ludzi demokracja przestaje być rządami obywateli, a staje się tylko pozorem udziału społeczeństwa.
+---------

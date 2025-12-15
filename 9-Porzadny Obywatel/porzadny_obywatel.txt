@@ -1,0 +1,36 @@
+---------
+Lokalizujecie podejrzany adres: IP 89.74.152.23 należy do sieci miejskiej, Urzędu Miasta Demoskratos!
+Wróg nie tylko próbował przejąć miasto cyfrowo i finansowo, ale teraz prowadzi z Wami wojnę informacyjną prosto z jego serca – z Ratusza.
+Ta akcja musiał być zorganizowana przez kogoś, kto faktycznie siedzi w urzędzie.
+
+Wasza drużyna zbiera się wokół stołu. Kto musi wyruszyć na miejsce, aby fizycznie zlokalizować ten komputer i ostatecznie zneutralizować wroga?
+Drużyna głosuje. Wszyscy wybierają Ciebie.
+Cóż. Wygląda na to, że nadszedł czas, byś opuścił bezpieczne biuro UDS-D i wyruszył do świata fizycznego.
+
+Zanim jednak wyruszysz, aby po raz pierwszy w tej misji "dotknąć trawy" i stawić czoła fizycznemu światu, musisz na chwilę oderwać się od ekranów.
+W Demoskratos, mieście idealnym na papierze, obowiązki obywatelskie są traktowane poważnie. Macie do wykonania listę pilnych, drobnych zadań w mieście. Każde z nich pochłania cenny czas, ale daje Punkty Społeczne (PS), które są miernikiem zaangażowania w życie miasta.
+„Wykonujesz zadania: pomoc w bibliotece, sadzenie drzew w parku, wsparcie lokalnej inicjatywy. Przypomina ci to, o co właściwie walczysz. Nie o abstrakcyjną 'demokrację' – o prawdziwych ludzi, którzy chcą żyć w uczciwym mieście. Musisz to zrobić szybko i wydajnie."
+---------
+
+---------
+Tresc zadania (łososiowa ramka):
+Twoim zadaniem jako porządny obywatel jest pomagać innym, dla tego postanowiłeś zmaksymalizować swoja efektywność.
+Do uzupełnienia masz funkcje find_best_tasks() która znajdzie największą liczbę punktów za wykonane zadania w podanym czasie
+Do funkcji zostają przekazane 2 argumenty:
+- taska jest to lista słowników w formacie
+{
+"id": 1,
+"name": "Pomoc w bibliotece",
+"time": 15,
+"points": 50
+},
+gdzie time to czas, który zajmuje wykonanie danego zadania a points to liczba punktów, jakie otrzymamy po jego zrobieniu
+- max_time to maksymalny czas, w którym możemy wykonywać zadania
+Funkcja ma zwrócić maksymalna ilość punktów możliwych do zdobycia w podanym czasie.
+---------
+
+---------
+Szara ramka:
+Problem plecakowy (Knapsack Problem) to jeden z klasycznych problemów optymalizacyjnych w informatyce.
+W życiu codziennym spotykamy go częściej, niż myślimy: planowanie czasu, wybór projektów do realizacji, pakowanie bagażu.
+Algorytmy rozwiązujące ten problem są używane m.in. w logistyce, finansach i... planowaniu misji kosmicznych NASA.

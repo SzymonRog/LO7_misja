@@ -1,0 +1,66 @@
+----------
+Po udanym wejściu do systemu CorpTech Solutions, jesteście pewni że firma manipuluje głosami i reputacją. Macie dowody. Macie logi. Macie komentarze w kodzie.
+Ale wasze zwycięstwo jest krótkotrwałe.
+Dlaczego? Bo kryzys w DemoKratos nie jest tylko cyfrowy. Jest namacalny. Widoczny gołym okiem.
+
+Wystarczy wyjrzeć przez okno
+Stoicie w biurze Urzędu do Spraw Demokracji i patrzycie na miasto, które miało być wzorem transparentności i nowoczesności. A widzicie:
+Park Demokracji:
+Status: "W realizacji" (od 18 miesięcy)
+Realność: Zatrzymany na etapie wykopów, otoczony zardzewiałą siatką
+Budżet: 850,000 DOS wydane
+Efekt: Dziura w ziemi i gniewni mieszkańcy
+
+Nowa Ścieżka Rowerowa:
+Status: "W trakcie" (od 2 lat)
+Realność: W terenie ledwo widać zarys pierwszego metra
+Budżet: 1,200,000 DOS zatwierdzony
+Efekt: Pieniądze są "na papierze", ale ścieżki nie ma
+
+Remont Ratusza:
+Status: "W trakcie analizy kosztów" (od 24 miesięcy!)
+Realność: Zero prac, zero zmian
+Budżet: 2,500,000 DOS zablokowane
+Efekt: Ratusz dalej wygląda jak ruina
+
+Projekty są "w realizacji". Ale nic się nie dzieje.
+Dokąd idą te pieniądze?
+
+Wasz szef, weteran audytów finansowych z 20-letnim doświadczeniem, siada naprzeciwko was i mówi spokojnie:
+
+"Posłuchajcie mnie uważnie."
+"Pieniądze nie znikają. W cyfrowym systemie księgowym one ZAWSZE gdzieś idą. Każda transakcja zostawia ślad. Każdy przelew ma odbiorcę."
+"Naszym zadaniem jest sprawdzić, co się dzieje z tymi pieniędzmi"
+"Znajdźcie dokąd idzie ta gotówka. Pokażcie mi liczby. Dajcie mi dowód finansowy."
+"Jaka firma bierze cała tą kasę?"
+----------
+----------
+Tresc zadania (łososiowa ramka):
+
+Znowu ci się przyszło zmierzyć z danymi, tym razem masz do dyspozycji tabele projects, która zawiera dane różnych projektów wykonywanych i zlecanych przez miasto różnym firmą
+Twoim zadaniem, jest wyświetlić projekty, których koszta już przekroczyły budżet, a w dalszym ciągu mają status "W trakcie", interesują nas tylko projekty, które zostały rozpoczęte przed datą '2025-01-01'
+Wynikowa tabela powinna zawierać kolumny:
+-'id' projektu
+-'nazwa_projektu' z nazwą projektu
+-'wykonawca' z nazwą wykonawcy
+- 'koszty_dos' z kosztami przedstawionymi w walucie DemosKratos (DOS)
+- 'budzet_dos' z przeznaczonym budżetem w walucie DemosKratos (DOS)
+- 'roznica_dos' z różnicą między kosztami a budżetem przedstawioną w walucie DemosKratos (DOS)
+- 'status' oznaczający status projektu
+- 'data_rozpoczecia'
+- 'kategoria'
+Tabela powinna byc posortowana malejąco po różnicy mięczy kosztami a budżetem
+Ps. 1zł = 0.46DOS (W końcu nasza demokracja jest silna!)
+----------
+----------
+Szara ramka:
+Budżet Obywatelski to jedyna pula pieniędzy miejskich, o której wydaniu decydują mieszkańcy w głosowaniu bezpośrednim, a nie radni czy burmistrz.
+Jak to działa:
+
+-Miasto przeznacza X% budżetu (np. 1-2%)
+-Mieszkańcy zgłaszają pomysły projektów (ławki w parku, plac zabaw, ścieżka rowerowa)
+-Wszyscy mieszkańcy głosują na wybrane projekty
+-Projekty z największą liczbą głosów MUSZĄ być zrealizowane
+
+To najbardziej bezpośrednia forma demokracji w samorządzie.
+----------

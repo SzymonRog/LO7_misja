@@ -1,0 +1,25 @@
+Jezyk: Python
+Punkty za zadanie: 40 000
+Etykietki: INFINITE_LOOP
+
+database.py
+widoczny: NIE
+do edycji: NIE
+
+[top_secret]AIcode.py
+widoczny: TAK
+do edycji: NIE
+
+update_actions.py:
+widoczny: TAK
+do edycji: TAK
+
+test.py
+Funkcja testująca
+widoczny: NIE
+do edycji: NIE
+
+output: TAK
+testy: NIE
+
+Wykonawca: Pavlo

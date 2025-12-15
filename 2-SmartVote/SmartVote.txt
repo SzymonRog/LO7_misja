@@ -1,14 +1,20 @@
 
-Czemu Firma która ma tak słabą ocenę w KRS, jest uznawana za prawie idealną w lokalnym systemie. Może to zwykły błąd w końcu DemosKratos jest idealne ...
-Ktoś z waszego zespołu postanowił troche pogrzebać na temat tej firmy i jedyne co znalazł to kod błędu 404. Tej tajemniczej firmy nazwanej generyczną nazwą CorpTech nigdzie nie ma.
+Czemu firma, która ma tak słabą ocenę w ogólnopolskim KRS, jest uznawana za niemal idealną w lokalnym systemie Demoskratos?
+Może to zwykły błąd w bazie danych? Pomyłka w synchronizacji? W końcu Demoskratos słynie z przejrzystości i perfekcyjnych procedur. Przecież nic złego nie może się dziać w idealnym mieście... prawda?
+Ktoś z waszego zespołu postanowił trochę pogrzebać w sprawach tej firmy. Próbował znaleźć więcej informacji, historię działalności, poprzednie projekty. Ale jedyne co znalazł to błąd 404. Tej tajemniczej firmy o generycznej nazwie CorpTech nigdzie nie ma w publicznych rejestrach. Brak strony internetowej. Brak wpisów prasowych. Brak śladów... jakby ktoś bardzo starannie wymazał wszystko.
+Tajemnicza firma musi poczekać... ale czy na pewno?
 
-Tajemnicza firma musi poczekać, ale czy na pewno ...
+Zanim zdążyliście zbadać sprawę CorpTech głębiej, przychodzi nowy, pilny ticket. Dostaliście za zadanie zaimplementować kluczową część kodu w lokalnym systemie głosowania o dumnej nazwie SmartVote+ (wszystko z plusem brzmi lepiej, prawda?).
+System jest nowy, niedawno wdrożony przez miasto, i wymaga jeszcze kilku poprawek. Standardowa praca programistyczna, nic nadzwyczajnego.
+Gdy wasza uwaga skupia się w pełni na projekcie, dostrzegacie coś niepokojącego:
+Główny wykonawca: CorpTech Solutions
 
-Ostatnio dostaliście za zadanie zaimplementować kluczową cześć kodu w lokalnym systemi głosowania nazwanym ładnie SmartVote+ (wszytsko z + brzmi lepiej), jest on nowy i lekko niedopracowany.
-Gdy wasza uwaga skpiła się wpełni projekcie dostrzegacie że głównym wykoanwacą jest 'CorpTech Solutions' to ta sama firma co wcześniej ale kod który dostarczyli wygląda i działa poprawnie.
-Wasze zmartwienia co do poprawności działań tej firmy lekko opadły jako że teraz współpracujecie.
-Pora skupić się na swojej części kodu.
+To ta sama firma co wcześniej. Ta bez historii. Ta z błędem 404. Ta ze "zbyt dobrym" ratingiem lokalnym.
+Ale... kod, który dostarczyli wygląda profesjonalnie i działa poprawnie. Testy przechodzą. Dokumentacja jest na poziomie. Może to jednak fałszywy alarm? Może po prostu macie paranoję?
+Wasze zmartwienia co do tej firmy lekko opadają, skoro teraz bezpośrednio współpracujecie z nimi przy krytycznym systemie miejskim, to znaczy, że ktoś wyżej ich zweryfikował... prawda?
+Pora skupić się na swojej części kodu. Reszta poczeka.
 
+Treść zadania łososiowa ramka:
 
 Twoim zadaniem jest uzupełnić funkcję smartCount() tak, aby obliczała wyniki głosowania metodą Borda.
 Do funkcji przekazywane są następujące argumenty:

@@ -1,0 +1,59 @@
+---------
+Dzięki analizie poprzedniej, złośliwej wersji kodu SmartVote+, natrafiliście na coś czego absolutnie nie powinno tam być.
+Schowane między normalnymi funkcjami, zakomentowane linie kodu które wyglądają jak... instrukcje dla kogoś innego:
+
+//TODO: Usunąć wszystkie logi powiązane z próbą manipulacji.
+//TODO: Zatrzeć ślady modyfikacji wyników.
+//
+//AutomatedTask:
+//  token: 1#fds8%usg
+//  action: cleanup_after_vote_override
+//  status: incomplete
+//
+// ref: https://corptech-internal.vercel.app (link na niebiesko)
+
+Żaden normalny programista tak się nie podpisuje.
+To nie są przypadkowe notatki. To instrukcje operacyjne. Ktoś (lub coś) miało za zadanie "wyczyścić ślady" po manipulacji wyborami. A status mówi: "incomplete" – nie zdążyli dokończyć.
+Zostawili otwarte drzwi.
+
+Ten link – https://corp-internal.demo/admin – to panel kontrolny CorpTech.
+
+Ale jest jeden problem: panel jest zabezpieczony hasłem.
+I to nie jest zwykłe hasło.
+Na stronie pierwsze co widzicie to okinko logowania i zasady tworzenia hasłą.
+Kto pisze reguły tworzenia hasła zamiast po prostu użyć silnego hasła szczególnie jeśli mowa tu to panelu zarządzania? Chyba że...
+Chyba że hasło jest generowane automatycznie według wzoru. A jeśli znacie wzór... możecie je odtworzyć.
+
+Czas otworzyć zamknięte drzwi!
+Wasza misja jest prosta (teoretycznie): uzyskać dostęp do panelu CorpTech i zdobyć pełne dowody sabotażu.
+Macie kawałki układanki. Czas je połączyć.
+---------
+
+---------
+Szara ramka:
+Uwaga: link do strony jest jak najbardziej funkcjonalny i misję można przechodzić w bardziej interaktywny sposób i korzystać z przygotowanej strony,
+jeśli jednak nie mamy takiej możliwości to wystarczy że w lekcjach w których musimy znaleźć coś na stronie odkryjemy pierwszą podpowiedz a tam znajdziemy potzrebne dane.
+Miłej zabawy: https://corptech-internal.vercel.app (link na niebiesko)
+---------
+
+---------
+Tresc zadania (łososiowa ramka):
+System firm CorpTech jest zabezpieczony hasłem, ale zasady tworzenia go są dosyć dziwne...
+Twoim zadaniem jest uzupełnić funkcje crack_password() która zwróci poprawne hasło do systemu.
+Do wykonania zadania mogą się przydać dwie funkcje już dla ciebie przygotowane:
+- get_youth_word_2025 która zwraca listę młodzieżowych słów roku 2025
+- check_pass() która sprawdza czy hasło jest poprawne, jeśli jest to zwraca True, jeśli nie False
+---------
+
+---------
+Szara Ramka:
+Profil Zaufany to Twój cyfrowy dowód tożsamości w kontaktach z urzędem.
+Działa jak cyfrowy podpis i pozwala np. Potwierdzać tożsamość bez fizycznego dowodu osobistego.
+Jest ZNACZNIE bezpieczniejszy niż zwykły login i hasło, bo:
+-Wymaga weryfikacji tożsamości przy zakładaniu (musisz pojawić się osobiście lub użyć bankowości elektronicznej)
+- Używa dwuskładnikowego uwierzytelniania (aplikacja + SMS)
+- Jest monitorowany przez Ministerstwo Cyfryzacji
+---------
+
+
+

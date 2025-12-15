@@ -1,4 +1,4 @@
-Tytuł Misji: DemosKratos - Walka o demokrację
+Tytuł Misji: DemosKratos - Walka o demokrację i Kotki ...
 
 Osiągnięcia:
 
@@ -20,4 +20,26 @@ nazwa etykietki: Citizen
 liczba etykietek: 2
 plik: Citizen100.png
 
-W folderze odznaki znajdują się pliki png z odznakami, a w folderze assets, można znaleźć wersję z wysoką rozdzielczością
+W folderze odznaki znajdują się pliki png z odznakami w formacie 100x100, a w folderze assets, można znaleźć wersję z wysoką rozdzielczością.
+
+Kolejność zadań (foldery sa ponumerowane według kolejności):
+-Prolog                 (lekcja z grafiką)
+-Audyt                  (lekcja obowiązkowa)
+-SmartVote              (lekcja obowiązkowa)
+-Katastrofa Demokracji  (lekcja obowiązkowa)
+-Pierwsze Odkrycia      (lekcja obowiązkowa)
+-Za Zamkniętymi drzwiami (lekcja obowiązkowa)
+-Pieniądze nigdy nie śpią (lekcja obowiązkowa)
+-Kozioł                  (lekcja obowiązkowa)
+-Bi Bi Bup               (lekcja obowiązkowa)
+-Porządny Obywatel       (lekcja dodatkowa)
+-Kotki                  (lekcja obowiązkowa)
+-Coś więcej niż ryby    (lekcja dodatkowa)
+-Coś Nowego             (lekcja obowiązkowa)
+-Infinite loop          (lekcja obowiązkowa)
+-Epilog                 (lekcja z grafiką)
+
+
+
+
+

@@ -1,27 +1,29 @@
 Lekcja Obowiązkowa
-Język: Python
-Liczba Punktów za wykonanie: 15 000
+Język: C++
+Liczba Punktów za wykonanie: 5 000
 
-commits.txt
+smartvote.hpp
 widoczny: NIE
 do edycji: NIE
 
-find_commit.py
+smartvote.cpp
 widoczny: TAK
 do edycji: TAK
 
-test.py
+test.cpp
 Plik testowy
 widoczny: NIE
 do edycji: NIE
 
-answer.py
+answer.cpp
 Proponowana odpowiedz
 widoczny: NIE
 do edycji: NIE
 
 output: TAK
-testy: NIE
+testy: TAK
+liczba_testów: 5
+min_zaliczonych: 5
 
 
 Wykonawca: Szymon

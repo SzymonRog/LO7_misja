@@ -1,14 +1,18 @@
-Lekcja Obowiązkowa
 Język: Python
-Liczba Punktów za wykonanie: 15 000
+Liczba Punktów za wykonanie: 25 000
 
-commits.txt
-widoczny: NIE
-do edycji: NIE
-
-find_commit.py
+decode_emails.py
 widoczny: TAK
 do edycji: TAK
+
+agenda.py
+widoczny: TAK
+do edycji: NIE
+
+
+get_emails.py
+widoczny: NIE
+do edycji: NIE
 
 test.py
 Plik testowy

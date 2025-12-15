@@ -1,0 +1,42 @@
+------------
+Gdy jesteście gotowi opublikować raport o drenażu budżetu i manipulacji głosami. Palce już wiszą nad klawiszem "Enter". Szampan schłodzony. Prezes Urzędu szykuje oświadczenie prasowe.
+I wtedy... PING!
+Na waszych ekranach miga nowy alert. Pojawia się tajemnicza wiadomość oznaczona jako "Security Report".
+"No proszę" – mówi wasz kolega z zespołu, podnosząc brew. "Akurat teraz. Jaka niespodzianka."
+Otwieracie dokument. Z pozoru wygląda profesjonalnie: logo, pieczątki, oficjalny nagłówek. Ale coś tu nie gra. Liczby skaczą jak na dyskotece. W niektórych słowach ukryte sa liczby w innych po prostu stoją.
+"To nie jest raport bezpieczeństwa" – stwierdza wasz szef, marszcząc czoło. "To jest... podrzutka."
+Klasyczny zabieg dezinformacyjny w stylu: "To nie my! To ON!" CorpTech próbuje odwrócić uwagę i zneutralizować wasze dowody, podsuwając fałszywą narrację o rzekomym winnym. Gdzieś w tym chaosie cyfr ukryli imię kozła ofiarnego – niewinnej osoby, którą zamierzają wrobić.
+Waszym zadaniem jest rozszyfrowanie ukrytej wiadomości w tym fałszywym raporcie. Musicie znaleźć to imię, zanim ktokolwiek w Urzędzie Miasta uwierzy w tę manipulację i niewinny człowiek straci reputację, pracę, a może i wolność.
+Czas działa na waszą niekorzyść. CorpTech już prawdopodobnie wysyła kopie tego "raportu" do mediów.
+---------
+
+---------
+Treść zadania łososiowa ramka:
+
+Udało nam się uzyskać dostęp do raportu firmy CorpTech w sprawie afery SmartVote, jednak przez błędy w sieci lub celowe działanie część danych została zapisana w postaci liczb.
+Twoim zadaniem jest uzupełnienie funkcji decode_hidden_name(), która odszyfruje dane osobowe ukryte w raporcie.
+Analiza liczb wykazała, że poprawne słowa otrzymujemy tylko wtedy, gdy:
+
+Bierzemy tylko te liczby, dla których:
+index % 21 == 19
+Z każdej wybranej liczby obliczamy:
+value = number % 100
+
+Otrzymaną wartość zamieniamy na znak według reguł:
+
+1–26 → wielkie litery alfabetu łacińskiego
+1 = 'A', 2 = 'B', ..., 26 = 'Z'
+27–52 → małe litery alfabetu łacińskiego
+27 = 'a', 28 = 'b', ..., 52 = 'z'
+53 → spacja ' '
+
+Do konwersji znaków w Pythonie można użyć funkcji chr() i kodów ASCII:
+'A' → 65
+'a' → 97
+Połącz otrzymane znaki w imię i nazwisko.
+Całe szczęście wszystkie liczby z raportu zostały juz zebrane i sa przekazywane do funkcji jako zmienna tabela
+---------
+
+---------
+Szara Ramka:
+Domniemanie niewinności to jedna z podstawowych zasad prawa, która mówi, że każdy jest niewinny, dopóki jego wina nie zostanie udowodniona w uczciwym i legalnym procesie. Chroni ono obywateli przed pochopnymi oskarżeniami i nadużyciem władzy, gwarantując równe traktowanie wobec prawa.
