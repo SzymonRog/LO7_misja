@@ -1,0 +1,31 @@
+
+Czemu Firma która ma tak słabą ocenę w KRS, jest uznawana za prawie idealną w lokalnym systemie. Może to zwykły błąd w końcu DemosKratos jest idealne ...
+Ktoś z waszego zespołu postanowił troche pogrzebać na temat tej firmy i jedyne co znalazł to kod błędu 404. Tej tajemniczej firmy nazwanej generyczną nazwą CorpTech nigdzie nie ma.
+
+Tajemnicza firma musi poczekać, ale czy na pewno ...
+
+Ostatnio dostaliście za zadanie zaimplementować kluczową cześć kodu w lokalnym systemi głosowania nazwanym ładnie SmartVote+ (wszytsko z + brzmi lepiej), jest on nowy i lekko niedopracowany.
+Gdy wasza uwaga skpiła się wpełni projekcie dostrzegacie że głównym wykoanwacą jest 'CorpTech Solutions' to ta sama firma co wcześniej ale kod który dostarczyli wygląda i działa poprawnie.
+Wasze zmartwienia co do poprawności działań tej firmy lekko opadły jako że teraz współpracujecie.
+Pora skupić się na swojej części kodu.
+
+
+Twoim zadaniem jest uzupełnić funkcję smartCount() tak, aby obliczała wyniki głosowania metodą Borda.
+Do funkcji przekazywane są następujące argumenty:
+votes – dwuwymiarowa lista zawierająca głosy poszczególnych osób, np.:
+[['Projekt_A', 'Projekt_B'], ['Projekt_B', 'Projekt_A']]
+projects – lista wszystkich dostępnych projektów, np.:
+['Projekt_A', 'Projekt_B', ...]
+result – tablica, którą należy uzupełnić o liczbę punktów zdobytych przez projekty z listy projects.
+
+Twoim zadaniem jest zaimplementować metodę Borda, która:
+Dla każdej listy z votes przyznaje projektom punkty w zależności od ich pozycji.
+Projekt na pozycji:
+indeks 0 dostaje 7 punktów
+indeks 1 dostaje 6 punktów
+…
+indeks 7 dostaje 0 punktów
+
+Funkcja, nie musi nic zwracać, wystarczy, że odpowiednio zmodyfikuje tablicę result.
+
+

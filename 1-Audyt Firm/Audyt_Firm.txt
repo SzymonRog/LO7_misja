@@ -1,0 +1,17 @@
+Dni w Urzędzie do Spraw Demokracji (UDS-D) zazwyczaj upływają na rutynie. Ostatnie tygodnie to głównie drobne poprawki w algorytmach e-głosowania i standardowe kontrole logów serwerów.
+Wasza grupa programistów otrzymuje dziś zadanie, które ma być częścią tej spokojnej rutyny: przeprowadzenie audytu reputacji wszystkich podmiotów gospodarczych współpracujących z miastem.
+To zadanie dostyć proste i rutynowe nikt nie podejrzewa by wydarzyło się coś nieoczekiwanego w końcu jesteśmy w najbardziej przejrzystym mieście na swiecie ....
+
+Treść zadania łososiowa ramka:
+
+Do dyspozycji masz dwie tabele, demos_system zawierające dane lokalne na temat firm z DemosKratos i KRS_data zawierające dane z publicznego KRS na temat firm w całej Polsce.
+Twoim zadaniem jest proste znaleźć firmy, które są wciąż aktywne a różnica Rating_lokalny i Rating (Z tablicy KRS_data) jest większa niż 2.5.
+Wynikowa tablica powinna zawierać następujące kolumny:
+-KRS
+-Nazwa_firmy
+-Rating_Krajowy
+-Rating_lokalny
+-Status_Prawny
+
+Szara Ramka definicja:
+KRS to publiczny rejestr firm i organizacji w Polsce, który zawiera ich podstawowe dane i informacje prawne.
