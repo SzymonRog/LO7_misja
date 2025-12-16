@@ -1,5 +1,5 @@
 ---------
-Wyruszasz do Ratusza Demoskratos. Uzbrojony w analizę klastrową, namierzasz fizyczną lokalizację komputera o adresie 89.74.152.23. Znajduje się on w biurze nowego radnego – Henryka Nowaka, który został wybrany zaledwie tydzień temu.
+Wyruszasz do Ratusza Demoskratos. Uzbrojony w analizę klastrową, namierzasz fizyczną lokalizację komputera o adresie 89.74.152.23. Znajduje się on w biurze nowego radnego – Henryka Nowicki, który został wybrany zaledwie tydzień temu.
 
 Konfrontujesz go z dowodami. Henryk jest zdruzgotany.
 -Henryk: "Co to w ogóle jest ten... IP adres? Kod pocztowy dla komputera?"
